@@ -11,13 +11,12 @@
             "id": "225753a27781e576",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "image",
               "state": {
-                "file": "未命名 1.base",
-                "viewName": "表格"
+                "file": "assets/未命名/file-20251203144648973.png"
               },
-              "icon": "lucide-table",
-              "title": "未命名 1"
+              "icon": "lucide-image",
+              "title": "file-20251203144648973"
             }
           }
         ]
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 1.base",
+                "file": "assets/未命名/file-20251203144648973.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 1 的反向链接列表"
+              "title": "file-20251203144648973 的反向链接列表"
             }
           },
           {
@@ -112,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 1.base",
+                "file": "assets/未命名/file-20251203144648973.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 1 的出链列表"
+              "title": "file-20251203144648973 的出链列表"
             }
           },
           {
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.base",
+                "file": "assets/未命名/file-20251203144648973.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 1 的大纲"
+              "title": "file-20251203144648973 的大纲"
             }
           }
         ]
@@ -183,13 +182,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "225753a27781e576",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
+    "未命名.md",
+    "assets/未命名/file-20251203144648973.png",
+    "assets/未命名",
+    "assets",
+    "未命名 1.base",
+    "未命名 1.md",
     "test",
     "语法/Markdown.md",
     "语法",
-    "未命名 1.base",
-    "未命名.md",
     "未命名.base",
     "未命名 1.canvas",
     "欢迎.md",
