@@ -1,5 +1,6 @@
 ## Installation
 
+
 Install uv with our standalone installers:
 
 ```bash
@@ -236,60 +237,43 @@ Installed 43 packages in 208ms
 
 See the [pip interface documentation](https://docs.astral.sh/uv/pip/index/) to get started.
 
-## Platform support
+### 配置镜像源或者私有化仓库
+#### 1. 配置文件基础结构
 
-See uv's [platform support](https://docs.astral.sh/uv/reference/platforms/) document.
+在项目的`pyproject.toml`中，通过`[[tool.uv.index]]`数组定义多个仓库：
+```
+# 私有仓库优先
+[[tool.uv.index]]
+name = "company-internal"
+url = "https://pypi.company.com/simple"
+explicit = false  # 允许隐式使用
 
-## Versioning policy
+# 公共镜像源次之
+[[tool.uv.index]]
+name = "tuna-mirror"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 
-See uv's [versioning policy](https://docs.astral.sh/uv/reference/versioning/) document.
+# 不指定default=true时，PyPI仍为默认仓库
 
-## Contributing
+```
+**关键机制**：uv按定义顺序搜索仓库，首个找到目标包的仓库将被使用。默认包含PyPI，除非被其他仓库的`default=true`替换。
+#### 2. 命令行覆盖与环境变量
 
-We are passionate about supporting contributors of all levels of experience and would love to see
-you get involved in the project. See the
-[contributing guide](https://github.com/astral-sh/uv/blob/main/CONTRIBUTING.md) to get started.
+临时测试仓库配置可通过命令行参数：
+```
+# 添加临时仓库（优先级最高）
+uv add requests --index company-internal=https://pypi.company.com/simple
+ 
+# 设置默认仓库（替换PyPI）
+uv install --default-index https://mirror.example.com/simple
 
-## FAQ
+环境变量方式适合CI/CD场景：
 
-#### How do you pronounce uv?
+# 为指定仓库设置认证
+export UV_INDEX_COMPANY_INTERNAL_USERNAME=robot
+export UV_INDEX_COMPANY_INTERNAL_PASSWORD=token-xxx
+ 
+# 添加额外仓库
+export UV_INDEX=mirror=https://pypi.mirrors.com/simple
 
-It's pronounced as "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
-
-#### How should I stylize uv?
-
-Just "uv", please. See the [style guide](./STYLE.md#styling-uv) for details.
-
-## Acknowledgements
-
-uv's dependency resolver uses [PubGrub](https://github.com/pubgrub-rs/pubgrub) under the hood. We're
-grateful to the PubGrub maintainers, especially [Jacob Finkelman](https://github.com/Eh2406), for
-their support.
-
-uv's Git implementation is based on [Cargo](https://github.com/rust-lang/cargo).
-
-Some of uv's optimizations are inspired by the great work we've seen in [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene), and [Bun](https://github.com/oven-sh/bun). We've also
-learned a lot from Nathaniel J. Smith's [Posy](https://github.com/njsmith/posy) and adapted its
-[trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
-for Windows support.
-
-## License
-
-uv is licensed under either of
-
-- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
-  <https://www.apache.org/licenses/LICENSE-2.0>)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or <https://opensource.org/licenses/MIT>)
-
-at your option.
-
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in uv
-by you, as defined in the Apache-2.0 license, shall be dually licensed as above, without any
-additional terms or conditions.
-
-<div align="center">
-  <a target="_blank" href="https://astral.sh" style="background:none">
-    <img src="https://raw.githubusercontent.com/astral-sh/uv/main/assets/svg/Astral.svg" alt="Made by Astral">
-  </a>
-</div>
+```
