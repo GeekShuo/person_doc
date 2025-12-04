@@ -277,3 +277,7 @@ export UV_INDEX_COMPANY_INTERNAL_PASSWORD=token-xxx
 export UV_INDEX=mirror=https://pypi.mirrors.com/simple
 
 ```
+
+uv缓存文件满了怎么办？
+export UV_CACHE_DIR=/data/uv_cache
+source ~/.bashrc
