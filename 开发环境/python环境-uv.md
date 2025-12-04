@@ -77,11 +77,24 @@ See the [project documentation](https://docs.astral.sh/uv/guides/projects/) to g
 uv also supports building and publishing projects, even if they're not managed with uv. See the
 [publish guide](https://docs.astral.sh/uv/guides/publish/) to learn more.
 
+### 导入现有依赖
+```
+uv add -r requirements.txt 导入到pyproject.toml
+uv sync  
+运行一个现有仓库，用这个命令安装依赖，根据现有pyproject安装库，如果是第一次运行 uv sync，且还没有 uv.lock 文件，uv 会解析 pyproject.toml 自动生成 uv.lock 文件用于锁定依赖版本。 
+```
+### 管理依赖
+```
+uv add pandas airtest
+uv remove 
+uv pip list
+uv pip freeze > requirements.txt
+```
 ### Scripts
 
-uv manages dependencies and environments for single-file scripts.
+Uv管理单文件脚本的依赖关系和环境。  
 
-Create a new script and add inline metadata declaring its dependencies:
+创建一个新脚本，并添加内联元数据来声明它的依赖关系
 
 ```console
 $ echo 'import requests; print(requests.get("https://astral.sh"))' > example.py
@@ -89,8 +102,7 @@ $ echo 'import requests; print(requests.get("https://astral.sh"))' > example.py
 $ uv add --script example.py requests
 Updated `example.py`
 ```
-
-Then, run the script in an isolated virtual environment:
+然后，在隔离的虚拟环境中运行该脚本：
 
 ```console
 $ uv run example.py
@@ -103,9 +115,9 @@ See the [scripts documentation](https://docs.astral.sh/uv/guides/scripts/) to ge
 
 ### Tools
 
-uv executes and installs command-line tools provided by Python packages, similar to `pipx`.
+uv执行和安装Python包提供的命令行工具，类似于‘ pipx ’。  
 
-Run a tool in an ephemeral environment using `uvx` (an alias for `uv tool run`):
+使用‘ uvx ’ （‘ uv tool Run ’的别名）在临时环境中运行一个工具：
 
 ```console
 $ uvx pycowsay 'hello world!'
