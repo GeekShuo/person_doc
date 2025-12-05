@@ -44,8 +44,7 @@ Additionally, the command line reference documentation can be viewed with `uv he
 
 ### Projects
 
-uv manages project dependencies and environments, with support for lockfiles, workspaces, and more,
-similar to `rye` or `poetry`:
+Uv管理项目依赖项和环境，支持锁文件、工作区等。  类似于 `rye` or `poetry`:
 
 ```console
 $ uv init example
@@ -65,12 +64,18 @@ Installed 2 packages in 1ms
 $ uv run ruff check
 All checks passed!
 
-$ uv lock
+$ uv lock  # 只更新 lock 文件，不安装
 Resolved 2 packages in 0.33ms
 
-$ uv sync
+$ uv sync  # 同步依赖到虚拟环境并更新 uv.lock
 Resolved 2 packages in 0.70ms
 Audited 1 package in 0.02ms
+
+ # 检查依赖是否有冲突
+  uv check
+
+  # 查看依赖树
+  uv tree
 ```
 
 See the [project documentation](https://docs.astral.sh/uv/guides/projects/) to get started.
