@@ -58,10 +58,48 @@ Q1 :包、模块的差别
   import my_package.subpackage
   from my_package.subpackage import other
   
+  ##完整示例
+
+  假设 other.py 内容：
+  # other.py
+  class MyClass:
+      def __init__(self, name):
+          self.name = name
+
+      def greet(self):
+          return f"Hello, {self.name}!"
+
+  def my_function():
+      return "This is a function from other.py"
+
+  CONSTANT_VALUE = "some constant"
+
+  使用示例：
+  # 导入和使用
+  from my_package.subpackage.other import MyClass, my_function
+
+  # 创建对象
+  obj = MyClass("Python")
+  print(obj.greet())  # 输出: Hello, Python!
+
+  # 调用函数
+  print(my_function())  # 输出: This is a function from other.py
+
+  总结
+
+  最常用的导入方式：
+  # 推荐：精确导入
+  from my_package.subpackage.other import ClassName, function_name
+
+  # 备选：导入模块
+  import my_package.subpackage.other as other
+  obj = other.ClassName()
+
   
-    模块名必须符合 Python 标识符规则：
+
+```
+模块名必须符合 Python 标识符规则：
   - 只能包含：字母（a-z, A-Z）、数字（0-9）、下划线（_）
   - 不能以数字开头
   - 区分大小写
   - 不能是 Python 关键字
-```
