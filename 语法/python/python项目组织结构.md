@@ -10,6 +10,8 @@ Q1 :包、模块的差别
   导入名（模块名）：用于在 Python 代码中 import
   from dateutil.tz import tzutc, gettz  # 导入名是 `dateutil`
   
+包名pip使用 模块名 代码使用
+  
 可以用这个命令查看包的实际信息：
 
 ⏺ Bash(python -c "import dateutil; print(dateutil.__file__)")
