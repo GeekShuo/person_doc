@@ -306,3 +306,37 @@ export UV_INDEX=mirror=https://pypi.mirrors.com/simple
 uv缓存文件满了怎么办？
 export UV_CACHE_DIR=/home/admin/wangsongsong1/pengshuo/uvcache
 source ~/.bashrc
+
+
+#### 为什么 uv.lock 这么多包？
+
+ 
+
+  1. 传递依赖（Transitive Dependencies）：
+    - 你只需要 6 个包，但这些包依赖其他包
+    - 例如：scikit-learn 依赖 numpy, scipy, joblib, threadpoolctl
+    - 例如：requests 依赖 certifi, charset_normalizer, idna, urllib3
+  2. 依赖的依赖：
+    - numpy 又依赖其他包
+    - scipy 又依赖更多包
+    - 形成一个依赖树
+  3. 具体例子：
+  你的依赖：scikit-learn
+  ├── numpy (科学计算库)
+  │   └── 各种底层数学库
+  ├── scipy (科学计算)
+  │   └── 更多数学和统计库
+  ├── joblib (并行处理)
+  └── threadpoolctl (线程池控制)
+
+  你的依赖：requests
+  ├── certifi (SSL证书)
+  ├── charset_normalizer (字符编码)
+  ├── idna (域名编码)
+  └── urllib3 (HTTP底层库)
+  4. 为什么需要 lock 文件：
+    - 确保所有人使用相同版本的依赖
+    - 确保生产环境和开发环境一致
+    - 防止依赖冲突
+
+  这是现代 Python 开发的正常现象。你直接依赖的包很少，但它们需要很多底层支持包才能工作。
