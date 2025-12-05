@@ -22,4 +22,11 @@ Q1 :包、模块的差别
 ⏺ Bash(python -c "import pkg_resources; print(pkg_resources.get_distribution('python-dateutil'))")
   ⎿  python-dateutil 2.9.0.post0                                                                                                       
      <string>:1: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+
+为什么会这样？
+
+  1. 历史原因：有些包在创建时命名不统一
+  2. 避免冲突：包名可能被占用，使用不同的导入名
+  3. 品牌标识：包名包含品牌或描述性词汇（如 python- 前缀）
+  4. 可读性：包名更适合搜索，导入名更适合编码
 ```
