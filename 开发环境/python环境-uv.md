@@ -279,5 +279,5 @@ export UV_INDEX=mirror=https://pypi.mirrors.com/simple
 ```
 
 uv缓存文件满了怎么办？
-export UV_CACHE_DIR=/data/uv_cache
+export UV_CACHE_DIR=/home/admin/wangsongsong1/pengshuo/uvcache
 source ~/.bashrc
