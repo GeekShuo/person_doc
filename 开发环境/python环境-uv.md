@@ -90,6 +90,26 @@ uv add pandas airtest
 uv remove 
 uv pip list
 uv pip freeze > requirements.txt
+
+
+使用 uv 同步 pyproject.toml 的更新到 uv.lock 和生成 requirements.txt 文件，有以下几种方法：
+
+  1. 同步到 uv.lock
+
+  # 更新 lock 文件以匹配 pyproject.toml
+  uv sync
+
+  或者：
+
+  # 重新生成 lock 文件
+  uv lock
+
+  2. 生成 requirements.txt
+
+  # 生成 requirements.txt 文件
+  uv pip compile pyproject.toml -o requirements.txt
+
+  3. 一次性完成所有操作
 ```
 ### Scripts
 
