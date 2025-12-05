@@ -365,3 +365,54 @@ source ~/.bashrc
   4. 必要时从 archive-v0 下载原始归档
   5. 在 builds-v0 中进行编译构建
   6. 使用 interpreter-v4 确保 Python 版本兼容   
+
+### 预览将会发生的包更新行为
+uv sync --dry-run 命令用于预览同步操作，但不会实际执行任何更改。
+
+  具体作用：
+  - 预览依赖更新：显示将要安装、升级或删除的包
+  - 检查冲突：提前发现依赖版本冲突问题
+  - 安全验证：在实际执行前验证操作的正确性
+  - 无副作用：只读取和分析，不会修改 uv.lock 文件或虚拟环境
+
+  输出信息通常包括：
+  - 将要安装的新包
+  - 版本变更的包
+  - 将要删除的包
+  - 依赖解析结果
+
+  这是一个很好的实践，可以在实际同步依赖之前确认将要发生的更改。
+
+
+### 配置镜像源
+临时使用镜像源
+
+  # 使用 -i 参数指定镜像源
+  uv sync -i https://mirrors.jd.com/pypi/simple
+   在配置文件中设置
+   使用 pyproject.toml
+
+  [tool.uv]
+  index-url = "https://mirrors.jd.com/pypi/simple"
+
+  全局配置
+
+  # 设置全局默认镜像源
+  uv pip config --global set global.index-url https://mirrors.jd.com/pypi/simple
+
+  # 或设置项目级
+  uv pip config set global.index-url https://mirrors.jd.com/pypi/simple
+
+  多镜像源配置
+
+  # 使用多个镜像源
+  uv sync -i https://mirrors.jd.com/pypi/simple -i https://pypi.org/simple
+
+  验证配置
+
+  # 查看当前配置
+  uv pip config list
+
+  # 测试镜像源速度
+  uv sync --dry-run -i https://mirrors.jd.com/pypi/simple
+
