@@ -30,7 +30,7 @@ Q1 :包、模块的差别
   3. 品牌标识：包名包含品牌或描述性词汇（如 python- 前缀）
   4. 可读性：包名更适合搜索，导入名更适合编码
 ```
-模块与文件，方法名
+导入规则
 ```python
 
   1. 模块导入规则
@@ -57,4 +57,11 @@ Q1 :包、模块的差别
   from my_package import utils
   import my_package.subpackage
   from my_package.subpackage import other
+  
+  
+    模块名必须符合 Python 标识符规则：
+  - 只能包含：字母（a-z, A-Z）、数字（0-9）、下划线（_）
+  - 不能以数字开头
+  - 区分大小写
+  - 不能是 Python 关键字
 ```
