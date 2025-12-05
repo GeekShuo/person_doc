@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发环境/python环境-uv.md",
+                "file": "GR新闻推送项目/新闻爬取/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python环境-uv"
+              "title": "未命名"
             }
           },
           {
@@ -215,9 +215,9 @@
   },
   "active": "8415883021c9ab20",
   "lastOpenFiles": [
+    "开发环境/python环境-uv.md",
     "语法/Markdown.md",
     "未命名 2.md",
-    "开发环境/python环境-uv.md",
     "语法/python/python项目组织结构.md",
     "语法/python",
     "GR新闻推送项目/新闻爬取/未命名.md",
