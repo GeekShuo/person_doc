@@ -479,3 +479,11 @@ Wheel（.whl 文件）是 Python 的预编译二进制包格式，是现代 Pyth
   例如：
   - numpy-1.24.3-cp311-cp311-manylinux_2_17_x86_64.whl
   - pandas-2.0.3-py3-none-any.whl
+
+设置优先使用wheel文件来安装库
+```
+在pyproject.yaml里面添加
+[tool.uv]
+# 指定特定包只使用 wheel，提高安装速度
+no-binary-package = []
+```
