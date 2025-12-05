@@ -340,3 +340,28 @@ source ~/.bashrc
     - 防止依赖冲突
 
   这是现代 Python 开发的正常现象。你直接依赖的包很少，但它们需要很多底层支持包才能工作。
+ 
+#### uv 的缓存目录结构
+  
+  每个子目录都有不同的作用：
+
+  缓存目录说明
+
+  - archive-v0 - 存储原始的包归档文件（如 .tar.gz, .zip）
+  - builds-v0 - 存储构建过程中的临时文件和编译结果
+  - CACHEDIR.TAG - 标识这是一个缓存目录，用于备份工具识别
+  - interpreter-v4 - 缓存 Python 解释器版本信息
+  - sdists-v9 - 存储源码分发包（source distributions）
+  - simple-v18 - 存储包索引信息的简单缓存
+  - wheels-v5 - 存储预编译的二进制包（wheels）
+
+  工作流程
+
+  当 uv 安装包时：
+
+  1. 从 simple-v18 获取包索引信息
+  2. 优先从 wheels-v5 获取预编译包（最快）
+  3. 如果没有 wheel，从 sdists-v9 获取源码包
+  4. 必要时从 archive-v0 下载原始归档
+  5. 在 builds-v0 中进行编译构建
+  6. 使用 interpreter-v4 确保 Python 版本兼容   
