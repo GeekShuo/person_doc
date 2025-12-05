@@ -52,6 +52,8 @@ Initialized project `example` at `/home/user/example`
 
 $ cd example
 
+uv venv . --python=3.13
+
 $ uv add ruff
 Creating virtual environment at: .venv
 Resolved 2 packages in 170ms
