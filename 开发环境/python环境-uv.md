@@ -464,4 +464,18 @@ pip安装包的时候，所需的gcc版本不支持的问题
 
   # 或者查看安装时的详细日志
   uv pip install -v numpy pandas
+
 ```
+Wheel（.whl 文件）是 Python 的预编译二进制包格式，是现代 Python 包管理的核心标准。
+
+  什么是 Wheel？
+
+  Wheel 是一种 ZIP 格式的归档文件，包含了已经编译好的 Python 包，可以直接安装使用，无需编译。
+
+  文件命名格式
+
+  {package}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl
+
+  例如：
+  - numpy-1.24.3-cp311-cp311-manylinux_2_17_x86_64.whl
+  - pandas-2.0.3-py3-none-any.whl
