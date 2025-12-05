@@ -417,3 +417,51 @@ uv sync --dry-run 命令用于预览同步操作，但不会实际执行任何�
   # 测试镜像源速度
   uv sync --dry-run -i https://mirrors.jd.com/pypi/simple
 
+
+
+pip安装包的时候，所需的gcc版本不支持的问题
+此时，在服务器环境下修改gcc版本可能会引发很多连锁反应，无法直接修改
+解决方案：
+设置从预编译好的包里面安装
+```shell
+法 1：使用 --only-binary 参数
+
+  # 只使用二进制包（wheels），不使用源码包
+  uv pip install --only-binary=:all: numpy pandas
+
+  # 对特定包只使用二进制包
+  uv pip install --only-binary=numpy numpy
+
+  方法 2：使用 --prefer-binary 参数
+
+  # 优先使用二进制包，如果没有才回退到源码包
+  uv pip install --prefer-binary numpy pandas
+
+  方法 3：配置环境变量
+
+  # 设置环境变量，默认只使用二进制包
+  export UV_ONLY_BINARY=:all:
+  uv pip install numpy pandas
+
+  # 或者设置特定包
+  export UV_ONLY_BINARY=numpy,pandas
+  uv pip install numpy pandas
+
+  方法 4：在 uv.lock 或项目中配置
+
+  如果你有 pyproject.toml，可以添加：
+
+  [tool.uv]
+  only-binary = ["numpy", "pandas", "scipy"]
+  # 或者
+  prefer-binary = true
+  
+  
+ 验证是否使用了 wheels
+
+  # 查看安装的包信息
+  uv pip show numpy
+
+  # 或者查看安装时的详细日志
+  uv pip install -v numpy pandas
+```
