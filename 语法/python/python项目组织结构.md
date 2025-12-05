@@ -30,3 +30,31 @@ Q1 :包、模块的差别
   3. 品牌标识：包名包含品牌或描述性词汇（如 python- 前缀）
   4. 可读性：包名更适合搜索，导入名更适合编码
 ```
+模块与文件，方法名
+```python
+
+  1. 模块导入规则
+
+  文件名 → 模块名
+
+  # 文件名：my_module.py
+  # 导入方式：
+  import my_module
+  from my_module import function_name
+
+  目录名 → 包名
+
+  # 目录结构：
+  # my_package/
+  #     __init__.py
+  #     utils.py
+  #     subpackage/
+  #         __init__.py
+  #         other.py
+
+  # 导入方式：
+  import my_package
+  from my_package import utils
+  import my_package.subpackage
+  from my_package.subpackage import other
+```
