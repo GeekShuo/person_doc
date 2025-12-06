@@ -31,7 +31,11 @@ Crawl4AI设想了一个数字数据成为真正的资本资产的未来。[他�
 配置使用
 ```shell
 管理python环境我还是喜欢uv
-	uv init craw4ai uv run 
+	uv init craw4ai 
+	激活uv环境
 	pip install crawl4ai -i https://mirrors.jd.com/pypi/simple 
-	在uv环境下可以用pip
+	在uv环境下可以用pip，但是pip在解决依赖冲突这方面还是不如uv
+	uv add crawl4ai -i https://mirrors.jd.com/pypi/simple
+	这下就预装好了crawl4ai
+	但是这项目害要
 ```
