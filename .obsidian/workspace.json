@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/AI浏览器自动化/Crawl4AI.md",
+                "file": "开发环境/docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crawl4AI"
+              "title": "docker"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "未命名 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,13 +193,23 @@
               "icon": "lucide-list",
               "title": "Markdown 的大纲"
             }
+          },
+          {
+            "id": "4e5c59ced8c49226",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,11 +223,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8415883021c9ab20",
+  "active": "4f1a9a6b0fc5a540",
   "lastOpenFiles": [
+    "开发环境/docker.md",
+    "未命名",
+    "轮子工具库",
+    "个人设备环境/电脑/翻译软件.md",
+    "个人设备环境/电脑/mac使用.md",
+    "AI应用/AI浏览器自动化/Crawl4AI.md",
     "语法/shell语法.md",
     "开发环境/python环境-uv.md",
-    "AI应用/AI浏览器自动化/Crawl4AI.md",
     "AI应用/AI浏览器自动化/skyvern.md",
     "AI应用/AI浏览器自动化",
     "AI应用",
@@ -234,13 +249,10 @@
     "开发环境",
     "未命名 1.md",
     "日历",
-    "个人设备环境/电脑/mac使用.md",
     "个人设备环境/外设/DK68雷击蛇三模键盘.md",
     "个人设备环境/外设/assets/DK68雷击蛇三模键盘/file-20251204134737755.jpg",
     "个人设备环境/外设/assets/DK68雷击蛇三模键盘",
-    "个人设备环境/外设/assets",
     "linux命令/du.md",
-    "个人设备环境/手机",
     "img1.md",
     "未命名.md",
     "assets/未命名/file-20251203144648973.png",

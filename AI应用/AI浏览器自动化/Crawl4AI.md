@@ -41,6 +41,7 @@ Crawl4AI设想了一个数字数据成为真正的资本资产的未来。[他�
 	 crawl4ai-setup 安装龟速
 	 python -m playwright install chromium 使用这个命令先安装浏览器内核试试（想着能用-i镜像源，但是playwright不支持。挂个代理能稍微加点速）
 	  从https://playwright.download.prss.microsoft.com拉取东西实在太慢，还是用docker镜像使用
-	  
+docker pull unclecode/crawl4ai:latest
+docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g unclecode/crawl4ai:latest
 	
 ```
