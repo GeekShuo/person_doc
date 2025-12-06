@@ -28,4 +28,9 @@ Crawl4AI设想了一个数字数据成为真正的资本资产的未来。[他�
 
 
 
-配置
+配置使用
+```shell
+管理python环境我还是喜欢uv
+	uv init craw4ai
+	
+```
