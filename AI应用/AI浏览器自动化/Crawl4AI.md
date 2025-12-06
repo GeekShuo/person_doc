@@ -24,3 +24,8 @@ Crawl4AI设想了一个数字数据成为真正的资本资产的未来。[他�
 > 为了庆祝这一整合，我们为所有通过本教程注册的CapSolver用户提供**6%**的独家**奖励代码——`CRAWL4`**。  
 > 只需在[仪表板](https://dashboard.capsolver.com/passport/login/?utm_source=blog&utm_medium=partnership&utm_campaign=crawl4ai-capsolver)中充值时输入代码，即可**立即**获得**额外的6%积分**。  
 > ![](https://assets.capsolver.com/prod/posts/how-to-solve-recaptchav2-in-crawl4ai-capsolver/FjKtIovPSkp8-d2b5ca33bd970f64a6301fa75ae2eb22.png)
+
+
+
+
+配置
