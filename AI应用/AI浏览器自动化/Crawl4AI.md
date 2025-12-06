@@ -39,6 +39,6 @@ Crawl4AI设想了一个数字数据成为真正的资本资产的未来。[他�
 	这下就预装好了crawl4ai
 	但是这项目还要post-install 安装浏览器内核
 	 crawl4ai-setup 安装龟速
-	 
+	 python -m playwright install chromium 使用这个命令先安装浏览器内核s
 	
 ```
