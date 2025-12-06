@@ -20,7 +20,7 @@
 
 [java](xqer%E2%80%99s%20computer%20tree/java%20019005a102c7442996bb830ab34eb8d0.md)
 
-[html-css-js](xqer%E2%80%99s%20computer%20tree/html-css-js%20be52cded8a9642789ac76f4c3f3b6903.md)
+[html-css-js](html-css-js/html-css-js%20be52cded8a9642789ac76f4c3f3b6903.md)
 
 [scala](xqer%E2%80%99s%20computer%20tree/scala%20f1a1959ad5a249fd94ca630bf8cf450f.md)
 
