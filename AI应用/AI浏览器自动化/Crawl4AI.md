@@ -37,5 +37,8 @@ Crawl4AI设想了一个数字数据成为真正的资本资产的未来。[他�
 	在uv环境下可以用pip，但是pip在解决依赖冲突这方面还是不如uv
 	uv add crawl4ai -i https://mirrors.jd.com/pypi/simple
 	这下就预装好了crawl4ai
-	但是这项目害要
+	但是这项目还要post-install 安装浏览器内核
+	 crawl4ai-setup 安装龟速
+	 
+	
 ```
