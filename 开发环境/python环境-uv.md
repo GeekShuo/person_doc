@@ -47,11 +47,11 @@ Additionally, the command line reference documentation can be viewed with `uv he
 Uv管理项目依赖项和环境，支持锁文件、工作区等。  类似于 `rye` or `poetry`:
 
 ```console
-$ uv init example
+$ uv init example #不加exapmle就在当前目录创建项目
 Initialized project `example` at `/home/user/example`
 
-$ cd example
-
+$ cd example && ls -a
+.python-version README.md       main.py         pyproject.toml
 uv venv . --python=3.13
 
 $ uv add ruff
