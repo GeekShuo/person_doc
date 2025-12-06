@@ -45,5 +45,6 @@ docker pull unclecode/crawl4ai:latest
 docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g 
 
 拉取的时候遇到这个报错unclecode/crawl4ai:latestshort read: expected 418210340 bytes but got 225912192: unexpected EOF
+关掉代理后成功
 	
 ```
