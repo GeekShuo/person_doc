@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/AI编程/Claude Code.md",
+                "file": "GR新闻推送项目/新闻打分提示词.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Code"
+              "title": "新闻打分提示词"
             }
           }
         ]
@@ -197,8 +197,9 @@
   },
   "active": "8415883021c9ab20",
   "lastOpenFiles": [
-    "AI应用/AI个人分身/SecondME.md",
     "AI应用/AI编程/Claude Code.md",
+    "GR新闻推送项目/新闻打分提示词.md",
+    "AI应用/AI个人分身/SecondME.md",
     "AI应用/AI编程",
     "AI应用/AI浏览器自动化/Crawl4AI.md",
     "AI应用/AI个人分身",
@@ -226,7 +227,6 @@
     "xqer’s computer tree/机器学习基础 3a7267a47e244bc5a6447abab396fce0.md",
     "xqer’s computer tree/汇编 212c67c614cc4b20b7371a527392756e.md",
     "xqer’s computer tree/概率统计 b24e2ab17ae942e692cc37fb7d6f581a.md",
-    "xqer’s computer tree/算法和工程 2a1df113350c8021a852e4d9d5d94ba8.md",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_9.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_8.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_7.png",
