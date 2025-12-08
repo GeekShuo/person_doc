@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/AI个人分身/SecondME.md",
+                "file": "AI应用/AI编程/Claude Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SecondME"
+              "title": "Claude Code"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "8415883021c9ab20",
   "lastOpenFiles": [
-    "AI应用/AI浏览器自动化/Crawl4AI.md",
     "AI应用/AI个人分身/SecondME.md",
+    "AI应用/AI编程/Claude Code.md",
+    "AI应用/AI编程",
+    "AI应用/AI浏览器自动化/Crawl4AI.md",
     "AI应用/AI个人分身",
     "AI应用/AI 爬虫",
     "AI应用/AI浏览器自动化/未命名",
@@ -225,7 +227,6 @@
     "xqer’s computer tree/汇编 212c67c614cc4b20b7371a527392756e.md",
     "xqer’s computer tree/概率统计 b24e2ab17ae942e692cc37fb7d6f581a.md",
     "xqer’s computer tree/算法和工程 2a1df113350c8021a852e4d9d5d94ba8.md",
-    "xqer’s computer tree/java/版本管理和包管理 28fdf113350c809d8b34d685d69a7fa6.md",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_9.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_8.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_7.png",
@@ -242,7 +243,6 @@
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器",
     "xqer’s computer tree/编译原理/• 第四章 语法分析",
     "xqer’s computer tree/编译原理/• 第三章 词法分析",
-    "xqer’s computer tree/编译原理",
     "未命名 1.canvas",
     "未命名.canvas"
   ]
