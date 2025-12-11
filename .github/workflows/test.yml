@@ -1,0 +1,10 @@
+# .github/workflows/test.yml
+name: Test Trigger
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test step
+        run: echo "Test workflow triggered successfully"
