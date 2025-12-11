@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GR新闻推送项目/新闻打分提示词.md",
+                "file": "GR新闻推送项目/全新架构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "新闻打分提示词"
+              "title": "全新架构"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GR新闻推送项目/全新架构.md",
+                "file": "语法/Markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "全新架构"
+              "title": "Markdown"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,13 +209,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3bc0735c2152424f",
+  "active": "8415883021c9ab20",
   "lastOpenFiles": [
+    "GR新闻推送项目/新闻打分提示词.md",
+    "语法/Markdown.md",
+    "GR新闻推送项目/全新架构.md",
     "GR新闻推送项目/assets/全新架构",
     "GR新闻推送项目/assets/未命名",
     "GR新闻推送项目/assets",
-    "GR新闻推送项目/新闻打分提示词.md",
-    "GR新闻推送项目/全新架构.md",
     "xqer’s computer tree/git与github/git与github e9572ffc95834212b7e081c3f45692cf.md",
     "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
     "开发环境/python环境-uv.md",
@@ -257,7 +257,6 @@
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcspmediaimage.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ",
-    "xqer’s computer tree/计算机组成原理/指令系统",
     "未命名 1.canvas",
     "未命名.canvas"
   ]
