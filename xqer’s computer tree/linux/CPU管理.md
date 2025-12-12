@@ -64,3 +64,48 @@ L3 cache:              16384K
 NUMA node0 CPU(s):     0-3
 Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt arat
 ```
+
+
+CPU信息字段解释
+
+  基本信息
+
+  - Architecture: x86_64 - 64位x86架构
+  - CPU op-mode(s): 32-bit, 64-bit - 支持32位和64位运行
+  - Byte Order: Little Endian - 小端字节序
+
+  核心配置
+
+  - CPU(s): 4 - 总共4个逻辑CPU
+  - On-line CPU(s) list: 0-3 - 在线的CPU编号0-3
+  - Thread(s) per core: 2 - 每个物理核心2个线程（超线程）
+  - Core(s) per socket: 2 - 每个CPU插槽2个物理核心
+  - Socket(s): 1 - 1个CPU插槽
+  - NUMA node(s): 1 - 1个NUMA节点
+
+  CPU型号
+
+  - Vendor ID: GenuineIntel - Intel处理器
+  - Model name: Intel Xeon CPU E5-2683 v4 @ 2.10GHz - 服务器级处理器
+  - CPU MHz: 2099.998 - 当前运行频率2.1GHz
+
+  缓存
+
+  - L1d cache: 32K - L1数据缓存
+  - L1i cache: 32K - L1指令缓存
+  - L2 cache: 4096K - L2缓存4MB
+  - L3 cache: 16384K - L3缓存16MB
+
+  虚拟化
+
+  - Hypervisor vendor: KVM - 运行在KVM虚拟机中
+  - Virtualization type: full - 完全虚拟化
+
+  重要特性（Flags）
+
+  - sse/sse2/sse3/ssse3/sse4_1/sse4_2 - SIMD指令集
+  - avx/avx2 - 高级向量扩展
+  - aes - 硬件AES加密
+  - hypervisor - 虚拟化支持
+
+  总结：这是一台云服务器，运行在KVM虚拟机上，配置为2核4线程的Intel至强处理器。
