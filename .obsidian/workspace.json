@@ -25,12 +25,14 @@
             "id": "8f4e28295d197f56",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.10.6"
+              "icon": "lucide-file",
+              "title": "vim 14612fc33ba243c18f6b6100645064c5"
             }
           },
           {
@@ -224,6 +226,7 @@
   },
   "active": "8f4e28295d197f56",
   "lastOpenFiles": [
+    "彭硕.docx",
     "GR新闻推送项目/新闻打分提示词.md",
     "语法/Markdown.md",
     "GR新闻推送项目/全新架构.md",
@@ -258,7 +261,6 @@
     "xqer’s computer tree/agent开发 292df113350c80eab8cfd69c93aa9f71.md",
     "xqer’s computer tree/数据库 de69bc9d02064e40a16e72de0ba7aaf0.md",
     "xqer’s computer tree/数据结构 f77c410b0a8e471d8c29ace67e078694.md",
-    "xqer’s computer tree/数据处理分析 28bdf113350c80a0a27fdc1e26aa1558.md",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_9.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_8.png",
     "xqer’s computer tree/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_7.png",
