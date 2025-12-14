@@ -8,23 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8415883021c9ab20",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": -7,
-                  "y": -1246.5650000197713,
-                  "zoom": -0.5
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
-            }
-          },
-          {
             "id": "3bc0735c2152424f",
             "type": "leaf",
             "state": {
@@ -111,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/Markdown.md",
+                "file": "xqer’s computer tree/linux/磁盘管理文件管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Markdown 的反向链接列表"
+              "title": "磁盘管理文件管理 的反向链接列表"
             }
           },
           {
@@ -130,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/Markdown.md",
+                "file": "xqer’s computer tree/linux/磁盘管理文件管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Markdown 的出链列表"
+              "title": "磁盘管理文件管理 的出链列表"
             }
           },
           {
@@ -193,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,11 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8415883021c9ab20",
+  "active": "3bc0735c2152424f",
   "lastOpenFiles": [
     "未命名.base",
-    "2025-12-14.md",
     "未命名.canvas",
+    "2025-12-14.md",
     "GR新闻推送项目/全新架构.md",
     "xqer’s computer tree/linux/磁盘管理文件管理.md",
     "xqer’s computer tree/程序员心法 1afd3cf9b0b34ac2acc830f6a021e193.md",
