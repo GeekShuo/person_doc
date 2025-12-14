@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
+                "file": "金融/金融基本知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "如何白嫖谷歌学生优惠？"
+              "title": "金融基本知识"
             }
           }
         ],
@@ -226,11 +226,16 @@
   },
   "active": "b143ed6f05d3d704",
   "lastOpenFiles": [
+    "金融/虚拟货币/未命名.md",
+    "金融/金融基本知识.md",
+    "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
+    "金融/虚拟货币",
+    "金融/量化",
+    "金融",
     "AI应用/通用chatbot/assets/如何白嫖谷歌学生优惠？/file-20251214160506755.png",
     "AI应用/通用chatbot/assets/如何白嫖谷歌学生优惠？",
     "AI应用/通用chatbot/assets",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs.md",
-    "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
     "AI应用/AI爬虫 or 搜索引擎/perp.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "AI应用/AI浏览器自动化/skyvern.md",
@@ -258,11 +263,7 @@
     "xqer’s computer tree/linux/gdb 346a8f6762b04294a8c3d56a9a345426.md",
     "xqer’s computer tree/linux/Grep、awk、sed f08efa9ecc0a4c6e9972f25d5b8d05df.md",
     "xqer’s computer tree/linux/history 290df113350c80a8aa5dd23ac8ea69a2.md",
-    "xqer’s computer tree/linux/linux 428ba40ee0d84f7f8b1410dc2474fb68.md",
     "xqer’s computer tree/linux/Untitled.png",
-    "彭硕.docx",
-    "GR新闻推送项目/assets/全新架构",
-    "GR新闻推送项目/assets/未命名",
     "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_9.png",
     "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_8.png",
     "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_7.png",
@@ -271,7 +272,6 @@
     "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_4.png",
     "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_3.png",
     "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_2.png",
-    "基本八股/计算机组成原理/ＣＰＵ/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "未命名 1.canvas",
     "未命名.canvas"
   ]
