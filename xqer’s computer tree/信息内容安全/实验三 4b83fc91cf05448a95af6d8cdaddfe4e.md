@@ -23,11 +23,11 @@ Color=Color'
 
 余弦距离：
 
-![](../操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTTccfcspmediaimage.png)
+![](../../基本八股/操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTTccfcspmediaimage.png)
 
 欧式距离：
 
-![](../操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png)
+![](../../基本八股/操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png)
 
 # 2.一个略微复杂的图像特征提取算法（HOG）
 
@@ -97,7 +97,7 @@ end
 
 输入想要搜索的图片，找出最接近的几个图片的下标
 
-![](../操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_2.png)
+![](../../基本八股/操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_2.png)
 
 ```
 clear;
