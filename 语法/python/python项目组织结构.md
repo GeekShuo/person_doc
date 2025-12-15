@@ -103,3 +103,44 @@ Q1 :包、模块的差别
   - 不能以数字开头
   - 区分大小写
   - 不能是 Python 关键字
+
+ Python的动态特性允许运行时修改第三方库
+
+  1. 修改机制
+
+  # 第三方库的类
+  import numpy as np
+  import pandas as pd
+
+  # 运行时修改第三方类
+  def custom_str_method(self):
+      return f"Custom: {self.shape}"
+
+  # 给numpy数组添加新方法
+  np.ndarray.custom_str = custom_str_method
+
+  # 这个修改在整个进程中都生效
+  arr = np.array([1, 2, 3])
+  print(arr.custom_str())  # 所有地方都能使用
+
+  2. 全局共享范围
+
+  在同一进程内共享
+
+  # 文件A.py
+  import requests
+  requests.default_timeout = 30  # 修改requests模块
+
+  # 文件B.py  
+  import requests
+  print(requests.default_timeout)  # 输出30，A.py的修改生效
+
+  不同进程隔离
+
+  # 进程1
+  import my_module
+  my_module.global_var = "process1"
+
+  # 进程2（另一个Python解释器）
+  import my_module
+  print(my_module.global_var)  # 不会是"process1"，默认值

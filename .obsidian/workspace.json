@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基本八股/操作系统/操作系统 c486b304d4b543c390e9e5bd3f79229f.md",
+                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "操作系统 c486b304d4b543c390e9e5bd3f79229f"
+              "title": "vim 14612fc33ba243c18f6b6100645064c5"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基本八股/操作系统/操作系统 c486b304d4b543c390e9e5bd3f79229f.md",
+                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "操作系统 c486b304d4b543c390e9e5bd3f79229f 的反向链接列表"
+              "title": "vim 14612fc33ba243c18f6b6100645064c5 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基本八股/操作系统/操作系统 c486b304d4b543c390e9e5bd3f79229f.md",
+                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "操作系统 c486b304d4b543c390e9e5bd3f79229f 的出链列表"
+              "title": "vim 14612fc33ba243c18f6b6100645064c5 的出链列表"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,6 +197,7 @@
   },
   "active": "3bc0735c2152424f",
   "lastOpenFiles": [
+    "基本八股/操作系统/操作系统 c486b304d4b543c390e9e5bd3f79229f.md",
     "金融/股票/股票交易规则",
     "金融/股票",
     "基本八股/操作系统/实验一/pmD5mXFaQLCpcM5FjmdNTT操作系统实验一media6(vo89ci0a-ttefbk7bv.png",
@@ -230,7 +232,6 @@
     "金融/虚拟货币/未命名.md",
     "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
     "金融/虚拟货币",
-    "金融/量化",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs.md",
     "AI应用/AI爬虫 or 搜索引擎/perp.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
