@@ -59,7 +59,7 @@
   分析系统空间使用
 
   # 1. 查看根目录占用
-  du -h --max-depth=1 / | sort -hr | head -10
+  du -h -d 1 / | sort -hr | head -10
 
   # 2. 查看var目录详细占用
   du -h --max-depth=2 /var | sort -hr
