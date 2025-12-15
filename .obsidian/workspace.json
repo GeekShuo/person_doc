@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c5c4c1d3e4cb56aa",
+        "id": "6bd47d74d4483962",
         "type": "tabs",
         "children": [
           {
-            "id": "3bc0735c2152424f",
+            "id": "a4bb46e59597df18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
+                "file": "linux命令/du.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vim 14612fc33ba243c18f6b6100645064c5"
+              "title": "du"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
+                "file": "linux命令/du.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "vim 14612fc33ba243c18f6b6100645064c5 的反向链接列表"
+              "title": "du 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
+                "file": "linux命令/du.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "vim 14612fc33ba243c18f6b6100645064c5 的出链列表"
+              "title": "du 的出链列表"
             }
           },
           {
@@ -195,8 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3bc0735c2152424f",
+  "active": "a4bb46e59597df18",
   "lastOpenFiles": [
+    "SPONSORS.md",
+    "xqer’s computer tree/linux运维 2a1df113350c808f843aef15a826a4e9.md",
+    "xqer’s computer tree/linux/history 290df113350c80a8aa5dd23ac8ea69a2.md",
+    "xqer’s computer tree/linux/Grep、awk、sed f08efa9ecc0a4c6e9972f25d5b8d05df.md",
+    "xqer’s computer tree/linux/gdb 346a8f6762b04294a8c3d56a9a345426.md",
+    "xqer’s computer tree/linux/find 4745783358814360bcb62e6c55e541c0.md",
+    "xqer’s computer tree/linux/curl d463fe6bd8af49a89d01cc6a4116570d.md",
+    "xqer’s computer tree/linux/CPU管理.md",
+    "xqer’s computer tree/linux/apt与snap 25adf113350c80eb8fb4fc9760d7553f.md",
+    "xqer’s computer tree/linux/网络调试 25adf113350c805f9093d64575a86ad1.md",
+    "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
     "基本八股/操作系统/操作系统 c486b304d4b543c390e9e5bd3f79229f.md",
     "金融/股票/股票交易规则",
     "金融/股票",
@@ -233,17 +244,6 @@
     "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
     "金融/虚拟货币",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs.md",
-    "AI应用/AI爬虫 or 搜索引擎/perp.md",
-    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
-    "AI应用/AI浏览器自动化/skyvern.md",
-    "AI应用/AI浏览器自动化/README.md",
-    "AI应用/AI编程/Claude Code.md",
-    "AI应用/AI编程/Cursor.md",
-    "AI应用/AI编程/如何把文档页面从html转换为大模型可读的markdown页面.md",
-    "基本八股/git与github/git与github e9572ffc95834212b7e081c3f45692cf.md",
-    "未命名.md",
-    "xqer’s computer tree/linux/CPU管理.md",
-    "xqer’s computer tree/linux/安装软件 2b92471650084c8bb0f3a11f69400716.md",
     "未命名 1.canvas"
   ]
 }
