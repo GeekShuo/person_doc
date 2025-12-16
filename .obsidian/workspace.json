@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux命令/du.md",
+                "file": "GR新闻推送项目/全新架构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "du"
+              "title": "全新架构"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux命令/du.md",
+                "file": "GR新闻推送项目/全新架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "du 的反向链接列表"
+              "title": "全新架构 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux命令/du.md",
+                "file": "GR新闻推送项目/全新架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "du 的出链列表"
+              "title": "全新架构 的出链列表"
             }
           },
           {
@@ -197,6 +197,8 @@
   },
   "active": "a4bb46e59597df18",
   "lastOpenFiles": [
+    "GR新闻推送项目/新闻打分提示词.md",
+    "linux命令/du.md",
     "SPONSORS.md",
     "xqer’s computer tree/linux运维 2a1df113350c808f843aef15a826a4e9.md",
     "xqer’s computer tree/linux/history 290df113350c80a8aa5dd23ac8ea69a2.md",
@@ -241,9 +243,7 @@
     "xqer’s computer tree/程序员心法 1afd3cf9b0b34ac2acc830f6a021e193.md",
     "金融/金融基本知识.md",
     "金融/虚拟货币/未命名.md",
-    "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
     "金融/虚拟货币",
-    "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs.md",
     "未命名 1.canvas"
   ]
 }
