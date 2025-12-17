@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6bd47d74d4483962",
+        "id": "640a8c82003ee97a",
         "type": "tabs",
         "children": [
           {
-            "id": "a4bb46e59597df18",
+            "id": "d1d05c3a27a3f5f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "如何白嫖谷歌学生优惠？"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
+                "file": "金融/银行卡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "如何白嫖谷歌学生优惠？ 的反向链接列表"
+              "title": "银行卡 的反向链接列表"
             }
           },
           {
@@ -113,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
+                "file": "金融/银行卡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "如何白嫖谷歌学生优惠？ 的出链列表"
+              "title": "银行卡 的出链列表"
             }
           },
           {
@@ -195,8 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a4bb46e59597df18",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
+    "金融/金融基本知识.md",
+    "金融/银行卡.md",
+    "未命名",
+    "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
     "GR新闻推送项目/全新架构.md",
     "~$彭硕.docx",
     "GR新闻推送项目/新闻打分提示词.md",
@@ -238,11 +238,8 @@
     "金融/虚拟货币/智能合约",
     "金融/虚拟货币/区块链.md",
     "金融/虚拟货币/区块链",
-    "未命名.base",
     "未命名.canvas",
     "2025-12-14.md",
-    "xqer’s computer tree/程序员心法 1afd3cf9b0b34ac2acc830f6a021e193.md",
-    "金融/金融基本知识.md",
     "未命名 1.canvas"
   ]
 }
