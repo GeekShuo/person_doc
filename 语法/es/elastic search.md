@@ -1,7 +1,7 @@
-查询语句
-1. 基础查询类型
+# 查询语句
+## 基础查询类型
 
-  Leaf Queries (叶子查询)
+  #### Leaf Queries (叶子查询)
 
   # Term查询 - 精确匹配
   {
@@ -38,10 +38,110 @@
           "filter": []    # 过滤条件
       }
   }
+  
+### should用法：
+should 查询是 Elasticsearch 中非常重要的概念，我来详细解释它的检索逻辑：
 
-  2. 构建方式对比
+  should 查询的工作原理
 
-  方式1: 直接字典构建 (你当前使用)
+  1. 基本行为
+
+  {
+      "bool": {
+          "should": [
+              {"match": {"title": "Elasticsearch"}},
+              {"match": {"content": "搜索引擎"}},
+              {"term": {"category.keyword": "技术"}}
+          ]
+      }
+  }
+
+  2. 评分机制
+
+  - 满足任何一个 should 条件都会返回
+  - 满足的条件越多，评分（_score）越高
+  - 默认情况下，至少匹配一个条件
+
+  3. minimum_should_match 参数
+
+  {
+      "bool": {
+          "should": [
+              {"match": {"title": "Elasticsearch"}},
+              {"match": {"content": "搜索引擎"}},
+              {"term": {"category.keyword": "技术"}}
+          ],
+          "minimum_should_match": 2  # 至少匹配2个条件
+      }
+  }
+
+  不同的 minimum_should_match 设置
+
+  默认行为（至少1个）
+
+  # 匹配 title="Elasticsearch" OR content="搜索引擎" OR category="技术"
+  # 只要满足一个条件就会返回，但满足越多条件排序越靠前
+
+  精确控制
+
+  # 示例1：至少匹配2个条件
+  "minimum_should_match": 2
+
+  # 示例2：百分比
+  "minimum_should_match": "50%"
+
+  # 示例3：条件数量相关
+  "minimum_should_match": "2<50%"  # 当有2个以上条件时，至少匹配50%
+
+  实际应用示例
+
+  4. 搜索多字段
+
+  # 在标题、摘要、标签中搜索"人工智能"
+  {
+      "bool": {
+          "should": [
+              {"match": {"title": "人工智能"}},
+              {"match": {"summary": "人工智能"}},
+              {"match": {"tags": "人工智能"}}
+          ],
+          "minimum_should_match": 1
+      }
+  }
+
+  5. 同义词搜索
+
+  # 搜索"感谢信"或"感谢信件"或"表扬信"
+  {
+      "bool": {
+          "should": [
+              {"term": {"doc_type": "感谢信"}},
+              {"term": {"doc_type": "感谢信件"}},
+              {"term": {"doc_type": "表扬信"}}
+          ]
+      }
+  }
+
+  6. 组合查询
+
+  # 结合 must 和 should
+  {
+      "bool": {
+          "must": [
+              {"range": {"created_at": {"gte": "2024-01-01"}}}
+          ],
+          "should": [
+              {"match": {"title": "Elasticsearch"}},
+              {"match": {"content": "搜索引擎"}}
+          ],
+          "minimum_should_match": 1
+      }
+  }
+
+
+# 构建方式对比
+
+  方式1: 直接字典构建
 
   body = {
       "query": {
@@ -64,7 +164,7 @@
       body={"query": {"query_string": {"query": "field:value"}}}
   )
 
-  3. 每种方式的使用场景
+  8. 每种方式的使用场景
 
   字典构建方式
 
