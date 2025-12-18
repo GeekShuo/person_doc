@@ -11,10 +11,14 @@
             "id": "d1d05c3a27a3f5f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "语法/es/elastic search.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "elastic search"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "金融/银行卡.md",
+                "file": "语法/es/elastic search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "银行卡 的反向链接列表"
+              "title": "elastic search 的反向链接列表"
             }
           },
           {
@@ -109,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "金融/银行卡.md",
+                "file": "语法/es/elastic search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "银行卡 的出链列表"
+              "title": "elastic search 的出链列表"
             }
           },
           {
@@ -191,12 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "d1d05c3a27a3f5f6",
   "lastOpenFiles": [
-    "金融/金融基本知识.md",
-    "金融/银行卡.md",
-    "未命名",
+    "个人设备环境/电脑/mac使用.md",
+    "语法/es/elastic search.md",
+    "语法/es",
     "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
+    "金融/银行卡.md",
+    "金融/金融基本知识.md",
+    "未命名",
     "GR新闻推送项目/全新架构.md",
     "~$彭硕.docx",
     "GR新闻推送项目/新闻打分提示词.md",
@@ -236,10 +243,7 @@
     "金融/虚拟货币/比特币",
     "金融/虚拟货币/智能合约.md",
     "金融/虚拟货币/智能合约",
-    "金融/虚拟货币/区块链.md",
-    "金融/虚拟货币/区块链",
     "未命名.canvas",
-    "2025-12-14.md",
     "未命名 1.canvas"
   ]
 }
