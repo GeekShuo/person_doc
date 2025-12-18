@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/es/elastic search.md",
+                "file": "语法/python/python基本语法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "elastic search"
+              "title": "python基本语法"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/es/elastic search.md",
+                "file": "语法/python/python基本语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "elastic search 的反向链接列表"
+              "title": "python基本语法 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/es/elastic search.md",
+                "file": "语法/python/python基本语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "elastic search 的出链列表"
+              "title": "python基本语法 的出链列表"
             }
           },
           {
@@ -197,8 +197,10 @@
   },
   "active": "d1d05c3a27a3f5f6",
   "lastOpenFiles": [
-    "个人设备环境/电脑/mac使用.md",
+    "语法/python/python项目组织结构.md",
+    "语法/python/python基本语法.md",
     "语法/es/elastic search.md",
+    "个人设备环境/电脑/mac使用.md",
     "语法/es",
     "AI应用/通用chatbot/如何白嫖谷歌学生优惠？.md",
     "金融/银行卡.md",
@@ -239,9 +241,7 @@
     "金融/虚拟货币/以太坊",
     "金融/虚拟货币/稳定币.md",
     "金融/虚拟货币/稳定币",
-    "金融/虚拟货币/比特币.md",
     "金融/虚拟货币/比特币",
-    "金融/虚拟货币/智能合约.md",
     "金融/虚拟货币/智能合约",
     "未命名.canvas",
     "未命名 1.canvas"
