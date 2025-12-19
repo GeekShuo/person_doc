@@ -396,7 +396,7 @@ GET /user_info/_search
 <!--rehype:wrap-class=col-span-2-->
 
 类似数据库中的 `select * from user_info where username = 'username';`
-  
+  详细的条件查找可以参考[语法/docs/elastic search.md.md]
 #### 通过条件查询 - DSL语法
 
 ```json

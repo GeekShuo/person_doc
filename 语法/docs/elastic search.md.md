@@ -16,7 +16,7 @@
           "field": "search text"
       }
   }
-
+match_phrase查询 必须匹配到这个字段才可以
   # Range查询 - 范围查询
   {
       "range": {
@@ -189,6 +189,7 @@ should 查询是 Elasticsearch 中非常重要的概念，我来详细解释它�
   复杂查询结构
 
   # 复合条件查询
+  ```json
   body = {
       "query": {
           "bool": {
@@ -205,6 +206,47 @@ should 查询是 Elasticsearch 中非常重要的概念，我来详细解释它�
       "sort": [{"created_at": {"order": "desc"}}]
   }
 
+  ```
+  全文搜索
+  ```shell
+  
+  GET /political_news/_search
+
+{"_source": [
+
+"title", "summary", "source", "date", "area",
+
+"importance_score", "government_relevance_score",
+
+"level1_type", "level2_type", "timestamp",
+
+"created_at", "updated_at", "crawl_date", "important_affairs"
+
+], "from": 0, "size": 100, 
+"query": {"bool": {
+
+"must": [
+
+{"term": {"level1_type.keyword": "中央"}}, #关键字严格匹配
+
+{"match": { "level2_type": {
+
+"query": "工信部",
+
+"minimum_should_match": "80%"
+
+}}},#分词器将query分成单字进行查询，并给一个分数，80%即必须有80%以上的单字出现在该字段。出现的越多该字段查询的得分就越高，查询结果越靠前。
+
+{"range": {"government_relevance_score": {"gte": 0.8}}},
+
+{"range": {"crawl_date": {"gte": "2025-12-17T16:24:31","lte": "now"}}},
+
+{"term": {"important_affairs": true}} #如果这个字段大部分都是true，那么查到了true，这个字段得分也会比较低。boost字段可以使权重提升
+
+]
+
+}} }
+  ```
   聚合查询
 
   # 分组统计
