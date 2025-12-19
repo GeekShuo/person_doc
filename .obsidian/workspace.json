@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<*>",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,6 +198,7 @@
   },
   "active": "e43f29931dac9f4c",
   "lastOpenFiles": [
+    "语法/docs/re.md",
     "语法/docs/django.md",
     "语法/目录.md",
     "语法/docs/awk.md",
@@ -224,7 +225,6 @@
     "语法/docs/yarn.md",
     "语法/docs/yaml.md",
     "语法/docs/xpath.md",
-    "语法/docs/xcode.md",
     "语法/docs",
     "语法/es",
     "未命名",
