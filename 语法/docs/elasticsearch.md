@@ -9,13 +9,12 @@ Elasticsearch 备忘清单
 ### 入门
 <!--rehype:wrap-class=row-span-2-->
 
-Elasticsearch 是一个基于 Lucene 库的搜索引擎。它提供了一个分布式、支持多租户的全文搜索引擎，具有HTTP Web接口和无模式JSON文档。
-
+Elasticsearch 是一个基于 Lucene 库的搜索引擎。它提供了一个分布式、支持多租户的全文搜索引擎，具有HTTP Web接口和无模式JSON文档。es以其强大的搜索检索能力使其成为搜索引擎绕不开的技术，做搜索必学。
 #### 下载
 
 注意： `${VERSION}` 需替换为指定版本，官方包有的功能只能试用，完整功能需要付费，请仔细阅读官网文档。
 
-#### Windows
+##### Windows
 
 ```
 https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-${VERSION}-windows-x86_64.zip
@@ -99,13 +98,13 @@ $ cd elasticsearch-${VERSION}/
 
 | RDMS                    | elasticsearch     |
 | ----------------------- | ----------------- |
-| 数据库(database)        | 索引(index)       |
-| 表(table)               | 类型(type)        |
-| 行(row)                 | 文档(document)    |
-| 列(column)              | 字段(field)       |
-| 表结构                  | 映射              |
-| 索引                    | 全文索引          |
-| SQL                     | 查询DSL           |
+| 数据库(database)           | 索引(index)         |
+| 表(table)                | 类型(type)          |
+| 行(row)                  | 文档(document)      |
+| 列(column)               | 字段(field)         |
+| 表结构                     | 映射                |
+| 索引                      | 全文索引              |
+| SQL                     | 查询DSL             |
 | SELECT * FROM tablename | GET http://...    |
 | UPDATE table SET        | PUT http://...    |
 | DELETE                  | DELETE http://... |
