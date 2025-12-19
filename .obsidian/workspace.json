@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDF-TF算法.md",
+                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IDF-TF算法"
+              "title": "Chatgpt vs gemini vs grok vs claude"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDF-TF算法.md",
+                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "IDF-TF算法 的反向链接列表"
+              "title": "Chatgpt vs gemini vs grok vs claude 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDF-TF算法.md",
+                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "IDF-TF算法 的出链列表"
+              "title": "Chatgpt vs gemini vs grok vs claude 的出链列表"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "b258d51d23f41b89",
   "lastOpenFiles": [
-    "语法/docs/elastic search.md.md",
     "IDF-TF算法.md",
+    "语法/docs/elastic search.md.md",
     "未命名",
     "大模型",
     "深度学习算法",
