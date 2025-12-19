@@ -1,4 +1,5 @@
 # 查询语句
+explain字段可以返回查询的返回原因（即可以将每个字段的得分给出）
 ## 基础查询类型
 
   #### Leaf Queries (叶子查询)
@@ -49,7 +50,8 @@ match_phrase查询 必须匹配到这个词组才可以（不分词的全文检�
           }
       }
   }
-
+wildcard 通配符
+ {"wildcard": {"level2_type": "*商务部*"}}
   Compound Queries (复合查询)
 
   # Bool查询 - 组合多个查询条件

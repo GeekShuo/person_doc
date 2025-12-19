@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "elastic search.md"
             }
+          },
+          {
+            "id": "b258d51d23f41b89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDF-TF算法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IDF-TF算法"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/elastic search.md.md",
+                "file": "IDF-TF算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "elastic search.md 的反向链接列表"
+              "title": "IDF-TF算法 的反向链接列表"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/elastic search.md.md",
+                "file": "IDF-TF算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "elastic search.md 的出链列表"
+              "title": "IDF-TF算法 的出链列表"
             }
           },
           {
@@ -195,8 +210,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1d05c3a27a3f5f6",
+  "active": "b258d51d23f41b89",
   "lastOpenFiles": [
+    "语法/docs/elastic search.md.md",
+    "IDF-TF算法.md",
+    "未命名",
+    "大模型",
+    "深度学习算法",
+    "机器学习算法",
     "语法/docs/elasticsearch.md",
     "语法/目录.md",
     "语法/docs/re.md",
@@ -215,7 +236,6 @@
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "语法/docs/ansible.md",
     "语法/docs/shell语法.md",
-    "语法/docs/elastic search.md.md",
     "语法/docs/adb.md",
     "语法/docs/python基本语法.md",
     "语法/docs/zip.md",
@@ -223,10 +243,8 @@
     "语法/docs/yum.md",
     "语法/docs/yazi.md",
     "语法/docs/yarn.md",
-    "语法/docs/yaml.md",
     "语法/docs",
     "语法/es",
-    "未命名",
     "~$彭硕.docx",
     "金融/股票/股票交易规则",
     "金融/股票",
@@ -240,9 +258,6 @@
     "基本八股/操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTT操作系统实验三mediaimage_14.png",
     "基本八股/操作系统/实验六/pmD5mXFaQLCpcM5FjmdNTTccfcspmediaimage.png",
     "金融/虚拟货币/货币发行规则",
-    "金融/虚拟货币/以太坊",
-    "金融/虚拟货币/稳定币",
-    "金融/虚拟货币/比特币",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
