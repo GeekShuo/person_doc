@@ -16,6 +16,15 @@
           "field": "search text"
       }
   }
+  或者
+  {
+	  "match":  {
+		   "level2_type": {
+				"query": "工信部",
+				"minimum_should_match": "80%",
+				}
+			}
+}
 match_phrase查询 必须匹配到这个词组才可以（不分词的全文检索）
   match 查询支持的参数：
 
