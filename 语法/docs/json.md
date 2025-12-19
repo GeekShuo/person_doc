@@ -76,7 +76,7 @@ JSON 备忘清单
 { "foo": 'bar' }
 ```
 
-Have to be delimited by double quotes
+必须用双引号分隔
 
 ### 数字
 <!--rehype:wrap-class=row-span-2-->

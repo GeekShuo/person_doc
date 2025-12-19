@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/python项目组织结构.md",
-                "mode": "source",
+                "file": "语法/docs/json.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python项目组织结构"
-            }
-          },
-          {
-            "id": "a481254765ccf492",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语法/docs/Markdown 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markdown 1"
-            }
-          },
-          {
-            "id": "396f4cd726ab046a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语法/目录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "目录"
+              "title": "json"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/目录.md",
+                "file": "语法/docs/json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "目录 的反向链接列表"
+              "title": "json 的反向链接列表"
             }
           },
           {
@@ -142,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/目录.md",
+                "file": "语法/docs/json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "目录 的出链列表"
+              "title": "json 的出链列表"
             }
           },
           {
@@ -224,13 +195,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "396f4cd726ab046a",
+  "active": "d1d05c3a27a3f5f6",
   "lastOpenFiles": [
-    "语法/docs/ansible.md",
     "语法/目录.md",
-    "语法/docs/shell语法.md",
+    "语法/docs/apt.md",
+    "语法/docs/stylus.md",
     "语法/docs/Markdown 1.md",
+    "语法/docs/stylex.md",
+    "语法/docs/screen.md",
     "语法/docs/python项目组织结构.md",
+    "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
+    "语法/docs/ansible.md",
+    "语法/docs/shell语法.md",
     "语法/docs/elastic search.md.md",
     "语法/docs/adb.md",
     "语法/docs/python基本语法.md",
@@ -248,10 +224,6 @@
     "语法/docs/vimium.md",
     "语法/docs/vscode.md",
     "语法/docs/vue.md",
-    "语法/docs/vim.md",
-    "语法/docs/uv.md",
-    "语法/docs/typescript.md",
-    "语法/docs/tauri.md",
     "语法/docs",
     "语法/es",
     "未命名",
@@ -267,7 +239,6 @@
     "基本八股/操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTT操作系统实验三mediaimage_15.png",
     "基本八股/操作系统/实验三/pmD5mXFaQLCpcM5FjmdNTT操作系统实验三mediaimage_14.png",
     "基本八股/操作系统/实验六/pmD5mXFaQLCpcM5FjmdNTTccfcspmediaimage.png",
-    "基本八股/操作系统/实验二/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_9.png",
     "金融/虚拟货币/货币发行规则",
     "金融/虚拟货币/以太坊",
     "金融/虚拟货币/稳定币",
