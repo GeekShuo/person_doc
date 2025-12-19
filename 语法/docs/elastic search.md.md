@@ -16,7 +16,21 @@
           "field": "search text"
       }
   }
-match_phrase查询 必须匹配到这个字段才可以
+match_phrase查询 必须匹配到这个词组才可以（不分词的全文检索）
+  match 查询支持的参数：
+
+  - query: 搜索内容
+  - operator: and 或 or
+  - minimum_should_match: 最小匹配数量
+  - analyzer: 分析器
+  - boost: 权重提升
+
+  match_phrase 查询支持的参数：
+
+  - query: 搜索内容
+  - slop: 允许的词语间隔
+  - analyzer: 分析器
+  - boost: 权重提升
   # Range查询 - 范围查询
   {
       "range": {
