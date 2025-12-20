@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/pip.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pip"
+              "title": "autoglm部署测试使用"
             }
           }
         ],
@@ -131,8 +131,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/pip.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "pip 的反向链接列表"
+              "title": "autoglm部署测试使用 的反向链接列表"
             }
           },
           {
@@ -171,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/pip.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "pip 的出链列表"
+              "title": "autoglm部署测试使用 的出链列表"
             }
           },
           {
@@ -255,6 +254,7 @@
   },
   "active": "1504c87d12083e94",
   "lastOpenFiles": [
+    "语法/docs/pip.md",
     "语法/目录.md",
     "语法/docs/uv.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
@@ -288,7 +288,6 @@
     "语法/docs/python项目组织结构.md",
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "语法/docs/ansible.md",
-    "语法/docs/shell语法.md",
     "语法/docs",
     "语法/es",
     "~$彭硕.docx",
