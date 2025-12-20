@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OKR.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OKR"
+              "title": "autoglm部署测试使用"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OKR.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "OKR 的反向链接列表"
+              "title": "autoglm部署测试使用 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OKR.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "OKR 的出链列表"
+              "title": "autoglm部署测试使用 的出链列表"
             }
           },
           {
@@ -212,8 +212,10 @@
   },
   "active": "b258d51d23f41b89",
   "lastOpenFiles": [
-    "AI应用/AI浏览器自动化/Browser-Base.md",
     "OKR.md",
+    "AI应用/手机自动化/autoglm部署测试使用.md",
+    "AI应用/手机自动化",
+    "AI应用/AI浏览器自动化/Browser-Base.md",
     "算法",
     "AI应用/agent开发/大模型api.md",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
@@ -244,11 +246,9 @@
     "语法/docs/shell语法.md",
     "语法/docs/adb.md",
     "语法/docs/python基本语法.md",
-    "语法/docs/zip.md",
     "语法/docs",
     "语法/es",
     "~$彭硕.docx",
-    "金融/股票/股票交易规则",
     "基本八股/操作系统/实验一/pmD5mXFaQLCpcM5FjmdNTT操作系统实验一media6(vo89ci0a-ttefbk7bv.png",
     "基本八股/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_4.png",
     "基本八股/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_2.png",
