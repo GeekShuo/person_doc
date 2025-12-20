@@ -37,3 +37,28 @@ https://github.com/zai-org/Open-AutoGLM
 - 每一步都要进行推理，速度太慢
 
 这遇到的问题咋跟browser-use这么像？这俩完全一回事，autoglm反响这么大，browser-use却没出圈
+
+
+
+好耶，问题2有救了，这个agent可以切换模型和，正好gemini 3 flash 最近开源免费
+```shell
+python scripts/check_deployment_cn.py --base-url https://generativelanguage.googleapis.com/v1beta/openai/  --model gemini-2.5-flash  --apikey "AIzaSyAT1T0eau2r85ZpQLP9jYCu2tgH_mtVR8c"
+开始测试模型推理...
+Base URL: https://generativelanguage.googleapis.com/v1beta/openai/
+Model: gemini-2.5-flash
+Messages file: scripts/sample_messages.json
+================================================================================
+
+模型推理结果:
+================================================================================
+<think>The task is to compare prices of "LUMMI MOOD" shampoo on JD.com and Taobao, then choose the cheaper platform to order. I am currently on Xiaohongshu. The first step is to launch JD.com.</think>
+<answer>do(action="Launch", app="京东")</answer>
+================================================================================
+
+统计信息:
+  - Prompt tokens: 2163
+  - Completion tokens: 72
+  - Total tokens: 2400
+
+请根据上述推理结果判断模型部署是否符合预期。
+```
