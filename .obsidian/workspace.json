@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/uv.md",
+                "file": "语法/目录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uv"
+              "title": "目录"
+            }
+          },
+          {
+            "id": "1504c87d12083e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语法/docs/pip.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pip"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -96,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uv",
+                "query": "pip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/uv.md",
+                "file": "语法/docs/pip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "uv 的反向链接列表"
+              "title": "pip 的反向链接列表"
             }
           },
           {
@@ -157,12 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/uv.md",
+                "file": "语法/docs/pip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "uv 的出链列表"
+              "title": "pip 的出链列表"
             }
           },
           {
@@ -239,11 +253,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1c98fcfdca92481",
+  "active": "1504c87d12083e94",
   "lastOpenFiles": [
     "语法/目录.md",
-    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "语法/docs/uv.md",
+    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
     "AI应用/手机自动化/autoglm部署测试使用.md",
     "OKR.md",
