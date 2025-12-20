@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/目录.md",
+                "file": "语法/docs/bash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "目录"
+              "title": "bash"
             }
           },
           {
@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "语法/docs/powershell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autoglm部署测试使用"
+              "title": "powershell"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "语法/目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "autoglm部署测试使用 的反向链接列表"
+              "title": "目录 的反向链接列表"
             }
           },
           {
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "语法/目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "autoglm部署测试使用 的出链列表"
+              "title": "目录 的出链列表"
             }
           },
           {
@@ -252,14 +252,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1504c87d12083e94",
+  "active": "3e64849504914e33",
   "lastOpenFiles": [
-    "语法/docs/pip.md",
+    "语法/docs/bash.md",
     "语法/目录.md",
+    "语法/docs/powershell.md",
+    "个人设备环境/电脑/mac使用.md",
+    "AI应用/手机自动化/autoglm部署测试使用.md",
+    "语法/docs/pip.md",
     "语法/docs/uv.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
-    "AI应用/手机自动化/autoglm部署测试使用.md",
     "OKR.md",
     "AI应用/手机自动化",
     "AI应用/AI浏览器自动化/Browser-Base.md",
@@ -284,10 +287,7 @@
     "语法/docs/stylus.md",
     "语法/docs/Markdown 1.md",
     "语法/docs/stylex.md",
-    "语法/docs/screen.md",
-    "语法/docs/python项目组织结构.md",
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
-    "语法/docs/ansible.md",
     "语法/docs",
     "语法/es",
     "~$彭硕.docx",
