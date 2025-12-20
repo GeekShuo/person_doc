@@ -17,7 +17,9 @@ desktop 不能谷歌账号登陆，必须注册一个claude ai的账号，这个
 https://www.youtube.com/watch?v=vvD2jUZYPgI
 虽然注册claude用处不大，但是sms可以注册bilibili等账号，然后做自媒体，指纹浏览器可以做跨境电商，也是不错的商机。
 
-购买会员账号： 可以注册wildcard，
+购买会员账号： 可以注册wildcard。
+
+帮别人注册claude 账号，那成本只需要 sms几美元，就可以无限注册了。
 
 
 
