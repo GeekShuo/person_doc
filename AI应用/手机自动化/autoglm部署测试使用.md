@@ -40,7 +40,8 @@ https://github.com/zai-org/Open-AutoGLM
 
 
 
-好耶，问题2有救了，这个agent可以切换模型和，正好gemini 3 flash 最近开源免费
+好耶，问题2有救了，这个agent可以切换模型，正好gemini 3 flash 最近开源免费,试一试
+check_deployment_cn.py 把这个文件91行注释掉。
 ```shell
 python scripts/check_deployment_cn.py --base-url https://generativelanguage.googleapis.com/v1beta/openai/  --model gemini-2.5-flash  --apikey "AIzaSyAT1T0eau2r85ZpQLP9jYCu2tgH_mtVR8c"
 开始测试模型推理...
@@ -62,3 +63,5 @@ Messages file: scripts/sample_messages.json
 
 请根据上述推理结果判断模型部署是否符合预期。
 ```
+
+3 flash 直接不给推理
