@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autoglm部署测试使用"
+              "title": "Chatgpt vs gemini vs grok vs claude"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "autoglm部署测试使用 的反向链接列表"
+              "title": "Chatgpt vs gemini vs grok vs claude 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "autoglm部署测试使用 的出链列表"
+              "title": "Chatgpt vs gemini vs grok vs claude 的出链列表"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "b258d51d23f41b89",
   "lastOpenFiles": [
-    "OKR.md",
     "AI应用/手机自动化/autoglm部署测试使用.md",
+    "OKR.md",
     "AI应用/手机自动化",
     "AI应用/AI浏览器自动化/Browser-Base.md",
     "算法",
