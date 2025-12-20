@@ -72,3 +72,6 @@ uv run python main.py --base-url https://open.bigmodel.cn/api/paas/v4 --model "a
 3 flash 直接不给推理
 
 uv run python main.py --base-url https://generativelanguage.googleapis.com/v1beta/openai/ --model "gemini-3-flash-preview" --apikey "AIzaSyAT1T0eau2r85ZpQLP9jYCu2tgH_mtVR8c" "打开微信，找到联系人蔡宝林，告诉他我今天在玩一个名为autoglm的项目，这是项目是用ai自动化操作手机，这条消息就是ai发的"
+
+
+妈的，模型名字后面多了一个空格，一直说我的模型名字有问题
