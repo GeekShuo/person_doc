@@ -66,6 +66,12 @@ uv init
 ### 管理项目依赖
 <!--rehype:wrap-class=row-span-2-->
 
+#### 添加镜像源
+
+```shell
+-i https://mirrors.jd.com/pypi/simple 
+```
+
 #### 添加依赖
 
 ```sh

@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
+                "file": "语法/目录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chatgpt vs gemini vs grok vs claude"
+              "title": "目录"
+            }
+          },
+          {
+            "id": "3e64849504914e33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语法/目录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "目录"
+            }
+          },
+          {
+            "id": "c1c98fcfdca92481",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语法/docs/uv.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "uv"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -68,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:es",
+                "query": "uv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +117,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
+                "file": "语法/docs/uv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Chatgpt vs gemini vs grok vs claude 的反向链接列表"
+              "title": "uv 的反向链接列表"
             }
           },
           {
@@ -128,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
+                "file": "语法/docs/uv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Chatgpt vs gemini vs grok vs claude 的出链列表"
+              "title": "uv 的出链列表"
             }
           },
           {
@@ -210,15 +239,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b258d51d23f41b89",
+  "active": "c1c98fcfdca92481",
   "lastOpenFiles": [
+    "语法/目录.md",
+    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
+    "语法/docs/uv.md",
+    "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
     "AI应用/手机自动化/autoglm部署测试使用.md",
     "OKR.md",
     "AI应用/手机自动化",
     "AI应用/AI浏览器自动化/Browser-Base.md",
     "算法",
     "AI应用/agent开发/大模型api.md",
-    "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
     "AI应用/agent开发",
     "算法/机器学习算法/IDF-TF算法.md",
     "语法/docs/elastic search.md.md",
@@ -227,7 +259,6 @@
     "算法/深度学习算法",
     "算法/机器学习算法",
     "语法/docs/elasticsearch.md",
-    "语法/目录.md",
     "语法/docs/re.md",
     "语法/docs/django.md",
     "语法/docs/awk.md",
@@ -244,8 +275,6 @@
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "语法/docs/ansible.md",
     "语法/docs/shell语法.md",
-    "语法/docs/adb.md",
-    "语法/docs/python基本语法.md",
     "语法/docs",
     "语法/es",
     "~$彭硕.docx",
