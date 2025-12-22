@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/python文件操作.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python文件操作"
+              "title": "autoglm部署测试使用"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "glm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +131,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/python文件操作.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "python文件操作 的反向链接列表"
+              "title": "autoglm部署测试使用 的反向链接列表"
             }
           },
           {
@@ -170,12 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/python文件操作.md",
+                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "python文件操作 的出链列表"
+              "title": "autoglm部署测试使用 的出链列表"
             }
           },
           {
@@ -254,6 +255,8 @@
   },
   "active": "3e64849504914e33",
   "lastOpenFiles": [
+    "语法/docs/git.md",
+    "语法/docs/python文件操作.md",
     "语法/docs/python.md",
     "语法/docs/markdown.md",
     "算法/大模型/显卡算力价格排名.md",
@@ -267,7 +270,6 @@
     "语法/docs/powershell.md",
     "开发环境/vscode.md",
     "语法/docs/elasticsearch.md",
-    "语法/docs/python文件操作.md",
     "语法/docs/python项目组织结构.md",
     "语法/docs/pytorch.md",
     "AI应用/手机自动化/autoglm部署测试使用.md",
@@ -279,7 +281,6 @@
     "语法/docs/uv.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
-    "OKR.md",
     "AI应用/手机自动化",
     "算法",
     "AI应用/agent开发",
