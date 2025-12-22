@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/python.md",
+                "file": "开发环境/vscode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python"
+              "title": "vscode"
             }
           },
           {
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/python.md",
+                "file": "开发环境/vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "python 的反向链接列表"
+              "title": "vscode 的反向链接列表"
             }
           },
           {
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/python.md",
+                "file": "开发环境/vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "python 的出链列表"
+              "title": "vscode 的出链列表"
             }
           },
           {
@@ -254,8 +254,9 @@
   },
   "active": "c1c98fcfdca92481",
   "lastOpenFiles": [
-    "语法/docs/python项目组织结构.md",
     "语法/docs/python.md",
+    "开发环境/vscode.md",
+    "语法/docs/python项目组织结构.md",
     "语法/docs/python基本语法.md",
     "语法/docs/pytorch.md",
     "AI应用/手机自动化/autoglm部署测试使用.md",
@@ -286,7 +287,6 @@
     "语法/docs/django.md",
     "语法/docs/awk.md",
     "语法/docs/docker.md",
-    "语法/docs/dockerfile.md",
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "语法/docs",
     "语法/es",
