@@ -35,6 +35,7 @@ https://github.com/zai-org/Open-AutoGLM
 - 模型太蠢了
 - 最大step 100 长任务肯定不够
 - 每一步都要进行推理，速度太慢
+- 定位不是非常准确
 
 这遇到的问题咋跟browser-use这么像？这俩完全一回事，autoglm反响这么大，browser-use却没出圈
 
