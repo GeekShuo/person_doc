@@ -2,6 +2,8 @@ Python 3 备忘清单
 ===
 
 Python 备忘单是 [Python 3](https://www.python.org/) 编程语言的单页参考表
+[python文件操作](./python文件操作)
+
 
 入门
 -----
