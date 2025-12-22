@@ -76,6 +76,7 @@ uv run python main.py --base-url https://generativelanguage.googleapis.com/v1bet
 uv run python main.py --base-url https://inference-jdaip-cn-north-1.jdcloud.com/queue-72439622f2e47faadb55717c6bd1fc6f/gwapi/predict/autoglm-phone-9b-serve/v1 --model "autoglm-phone-9b" --apikey "8c0defebfab84176a033a8750be198a6" "保持在当前应用软件，跟当前联系人聊天，聊天内容你自己决定，不要被发现是ai发的消息就行"
 
 uv run python main.py --base-url https://generativelanguage.googleapis.com/v1beta/openai/ --model "gemini-3-flash-preview" --apikey "AIzaSyAT1T0eau2r85ZpQLP9jYCu2tgH_mtVR8c" "保持在当前应用软件，跟当前联系人聊天，聊 天内容你自己决定，不要被发现是ai发的消息就行"
+uv run python main.py --base-url http://ai-api.jdcloud.com/v1/chat/completions --model "gemini-3-flash-preview" --apikey "AIzaSyAT1T0eau2r85ZpQLP9jYCu2tgH_mtVR8c" "保持在当前应用软件，跟当前联系人聊天，聊 天内容你自己决定，不要被发现是ai发的消息就行"
 
 妈的，模型名字后面多了一个空格，一直说我的模型名字有问题
 
