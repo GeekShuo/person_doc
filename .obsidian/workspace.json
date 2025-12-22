@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/markdown.md",
+                "file": "语法/docs/python文件操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "markdown"
+              "title": "python文件操作"
             }
           },
           {
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/markdown.md",
+                "file": "语法/docs/python文件操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "markdown 的反向链接列表"
+              "title": "python文件操作 的反向链接列表"
             }
           },
           {
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/markdown.md",
+                "file": "语法/docs/python文件操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "markdown 的出链列表"
+              "title": "python文件操作 的出链列表"
             }
           },
           {
@@ -254,10 +254,10 @@
   },
   "active": "3e64849504914e33",
   "lastOpenFiles": [
+    "语法/docs/python.md",
+    "语法/docs/markdown.md",
     "算法/大模型/显卡算力价格排名.md",
     "[google].md",
-    "语法/docs/markdown.md",
-    "语法/docs/python.md",
     "算法/大模型/模型部署算力需求.md",
     "未命名.md",
     "未命名 1.md",
