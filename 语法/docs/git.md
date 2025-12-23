@@ -149,6 +149,12 @@ $ git branch
 $ git branch -av
 ```
 
+更改分支名称
+
+```shell
+git branch -M main
+```
+*这个命令是因为git本地默认分支为master，现代化的github项目都是用main分支，为了和远程仓库分支名对应，因此使用这个命令*
 切换到 `my_branch`，并更新工作目录
 
 ```shell

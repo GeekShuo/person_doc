@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "语法/docs/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autoglm部署测试使用"
+              "title": "git"
             }
           },
           {
@@ -131,8 +131,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "语法/docs/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "autoglm部署测试使用 的反向链接列表"
+              "title": "git 的反向链接列表"
             }
           },
           {
@@ -171,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/手机自动化/autoglm部署测试使用.md",
+                "file": "语法/docs/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "autoglm部署测试使用 的出链列表"
+              "title": "git 的出链列表"
             }
           },
           {
@@ -255,6 +254,9 @@
   },
   "active": "3e64849504914e33",
   "lastOpenFiles": [
+    "爬虫/人工爬数据.md",
+    "AI应用/手机自动化/autoglm部署测试使用.md",
+    "爬虫",
     "语法/docs/git.md",
     "语法/docs/python文件操作.md",
     "语法/docs/python.md",
@@ -272,7 +274,6 @@
     "语法/docs/elasticsearch.md",
     "语法/docs/python项目组织结构.md",
     "语法/docs/pytorch.md",
-    "AI应用/手机自动化/autoglm部署测试使用.md",
     "语法/docs/bash.md",
     "语法/docs/vimium.md",
     "语法/docs/vscode.md",
@@ -280,7 +281,6 @@
     "语法/docs/pip.md",
     "语法/docs/uv.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
-    "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
     "AI应用/手机自动化",
     "算法",
     "AI应用/agent开发",
@@ -291,7 +291,6 @@
     "xqer’s computer tree/编译原理/• 第二章 简单的语法制导翻译器/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
     "语法/docs",
     "语法/es",
-    "~$彭硕.docx",
     "基本八股/操作系统/实验一/pmD5mXFaQLCpcM5FjmdNTT操作系统实验一media6(vo89ci0a-ttefbk7bv.png",
     "基本八股/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_4.png",
     "基本八股/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_2.png",
