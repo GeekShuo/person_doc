@@ -20,5 +20,15 @@ OKR ：
 
 项目：
 ai for sex 
-1。 部署下autoglm ，自动操作手机匹配，打分/
+1. 部署下autoglm ，自动操作手机匹配，打分/
 2. 聊天数据爬取建立数据库，
+3. 展示面 P0
+4. 
+
+ai for job
+1.收集岗位jd，修改简历，组织项目，刷leetcode，辅导面试。
+
+派单接单平台
+gemini创作
+
+ai for English /

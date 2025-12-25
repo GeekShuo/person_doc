@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/目录.md",
+                "file": "OKR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "目录"
+              "title": "OKR"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,8 +159,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/vim.md",
+                "file": "OKR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "vim 的反向链接列表"
+              "title": "OKR 的反向链接列表"
             }
           },
           {
@@ -199,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/vim.md",
+                "file": "OKR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "vim 的出链列表"
+              "title": "OKR 的出链列表"
             }
           },
           {
@@ -281,9 +280,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29bf5b8225ca9634",
+  "active": "b258d51d23f41b89",
   "lastOpenFiles": [
     "语法/目录.md",
+    "语法/docs/vim.md",
     "爬虫/下载数据.md",
     "爬虫/人工爬数据.md",
     "linux命令/du.md",
@@ -312,7 +312,6 @@
     "语法/docs/bash.md",
     "语法/docs/vimium.md",
     "语法/docs/vscode.md",
-    "个人设备环境/电脑/mac使用.md",
     "AI应用/手机自动化",
     "算法",
     "AI应用/agent开发",
