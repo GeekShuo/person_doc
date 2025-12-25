@@ -334,7 +334,7 @@ Operator | <pur>i</pur>nner(内部) _/_ <pur>a</pur>round(周围) | 文本对象
 `c`<pur>i</pur><yel>p</yel> | 更改内部段落
 `y`<pur>i</pur><yel>p</yel> | Yank 段落
 `y`<pur>a</pur><yel>p</yel> | Yank 段落 _(包括换行符)_
-
+f
 Vim 多个文件
 -------------
 
