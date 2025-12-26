@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/AIforDate/展示面.md",
+                "file": "项目/AIforDate/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "展示面"
+              "title": "未命名"
             }
           },
           {
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目/AIforDate/展示面.md",
+                "file": "项目/AIforDate/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "展示面 的反向链接列表"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -198,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目/AIforDate/展示面.md",
+                "file": "项目/AIforDate/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "展示面 的出链列表"
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -282,8 +282,12 @@
   },
   "active": "b258d51d23f41b89",
   "lastOpenFiles": [
-    "OKR.md",
+    "项目/AIforDate/怎么约会.md",
+    "项目/AIforDate/未命名.md",
+    "项目/AIforDate/怎么邀约.md",
+    "项目/AIforDate/怎么获取流量.md",
     "项目/AIforDate/展示面.md",
+    "OKR.md",
     "项目/AIforDate",
     "语法/目录.md",
     "语法/docs/vim.md",
@@ -309,10 +313,6 @@
     "语法/docs/powershell.md",
     "开发环境/vscode.md",
     "语法/docs/elasticsearch.md",
-    "语法/docs/python项目组织结构.md",
-    "语法/docs/pytorch.md",
-    "语法/docs/bash.md",
-    "语法/docs/vimium.md",
     "AI应用/手机自动化",
     "算法",
     "AI应用/agent开发",
