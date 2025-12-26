@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/linux-command.md",
+                "file": "工作/怎么找工作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux-command"
+              "title": "怎么找工作"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux命令/du.md",
+                "file": "工作/工作和学习的区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "du"
+              "title": "工作和学习的区别"
             }
           },
           {
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/docs/linux-command.md",
+                "file": "工作/工作和学习的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "linux-command 的反向链接列表"
+              "title": "工作和学习的区别 的反向链接列表"
             }
           },
           {
@@ -212,12 +212,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语法/docs/linux-command.md",
+                "file": "工作/工作和学习的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "linux-command 的出链列表"
+              "title": "工作和学习的区别 的出链列表"
             }
           },
           {
@@ -294,15 +294,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72c0ca4e81d9fea1",
+  "active": "2a6ac7bfe120a4f1",
   "lastOpenFiles": [
-    "语法/目录.md",
     "linux命令/du.md",
+    "工作/工作和学习的区别.md",
+    "工作/怎么找工作.md",
+    "个人设备环境/电脑/mac使用.md",
+    "语法/docs/linux-command.md",
+    "语法/目录.md",
     "xqer’s computer tree/docker d307b49e75f04b71a8aa4320b93e0bc7.md",
     "xqer’s computer tree/go f01d84474c9d4c218588f634030c2b7d.md",
     "xqer’s computer tree/程序员心法 1afd3cf9b0b34ac2acc830f6a021e193.md",
     "杂谈/孙哥的人生故事.md",
-    "工作/怎么找工作.md",
     "杂谈",
     "工作/工作方向.md",
     "项目/AIforDate/怎么ai化.md",
@@ -326,9 +329,6 @@
     "语法/docs/git.md",
     "AI应用/手机自动化/autoglm部署测试使用.md",
     "爬虫",
-    "语法/docs/python文件操作.md",
-    "语法/docs/python.md",
-    "算法/大模型/模型部署算力需求.md",
     "AI应用/手机自动化",
     "算法",
     "AI应用/agent开发",
