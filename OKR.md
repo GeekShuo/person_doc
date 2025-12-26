@@ -26,9 +26,12 @@ ai for sex
 4. 
 
 ai for job
-1.收集岗位jd，修改简历，组织项目，刷leetcode，辅导面试。
+1.收集岗位jd，修改简历，组织项目，刷leetcode（算法题），辅导面试。
 
 派单接单平台
 gemini创作
+ai for English / 
 
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											ai for English / q
+ai for 自媒体
+1.方向 算法，求职，转发新闻
+ai for 电商
