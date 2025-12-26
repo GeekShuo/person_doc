@@ -31,7 +31,9 @@ ai for job
 派单接单平台
 gemini创作
 ai for English / 
+口语 写作 自媒体
 
 ai for 自媒体
 1.方向 算法，求职，转发新闻
 ai for 电商
+
