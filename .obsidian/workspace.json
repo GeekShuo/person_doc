@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/目录.md",
+                "file": "个人设备环境/电脑/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "目录"
+              "title": "Obsidian"
             }
           },
           {
@@ -282,6 +282,8 @@
   },
   "active": "4bd6ab656937629a",
   "lastOpenFiles": [
+    "语法/目录.md",
+    "个人设备环境/电脑/Obsidian.md",
     "AI应用/通用chatbot/未命名.canvas",
     "AI应用/通用chatbot/gemini.canvas.md",
     "语法/docs/canvas.md",
@@ -306,7 +308,6 @@
     "[google].md",
     "语法/docs/du.md",
     "语法/docs/linux-command.md",
-    "语法/目录.md",
     "xqer’s computer tree/docker d307b49e75f04b71a8aa4320b93e0bc7.md",
     "xqer’s computer tree/go f01d84474c9d4c218588f634030c2b7d.md",
     "xqer’s computer tree/程序员心法 1afd3cf9b0b34ac2acc830f6a021e193.md",
