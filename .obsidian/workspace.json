@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "高质量新闻源/本周看什么  最近值得一看的 11 部作品.md",
+                "file": "个人设备环境/电脑/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周看什么  最近值得一看的 11 部作品"
+              "title": "Obsidian"
             }
           },
           {
@@ -267,10 +267,11 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "29bf5b8225ca9634",
   "lastOpenFiles": [
-    "高质量新闻源/关于微塑料，一些你可能想了解的事.md",
+    "AI应用/AI视频解读/批量理解搬运视频.md",
     "高质量新闻源/本周看什么  最近值得一看的 11 部作品.md",
+    "高质量新闻源/关于微塑料，一些你可能想了解的事.md",
     "高质量新闻源/ 即将告别 2025 年，这些「数字」值得被你留下.md",
     "语法/docs/vim.md",
     "高质量新闻源/派早报：微信公众号上线「付费加热」功能等.md",
@@ -296,7 +297,6 @@
     "AI应用/通用chatbot/未命名.canvas",
     "AI应用/通用chatbot/gemini.canvas.md",
     "语法/docs/canvas.md",
-    "AI应用/通用chatbot/Gemini 3 深度使用指南：系统指令、禁忌事项与幻觉规避.md",
     "AI应用/AI知识库",
     "AI应用/AI爬虫 or 搜索引擎/assets/perp/file-20251227033530209.png",
     "AI应用/AI爬虫 or 搜索引擎/assets/perp",
