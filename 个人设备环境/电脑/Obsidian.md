@@ -226,11 +226,13 @@ key: value # 这也是一个行内注释。
 
 Obsidian会对一些特定的YAML属性赋予特殊功能，让它们与软件的核心功能深度集成。
 
-| 属性 (Property) | 功能描述 (Description) | 格式要求 (Format Requirement) |
-| :--- | :--- | :--- |
-| `tags` | 定义笔记的标签，会自动被Obsidian的“标签面板”识别和索引。 | 必须是列表（Array）格式。 |
-| `aliases` | 为笔记设置一个或多个“别名”，方便通过别名进行链接和搜索。 | 必须是列表（Array）格式。 |
-| `cssclasses` | 为当前笔记应用一个或多个自定义的CSS样式片段，实现特定的视觉效果。 | 必须是列表（Array）格式。 |
+| 属性 (Property) | 功能描述 (Description)                 | 格式要求 (Format Requirement) |
+| :------------ | :--------------------------------- | :------------------------ |
+| `tags`        | 定义笔记的标签，会自动被Obsidian的“标签面板”识别和索引。  | 必须是列表（Array）格式。           |
+| `aliases`     | 为笔记设置一个或多个“别名”，方便通过别名进行链接和搜索。      | 必须是列表（Array）格式。           |
+| `cssclasses`  | 为当前笔记应用一个或多个自定义的CSS样式片段，实现特定的视觉效果。 | 必须是列表（Array）格式。           |
+|               |                                    |                           |
+|               |                                    |                           |
 
 > **重要更新**：从Obsidian 1.4版本开始，官方统一并强制要求这些原生属性必须使用复数形式（`tags`, `aliases`, `cssclasses`），并且它们的值必须是列表格式。
 
@@ -250,11 +252,11 @@ YAML的真正威力在于自定义。通过建立一套规范的元数据体系�
 
 你精心维护的YAML属性，通过插件可以实现知识的自动化组织与呈现。
 
-| 插件 (Plugin) | 核心功能 (Core Function) | 应用实例 (Application Example) |
-| :--- | :--- | :--- |
-| **Dataview** | 使用简单的查询语言（DQL）从整个知识库中筛选、排序和展示笔记，自动生成动态的笔记列表和表格。 | 创建一个“动态首页”，自动汇总所有 `status: in-progress` 的任务。 |
-| **Bases** | (官方插件) 提供一个可视化的、类似Notion数据库的界面（表格、看板等）来浏览和批量编辑笔记的元数据。 | 以看板视图来管理所有 `type: project` 的笔记，并拖动卡片来改变它们的 `status` 属性。 |
-| **Metadata Menu** | 极大地增强了属性的编辑体验，可以为属性预设可选值或创建依赖关系，实现更高效、规范的元数据录入。 | 为`status`属性设置固定的下拉菜单选项："待办"、"进行中"、"完成"。 |
+| 插件 (Plugin)       | 核心功能 (Core Function)                                  | 应用实例 (Application Example)                              |
+| :---------------- | :---------------------------------------------------- | :------------------------------------------------------ |
+| **Dataview**      | 使用简单的查询语言（DQL）从整个知识库中筛选、排序和展示笔记，自动生成动态的笔记列表和表格。       | 创建一个“动态首页”，自动汇总所有 `status: in-progress` 的任务。            |
+| **Bases**         | (官方插件) 提供一个可视化的、类似Notion数据库的界面（表格、看板等）来浏览和批量编辑笔记的元数据。 | 以看板视图来管理所有 `type: project` 的笔记，并拖动卡片来改变它们的 `status` 属性。 |
+| **Metadata Menu** | 极大地增强了属性的编辑体验，可以为属性预设可选值或创建依赖关系，实现更高效、规范的元数据录入。       | 为`status`属性设置固定的下拉菜单选项："待办"、"进行中"、"完成"。                 |
 
 
 
@@ -267,55 +269,3 @@ YAML的真正威力在于自定义。通过建立一套规范的元数据体系�
 | **VS Code + YAML 插件** | 桌面编辑器     | 语法高亮、自动补全、实时错误校验、代码折叠、格式化。               |
 | **Online YAML Parsers** | 在线工具，例如[YAML Checker - The YAML Syntax Validator](https://yamlchecker.com/)       | 快速验证YAML语法是否正确，进行格式化和美化，适合临时检查。         |
 | **Prettier**            | 代码格式化工具，例如[Prettier · Opinionated Code Formatter · Prettier](https://prettier.io/) | 通过插件支持YAML，可以在项目中统一代码风格，实现保存时自动格式化。 |
-
-![](chrome-extension://jgjaeacdkonaoafenlfkkkmbaopkbilf/static/logo.png)
-
-Chat
-
-New Conversation
-
-🤓 Explain a complex thing
-
-Explain Artificial Intelligence so that I can explain it to my six-year-old child.
-
-🧠 Get suggestions and create new ideas
-
-Please give me the best 10 travel ideas around the world
-
-💭 Translate, summarize, fix grammar and more…
-
-Translate "I love you" French
-
-GPT-4o Mini
-
-你好，我今天能如何帮助你？  
-
-GPT-4o Mini
-
-![coin image](chrome-extension://inhcgfpbfdjbjogdfjbclgolkmhnooop/aitopia//assets/images/coin.png)
-
-10
-
-Upgrade
-
-Web Access
-
-- ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nN3VoU7CURTH8Y9IsNAwSjDZfALGeAgak2IxWbXpE5jceIZ/hsRG+j8BFDpJosnirnO7bMY/jPNX+W3fdu++O7v3nMOxpokRhjiLkjwiZda4zeKDpvgh2bLCACeRki2LLAuVpEyJbrQkZWa4jpYkfOY7l7tIxjtKUuYDLzivIrnABG97yt7xhFbVqtro4Q6vmGNTUfZ97h4Ne+YKz1hWkPV/rZIOptFvMq7jdxV19EnxVzq+jJxdi8gpfPB98lDHZjzFTfSO92/zBcBszGtUUreMAAAAAElFTkSuQmCC)
-
-Powered by AITOPIA 
-
-Chat
-
-Ask
-
-Search
-
-Write
-
-Image
-
-ChatFile
-
-Vision
-
-Full Page
