@@ -1,0 +1,28 @@
+{
+  "defaultPath": "https:&#x2F;&#x2F;sspai.com&#x2F;post&#x2F;104737",
+  "defaultTemplate": "Source: {{item.link}}\n\n{{item.description}}",
+  "autoPull": true,
+  "timeInterval": 60,
+  "feeds": [
+    {
+      "name": "sspai",
+      "url": "https://sspai.com/feed",
+      "title": "{{item.title}}",
+      "path": "高质量新闻源"
+    }
+  ],
+  "feedTypes": [
+    {
+      "name": "Youtube",
+      "feed": [
+        "yt:channelId"
+      ],
+      "item": [
+        "yt:videoId",
+        "yt:channelId",
+        "media:group"
+      ],
+      "id": "957eb75c-b4f0-4143-9cc6-c89a473f6c03"
+    }
+  ]
+}
