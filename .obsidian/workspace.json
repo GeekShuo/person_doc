@@ -159,8 +159,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -282,7 +281,7 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "2d5cb6209e3a7d5d",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
     "语法/目录.md",
     "AI应用/AI视频解读/批量理解搬运视频.md",

@@ -567,12 +567,16 @@ ___粗斜体___
 > ```
 
 ## 表格
+| 1 | 2 |3 |
+|2 | 4 | 6 |
 
-| 名字   | 姓氏    | 电子邮件                   |
-| ------ | ------- | -------------------------- |
-| John   | Doe     | john.doe@example.com       |
-| Muffin | Poppies | muffin.poppies@example.com |
-| Jane   | Doe     | jane.doe@example.com       |
+
+
+| 名字     | 姓氏      | 电子邮件                       |     |
+| ------ | ------- | -------------------------- | --- |
+| John   | Doe     | john.doe@example.com       |     |
+| Muffin | Poppies | muffin.poppies@example.com |     |
+| Jane   | Doe     | jane.doe@example.com       |     |
 
 | 左对齐 | 居中对齐 | 右对齐 |
 | :----- | :------: | -----: |
