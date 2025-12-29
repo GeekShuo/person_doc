@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/AIforDate/话题库-星座.md",
+                "file": "项目/AIforDate/速约流聊天.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "话题库-星座"
+              "title": "速约流聊天"
             }
           }
         ],
@@ -255,18 +255,19 @@
   },
   "active": "4d9ec7b5bd1519e5",
   "lastOpenFiles": [
-    "项目/AIforDate/速约流聊天.md",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024443682.png",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024404489.png",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024331836.png",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024301830.png",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024236659.png",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024214449.png",
+    "项目/AIforDate/assets/速约流聊天/file-20251230024138983.png",
     "项目/AIforDate/话题库-星座.md",
+    "项目/AIforDate/速约流聊天.md",
     "项目/AIforDate/assets/速约流聊天/file-20251230022218008.png",
     "项目/AIforDate/assets/速约流聊天/file-20251230022127201.png",
     "项目/AIforDate/assets/速约流聊天/file-20251230022011308.png",
     "项目/AIforDate/assets/速约流聊天/file-20251230021840227.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230021648844.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230021611188.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230021556120.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230021437959.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230021359897.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251229011610610.png",
     "项目/AIforDate/assets/速约流聊天",
     "个人设备环境/电脑/浏览器.md",
     "工作/岗位大全/<抖音搜索算法实习生-大模型应用>.md",
@@ -295,7 +296,6 @@
     "AI应用/科研/Ponder AI.md",
     "AI应用/通用chatbot/Gemini 3 深度使用指南：系统指令、禁忌事项与幻觉规避.md",
     "AI应用/科研",
-    "个人设备环境/电脑/Obsidian.md",
     "高质量新闻源",
     "AI应用/通用chatbot/未命名.canvas",
     "AI应用/AI知识库",
