@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/docs/elastic search.md.md",
+                "file": "AI应用/语法/docs/elastic search.md.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,16 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/AIforDate/话题库-星座.md",
+                "file": "项目/AIforDate/速约流聊天.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "话题库-星座"
+              "title": "速约流聊天"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -267,8 +267,10 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "4d9ec7b5bd1519e5",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
+    "项目/AIforDate/话题库-星座.md",
+    "AI应用/AI视频解读/批量理解搬运视频.md",
     "AI应用/AI知识库/ima.md",
     "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "AI应用/AI爬虫 or 搜索引擎/perp.md",
@@ -291,10 +293,8 @@
     "项目/AI for 自媒体/自媒体怎么做，能赚多少钱.md",
     "项目/AIforDate/🎣文案.md",
     "高质量新闻源/未命名.md",
-    "项目/AIforDate/话题库-星座.md",
     "项目/AIforDate/怎么获取流量.md",
     "项目/AIforDate/怎么ai化.md",
-    "项目/AIforDate/怎么约会.md",
     "算法/Leetcode/base.cpp",
     "算法/Leetcode",
     "项目/AIforDate/assets/🎣文案/file-20251230031415542.png",
