@@ -10,6 +10,7 @@ aliases:
   - 如何使用Obsidian
 ---
 配置方法
+git@github.com:GeekShuo/person_doc.git
 
 
 
