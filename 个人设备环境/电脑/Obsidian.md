@@ -9,6 +9,7 @@ aliases:
   - Obsidian技巧
   - 如何使用Obsidian
 ---
+配置方法
 
 
 
