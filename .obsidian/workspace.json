@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日历/周记 W5.md",
+                "file": "AI应用/语法/目录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "周记 W5"
+              "title": "目录"
+            }
+          },
+          {
+            "id": "9c0a8b9d8da495c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Crawl4AI"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mark",
+                "query": "uv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,10 +211,13 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "d1d05c3a27a3f5f6",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
-    "日历/1.26.md",
+    "高质量新闻源/派早报：高铁客服和专家回应「高铁二氧化碳超标」.md",
+    "AI应用/语法/docs/uv.md",
+    "AI应用/语法/目录.md",
     "日历/周记 W5.md",
+    "日历/1.26.md",
     "日历/日历.md",
     "AI应用/语法/docs/vim.md",
     "高质量新闻源/从 triple j 到「字母汤」：澳洲音乐电台指北.md",
@@ -221,9 +239,6 @@
     "高质量新闻源/致敬好剧新姿势：纯代码从零复刻 Pluribus 片头动画.md",
     "高质量新闻源/5 款替代品，找回 LaunchPad 的快捷.md",
     "高质量新闻源/让背单词像「抽卡」一样快乐：我设计了一台「美食盲盒机」.md",
-    "高质量新闻源/再谈 .DS_Store：兼论 Windows 与 macOS Finder 的布局理念差异.md",
-    "高质量新闻源/新玩意 233｜少数派的编辑们最近买了啥？.md",
-    "高质量新闻源/派早报：iQOO 发布 iQOO Z11 Turbo 手机、大疆发布 DJI RS 5 轻量商拍稳定器等.md",
     "生活",
     "工作/面试记录",
     "算法/Leetcode/base.cpp",
