@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "vim"
             }
+          },
+          {
+            "id": "457b0f9906dc79df",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,18 +198,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "obsidian-git:Open Git source control": false,
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "d1d05c3a27a3f5f6",
+  "active": "457b0f9906dc79df",
   "lastOpenFiles": [
     "高质量新闻源/从 triple j 到「字母汤」：澳洲音乐电台指北.md",
     "高质量新闻源/地产人勇闯科技圈：在少数派造物的 180 天.md",
