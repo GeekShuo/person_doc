@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
+                "file": "开发环境/python环境-uv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crawl4AI"
+              "title": "python环境-uv"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uv",
+                "query": "uv ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,15 +212,17 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "9c0a8b9d8da495c4",
   "lastOpenFiles": [
+    "高质量新闻源/打开血糖盲盒：跟踪 14 个普通日夜里的血液足迹.md",
+    "AI应用/语法/目录.md",
+    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "高质量新闻源/派早报：Adobe 系列应用原生支持 Windows on ARM 等.md",
     "高质量新闻源/Kindle Paperwhite 3 杂谈：为什么它是我高中生涯最值的电子产品？.md",
     "高质量新闻源/从「墓碑」到见机行事：iOS 后台机制现状分析.md",
     "高质量新闻源/NAS 自部署 TrendRadar：搭建基于 AI 的热点情报站.md",
     "高质量新闻源/派早报：高铁客服和专家回应「高铁二氧化碳超标」.md",
     "AI应用/语法/docs/uv.md",
-    "AI应用/语法/目录.md",
     "日历/周记 W5.md",
     "日历/1.26.md",
     "日历/日历.md",
@@ -237,8 +240,6 @@
     "高质量新闻源/派早报：realme 真我发布新品、Xbox 应用登陆 Arm PC 等.md",
     "高质量新闻源/派早报：荣耀发布 Magic8 Pro Air 等.md",
     "高质量新闻源/冬天也不用裹成球，这是你需要了解的冬季穿衣指南.md",
-    "高质量新闻源/从雪地陷车到撞围栏：境外租车自驾复盘与避坑攻略.md",
-    "高质量新闻源/GitHub 都没用明白，我这样用 Gemini 零起点开发应用.md",
     "生活",
     "工作/面试记录",
     "算法/Leetcode/base.cpp",
