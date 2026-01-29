@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发环境/python环境-uv.md",
+                "file": "爬虫/下载数据.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python环境-uv"
+              "title": "下载数据"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uv ",
+                "query": "爬虫",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,6 +213,12 @@
   },
   "active": "9c0a8b9d8da495c4",
   "lastOpenFiles": [
+    "高质量新闻源/左手 Tana，右手 Heptabase：为什么我两个都要？.md",
+    "爬虫/人工爬数据.md",
+    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
+    "AI应用/AI爬虫 or 搜索引擎/perp.md",
+    "AI应用/AI视频解读/批量理解搬运视频.md",
+    "开发环境/python环境-uv.md",
     "高质量新闻源/你的隐私你做主，所有人都应该知道的 9 个 iPhone 隐私保护技巧.md",
     "高质量新闻源/派早报：Apple Creator Studio 正式上线、Kimi K2.5 模型发布等.md",
     "高质量新闻源/少数派新年礼遇季：为你精选 2025 值得入手的热销好物.md",
@@ -228,7 +233,6 @@
     "算法/多模态审核项目",
     "高质量新闻源/打开血糖盲盒：跟踪 14 个普通日夜里的血液足迹.md",
     "AI应用/语法/目录.md",
-    "AI应用/AI爬虫 or 搜索引擎/Crawl4AI.md",
     "高质量新闻源/派早报：Adobe 系列应用原生支持 Windows on ARM 等.md",
     "高质量新闻源/Kindle Paperwhite 3 杂谈：为什么它是我高中生涯最值的电子产品？.md",
     "高质量新闻源/从「墓碑」到见机行事：iOS 后台机制现状分析.md",
@@ -237,11 +241,6 @@
     "AI应用/语法/docs/uv.md",
     "日历/周记 W5.md",
     "日历/1.26.md",
-    "日历/日历.md",
-    "AI应用/语法/docs/vim.md",
-    "高质量新闻源/从 triple j 到「字母汤」：澳洲音乐电台指北.md",
-    "高质量新闻源/地产人勇闯科技圈：在少数派造物的 180 天.md",
-    "高质量新闻源/吃真实的食物：聊聊最新的美国膳食指南（2025-2030 年版）.md",
     "生活",
     "工作/面试记录",
     "算法/Leetcode/base.cpp",
