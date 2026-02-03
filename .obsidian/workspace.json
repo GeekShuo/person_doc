@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/面经/未命名.md",
+                "file": "开发环境/python环境-uv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "python环境-uv"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "爬虫",
+                "query": "python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -213,10 +214,11 @@
   },
   "active": "9c0a8b9d8da495c4",
   "lastOpenFiles": [
+    "高质量新闻源/派早报：SpaceX 收购 xAI，Adobe 停运 Animate 等.md",
+    "算法/面经/未命名.md",
     "高质量新闻源/2026 春运买票指北：乡愁愈烈，莫添烦恼.md",
     "算法/面经/快手大模型.md",
     "算法/面经/美团大模型.md",
-    "算法/面经/未命名.md",
     "算法/面经/八股文面经.md",
     "算法/面经/科大讯飞自然语言处理算法.md",
     "算法/面经/阿里NLP算法.md",
@@ -239,7 +241,6 @@
     "高质量新闻源/又要上台讲 PPT？用 AutoHotkey 解决翻页笔「断连」时刻.md",
     "高质量新闻源/派早报：Moltbook 引发 AI 智能体新热度与安全担忧.md",
     "高质量新闻源/Apple 新春大片如期而至，今年的故事有点不一样.md",
-    "高质量新闻源/本月玩什么｜明日方舟：终末地、孤山独影、暴走甜心.md",
     "算法/多模态审核项目/模型蒸馏提示词",
     "算法/多模态审核项目",
     "生活",
