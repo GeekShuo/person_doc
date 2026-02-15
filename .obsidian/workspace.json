@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "显卡算力价格排名"
             }
+          },
+          {
+            "id": "db4a86645e863bdd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +223,7 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "9c0a8b9d8da495c4",
+  "active": "db4a86645e863bdd",
   "lastOpenFiles": [
     "高质量新闻源/春节长途旅行，这 6 款耐玩小游戏先备好.md",
     "高质量新闻源/iOS 26.3 值得关注的新特性.md",
