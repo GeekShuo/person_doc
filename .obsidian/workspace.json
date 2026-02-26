@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/大模型/显卡算力价格排名.md",
+                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "显卡算力价格排名"
-            }
-          },
-          {
-            "id": "db4a86645e863bdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "xqer’s computer tree/leetcode刷题记录/leetcode刷题记录 345d246ecd5d4ec6aba755401cf466e9.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "leetcode刷题记录 345d246ecd5d4ec6aba755401cf466e9"
+              "title": "vim 14612fc33ba243c18f6b6100645064c5"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,8 +211,10 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "9c0a8b9d8da495c4",
   "lastOpenFiles": [
+    "高质量新闻源/深度横评：2026 年，AI 生成 PPT 到底进化到什么程度了？.md",
+    "xqer’s computer tree/leetcode刷题记录/leetcode刷题记录 345d246ecd5d4ec6aba755401cf466e9.md",
     "高质量新闻源/派早报：三星发布 S26 系列手机、Anthropic 的新动态等.md",
     "高质量新闻源/在 AI 的帮助下，给自己建了个数字人生档案馆.md",
     "高质量新闻源/出门在外也能远程 CLI Coding：我的 SSH 远程开发方案分享.md",
@@ -251,8 +239,6 @@
     "高质量新闻源/春节玩什么  过年聚会担心冷场？不妨试试这 10 款多人游戏.md",
     "高质量新闻源/春节长途旅行，这 6 款耐玩小游戏先备好.md",
     "高质量新闻源/iOS 26.3 值得关注的新特性.md",
-    "高质量新闻源/普通人更要多动手：聊聊我把 Claude Code 变成个人助手后的那些事.md",
-    "高质量新闻源/派早报：Apple 将举办五十周年庆、VSCO 上架 Lr 预设等.md",
     "算法/面经",
     "算法/多模态审核项目/模型蒸馏提示词",
     "算法/多模态审核项目",
