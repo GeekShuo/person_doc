@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语法/目录.md",
+                "file": "语法/docs/vim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "目录"
+              "title": "vim"
             }
           }
         ],
@@ -211,8 +211,9 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "9c0a8b9d8da495c4",
   "lastOpenFiles": [
+    "语法/目录.md",
     "高质量新闻源/杀死你的不是它：聊聊我们的 AI 的焦虑.md",
     "高质量新闻源/为心脏健康持续护航，Apple Watch 房颤迹象记录软件功能上线.md",
     "高质量新闻源/投票开启｜BeatBox 盖板设计实录：用一块透明亚克力，把奇妙灵感凝成实体.md",
@@ -239,7 +240,6 @@
     "xqer’s computer tree/linux/Untitled.png",
     "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
     "xqer’s computer tree/linux/ssh ab9cc7a672a944daa017a8719302fa62.md",
-    "xqer’s computer tree/linux/shell脚本 0b93461ec5d842d4a29d8fbe73951b7a.md",
     "算法/面经",
     "算法/多模态审核项目/模型蒸馏提示词",
     "算法/多模态审核项目",
