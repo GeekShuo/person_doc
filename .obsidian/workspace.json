@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/语法/目录.md",
+                "file": "语法/目录.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
+                "file": "语法/目录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vim 14612fc33ba243c18f6b6100645064c5"
-            }
-          },
-          {
-            "id": "06628d162e693dda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/AIforDate/速约流聊天.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "速约流聊天"
+              "title": "目录"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python",
+                "query": "tmux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,8 +211,25 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "06628d162e693dda",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
+    "xqer’s computer tree/linux/linux 428ba40ee0d84f7f8b1410dc2474fb68.md",
+    "xqer’s computer tree/linux/history 290df113350c80a8aa5dd23ac8ea69a2.md",
+    "xqer’s computer tree/linux/curl d463fe6bd8af49a89d01cc6a4116570d.md",
+    "xqer’s computer tree/linux/CPU管理.md",
+    "xqer’s computer tree/linux/apt与snap 25adf113350c80eb8fb4fc9760d7553f.md",
+    "xqer’s computer tree/linux/网络调试 25adf113350c805f9093d64575a86ad1.md",
+    "xqer’s computer tree/linux/命令大全 307e78c4689843ea8acf4f08dcb1702c.md",
+    "xqer’s computer tree/linux/实战演练 ac09f302a364441dbf6fbe209f52b6dc.md",
+    "xqer’s computer tree/linux/开发环境搭建 7a6c76c647f6479eb1994d6b260719a5.md",
+    "xqer’s computer tree/linux/find 4745783358814360bcb62e6c55e541c0.md",
+    "xqer’s computer tree/linux/gdb 346a8f6762b04294a8c3d56a9a345426.md",
+    "xqer’s computer tree/linux/Grep、awk、sed f08efa9ecc0a4c6e9972f25d5b8d05df.md",
+    "xqer’s computer tree/linux/Untitled.png",
+    "xqer’s computer tree/linux/vim 14612fc33ba243c18f6b6100645064c5.md",
+    "xqer’s computer tree/linux/ssh ab9cc7a672a944daa017a8719302fa62.md",
+    "xqer’s computer tree/linux/shell脚本 0b93461ec5d842d4a29d8fbe73951b7a.md",
+    "项目/AIforDate/速约流聊天.md",
     "高质量新闻源/派早报：苹果禁止美国用户下载中国版字节跳动应用.md",
     "高质量新闻源/晚安，明天见：Arrows N 与富士通的退场.md",
     "项目/AIforDate/怎么获取流量.md",
@@ -237,22 +240,6 @@
     "高质量新闻源/年度征文｜给 NPC 接上 AI：重生爽文看不够？我直接做了个能骂反派的游戏.md",
     "高质量新闻源/一日一技｜用 NAS 与 LanCache 构建本地游戏缓存服务器.md",
     "高质量新闻源/派早报：Aqara 发布集悦妙控屏 S1 Plus Siri 版等.md",
-    "高质量新闻源/新玩意 237｜少数派的编辑们最近买了啥？.md",
-    "高质量新闻源/开赛在即，疾速入坑：F1 2026 观赛指南.md",
-    "高质量新闻源/靠大模型「吵架」完成固件逆向，我有哪些心得体会？.md",
-    "高质量新闻源/派早报：Apple 推出 MacBook Neo、Setapp 调整商业模式等.md",
-    "高质量新闻源/在季节交替的时候，一次聊清烦人的花粉症.md",
-    "高质量新闻源/年度征文｜至亲离世的 2025，我像是玩了一局成长游戏并做了一份攻略.md",
-    "高质量新闻源/从采集到回顾，我用 AI 搭建了一套个人信息处理系统.md",
-    "高质量新闻源/一日一技｜将 Obsidian 剪藏文章自动添加至当天日记.md",
-    "高质量新闻源/给 Lumia 1020 用户的 Windows Phone 8.1 漫游指南（2026）.md",
-    "高质量新闻源/派早报：Apple 发布 M5 系列芯片及 Studio Display、MacBook 系列新品.md",
-    "高质量新闻源/社区速递 131  派友们的一月好物大赏、给桌面风扇装上「机械臂」.md",
-    "高质量新闻源/失忆是怎么一回事：谈谈经典影视里失忆套路的真实一面.md",
-    "高质量新闻源/派早报：Apple 发布 iPhone 17e 与搭载 M4 芯片的 iPad Air 等新品.md",
-    "高质量新闻源/破译还是致盲？我是如何用 AI 啃下全英文编程课程的.md",
-    "高质量新闻源/给 Lumia 1020 用户的 Windows 8.1 漫游指南（2026）.md",
-    "高质量新闻源/年度征文｜2025 年总结：一个纠结党试图向 AI 外包他的意志.md",
     "算法/面经",
     "算法/多模态审核项目/模型蒸馏提示词",
     "算法/多模态审核项目",
@@ -270,7 +257,6 @@
     "项目/AIforDate/assets/🎣文案",
     "项目/AIforDate/assets/速约流聊天/file-20251230025400783.png",
     "项目/AIforDate/assets/速约流聊天/file-20251230025212232.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230025117105.png",
     "项目/AIforDate/assets/速约流聊天",
     "工作/岗位大全",
     "AI应用/通用chatbot/未命名.canvas",
