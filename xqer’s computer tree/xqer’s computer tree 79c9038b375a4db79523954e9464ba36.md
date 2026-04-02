@@ -38,7 +38,7 @@
 
 [信息安全数学基础](xqer%E2%80%99s%20computer%20tree/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%201d238417618b4b1cbacc34e046471c5e.md)
 
-[操作系统](../基本八股/操作系统/操作系统%20c486b304d4b543c390e9e5bd3f79229f.md)
+[操作系统](../408/操作系统/操作系统%20c486b304d4b543c390e9e5bd3f79229f.md)
 
 [数据库](xqer%E2%80%99s%20computer%20tree/%E6%95%B0%E6%8D%AE%E5%BA%93%20de69bc9d02064e40a16e72de0ba7aaf0.md)
 
