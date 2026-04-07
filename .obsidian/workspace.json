@@ -25,12 +25,14 @@
             "id": "4c421c3101cab020",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "算法/面经/阿里NLP算法.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
+              "icon": "lucide-file",
+              "title": "阿里NLP算法"
             }
           }
         ],
@@ -211,6 +213,9 @@
   },
   "active": "4c421c3101cab020",
   "lastOpenFiles": [
+    "高质量新闻源/App+1｜装上它、然后忘掉它：用 ShotClean 自动化管理截图.md",
+    "高质量新闻源/派早报：OpenAI 发布文章探讨 AI 时代的政策建议等.md",
+    "高质量新闻源/互联网，电子游戏与屏幕之后的个人健康.md",
     "高质量新闻源/愿君多修葺，此物最相思：从我的故事谈「数字遗产」保护.md",
     "高质量新闻源/买前必看：千问 AI 眼镜 G1 自费长测.md",
     "高质量新闻源/为了将网页变为应用程序，我们付出了多少努力？（一）.md",
@@ -234,9 +239,6 @@
     "方法论.md",
     "语法/python/Python_语法速查表.md",
     "语法/docs/vim.md",
-    "高质量新闻源/年度征文  沿海公路的出口：10年后，重返宝岛.md",
-    "高质量新闻源/年度征文  最后一页并不存在——我的2025.md",
-    "高质量新闻源/2025 年度征文  最后一页并不存在——我的2025.md",
     "xqer’s computer tree/linux/Untitled.png",
     "算法/面经",
     "算法/多模态审核项目/模型蒸馏提示词",
