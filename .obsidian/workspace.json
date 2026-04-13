@@ -11,10 +11,14 @@
             "id": "7be946bc11129b16",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "算法/大模型/编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器"
             }
           }
         ]
@@ -192,10 +196,12 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "7be946bc11129b16",
   "lastOpenFiles": [
-    "AI应用/AI爬虫 or 搜索引擎/assets/perp/file-20251227033530209.png",
+    "语法/python/Python_语法速查表.md",
+    "算法/大模型/编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器.md",
     "工作/面试记录/未命名.base",
+    "AI应用/AI爬虫 or 搜索引擎/assets/perp/file-20251227033530209.png",
     "投递记录.md",
     "工作/面试记录/京东零售.md",
     "工作/面试记录/字节跳动-巨量星图.md",
@@ -211,7 +217,6 @@
     "高质量新闻源/回望日系手机的「加拉帕戈斯」时代.md",
     "高质量新闻源/Type-C 接口最大的问题，是看起来已经「统一」了.md",
     "语法/python/Python_Multiprocessing_教程.md",
-    "语法/python/Python_语法速查表.md",
     "高质量新闻源/谈谈 Windows 的视觉风格与交互演变.md",
     "高质量新闻源/🎁 福利派  少数派首款超薄钢化膜今日开售.md",
     "高质量新闻源/派早报：macOS 内核 TCP 协议栈存在溢出漏洞、Google Pixel 10a 推出独占版本等.md",
@@ -239,7 +244,6 @@
     "项目/AIforDate/assets/🎣文案/file-20251230030639225.png",
     "项目/AIforDate/assets/🎣文案",
     "项目/AIforDate/assets/速约流聊天/file-20251230025400783.png",
-    "项目/AIforDate/assets/速约流聊天/file-20251230025212232.png",
     "AI应用/通用chatbot/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
