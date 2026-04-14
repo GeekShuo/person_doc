@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/大模型/损失函数.md",
+                "file": "金融/股票/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "损失函数"
+              "title": "未命名"
             }
           }
         ],
@@ -211,10 +211,11 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "d0eae0ac77648077",
   "lastOpenFiles": [
-    "算法/大模型/编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器.md",
     "算法/大模型/损失函数.md",
+    "金融/股票/未命名.md",
+    "算法/大模型/编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器.md",
     "语法/python/Python_语法速查表.md",
     "工作/面试记录/未命名.base",
     "AI应用/AI爬虫 or 搜索引擎/assets/perp/file-20251227033530209.png",
@@ -241,7 +242,6 @@
     "工作/工作方向.md",
     "工作/工作和学习的区别.md",
     "算法/面经/阿里NLP算法.md",
-    "高质量新闻源/App+1｜装上它、然后忘掉它：用 ShotClean 自动化管理截图.md",
     "xqer’s computer tree/linux/Untitled.png",
     "算法/面经",
     "算法/多模态审核项目/模型蒸馏提示词",
