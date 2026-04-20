@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活/新疆旅游.md",
+                "file": "算法/大模型/损失函数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "新疆旅游"
+              "title": "损失函数"
             }
           }
         ],
@@ -211,8 +211,9 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "d0eae0ac77648077",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
+    "生活/新疆旅游.md",
     "算法/面经/阿里NLP算法.md",
     "金融/股票/未命名.md",
     "算法/大模型/损失函数.md",
@@ -241,7 +242,6 @@
     "高质量新闻源/社区速递 136  派友大秀 Vibe Coding 作品、ROCK 数据线收纳盒与空气凤梨.md",
     "高质量新闻源/写给「跑两步就喘」的你：跑前精准热身，缓解跑时疼痛.md",
     "工作/工作方向.md",
-    "工作/工作和学习的区别.md",
     "xqer’s computer tree/linux/Untitled.png",
     "算法/面经",
     "算法/多模态审核项目/模型蒸馏提示词",
