@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体/醒图用法.md",
+                "file": "医美.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "醒图用法"
+              "title": "医美"
             }
           }
         ],
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人设备环境/电脑/mac使用.md",
+                "file": "医美.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "mac使用 的出链列表"
+              "title": "医美 的出链列表"
             }
           },
           {
@@ -237,7 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -255,8 +255,8 @@
   },
   "active": "4157704e666cf97a",
   "lastOpenFiles": [
-    "自媒体/神图拉新项目/醒图.md",
     "自媒体/醒图用法.md",
+    "自媒体/神图拉新项目/醒图.md",
     "未命名",
     "自媒体/神图拉新项目/醒图人像美体.md",
     "医美.md",
