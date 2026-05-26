@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/ocr/未命名 1.md",
+                "file": "AI应用/ocr/未命名 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "未命名 2"
             }
           }
         ],
@@ -296,12 +296,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/ocr/未命名 1.md",
+                "file": "AI应用/ocr/未命名 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 1 的出链列表"
+              "title": "未命名 2 的出链列表"
             }
           },
           {
@@ -381,8 +381,9 @@
   },
   "active": "71bab5aa0097fb07",
   "lastOpenFiles": [
-    "未命名 2.md",
     "AI应用/ocr/未命名 1.md",
+    "AI应用/ocr/未命名 2.md",
+    "未命名 2.md",
     "AI应用/科研/memory.md",
     "AI应用/科研/hermes.md",
     "AI应用/resnet.md",
@@ -419,7 +420,6 @@
     "自媒体/神图拉新项目/APP拉新项目总览.md",
     "自媒体/神图拉新项目/Capcut.md",
     "自媒体/神图拉新项目/Dreamina.md",
-    "自媒体/神图拉新项目/capcut多轨道剪辑.md",
     "自媒体/神图拉新项目/如何起新号或者老号重启 - 飞书云文档.pdf",
     "自媒体/神图拉新项目",
     "自媒体",
