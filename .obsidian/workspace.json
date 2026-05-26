@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/科研/memory.md",
+                "file": "AI应用/手写识别/基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory"
+              "title": "基础"
             }
           }
         ],
@@ -268,12 +268,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI应用/科研/memory.md",
+                "file": "AI应用/手写识别/基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "memory 的出链列表"
+              "title": "基础 的出链列表"
             }
           },
           {
@@ -353,8 +353,10 @@
   },
   "active": "1d522e286ac3340a",
   "lastOpenFiles": [
-    "AI应用/科研/skill.md",
     "AI应用/科研/memory.md",
+    "AI应用/手写识别/基础.md",
+    "AI应用/手写识别",
+    "AI应用/科研/skill.md",
     "未命名.md",
     "AI应用/科研/hermes.md",
     "AI应用/科研/Ponder AI.md",
@@ -389,14 +391,12 @@
     "自媒体/神图拉新项目/豆包电脑版.md",
     "自媒体/神图拉新项目/Dola.md",
     "自媒体/神图拉新项目/剪映功能教程.md",
-    "自媒体/神图拉新项目/Hypic模版任务.md",
     "自媒体/神图拉新项目/如何起新号或者老号重启 - 飞书云文档.pdf",
     "自媒体/神图拉新项目",
     "自媒体",
     "工作/面试记录/未命名.base",
     "AI应用/AI爬虫 or 搜索引擎/assets/perp/file-20251227033530209.png",
     "xqer’s computer tree/linux/Untitled.png",
-    "算法/面经",
     "项目/AIforDate/assets/🎣文案/file-20251230031415542.png",
     "项目/AIforDate/assets/🎣文案/file-20251230031155971.png",
     "AI应用/通用chatbot/未命名.canvas",
