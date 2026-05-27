@@ -1,5 +1,18 @@
 
 ## 环境信息
+服务器装hermes流程 1. 上传代码，或者把我目录下上传好的复制过去 2.配置安装环境和镜像 echo "deb http://mirrors.jd.com/ubuntu/ jammy main restricted universe multiverse" > /tmp/jd.listpip config set global.index-url https://mirrors.jd.com/pypi/simple 3.安装python和uv apt update && apt install -y python3.11 python3.11-venv && pip install uv 4.uv 配置镜像源mkdir -p ~/.config/uv && echo '[[index]] name = "mirror" url = "https://mirrors.jd.com/pypi/simple" default = true' > ~/.config/uv/uv.toml 5.uv创建环境安装项目 uv venv venv --python python3.11 && source venv/bin/activate && uv pip install -e . 6.启动配置hermes
+
+遇到几个问题
+
+1.重新启动后历史和记忆配置文件丢失
+
+设置HERMES_HOME为项目目录
+
+2.只能开一个hermes，开别的卡住
+
+hermes 启动时会打开 `state.db`（SQLite WAL 模式），需要获取文件锁。让hermes改下
+
+3.装python3.11装不来
 
 |项目|值|
 |---|---|
