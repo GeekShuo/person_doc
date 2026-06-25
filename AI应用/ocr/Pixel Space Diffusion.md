@@ -1,4 +1,4 @@
-Pixel Space Diffusion
+
 
 # Introduction：LDM (Latent Space Diffusion) VS Pixel Space Diffusion
 

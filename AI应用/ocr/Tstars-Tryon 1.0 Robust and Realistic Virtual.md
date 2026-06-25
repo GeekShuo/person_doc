@@ -1,6 +1,5 @@
-![](./assets/未命名%2014/file-20260527162014491.png)
+![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708790.png)
 
-**Tstars-Tryon 1.0: Robust and Realistic Virtual**
 
 **Try-On for Diverse Fashion Items**
 
@@ -21,7 +20,7 @@ Bench：[https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/Tstars-VT
 
 **5B****参数** + CFG蒸馏 + 步数蒸馏 = **3.92****秒单件****/6.74****秒多件**
 
-**Model**![](./assets/未命名%2014/file-20260527162115066.png)
+**Model**![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708791.png)
 Model Architecture:   MMDiT
 
 Training Infra: 支持可变分辨率以及任意参考图像，
@@ -32,14 +31,14 @@ Meticulous Training Strategies: 预训练->CT->SFT->RL
 
 Prompt Enhancement:  强调TryOn的编辑过程
 
-Fast Inference Acceleration:  DiT参数降低至5B，采用CFG&步数蒸馏![](./assets/未命名%2014/file-20260527162146353.png)![](./assets/未命名%2014/file-20260527162200884.png)![](./assets/未命名%2014/file-20260527162210348.png)**第一阶段：**
+Fast Inference Acceleration:  DiT参数降低至5B，采用CFG&步数蒸馏![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708792%201.png)![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708792.png)![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708794%201.png)**第一阶段：**
 
 **（****1****）输入：模特图、衣服图、结果图**
 
 **（****2****）关注点：人物一致性和服饰一致性**
 
-**第二阶段：**![](./assets/未命名%2014/file-20260527162307039.png)
+**第二阶段：**![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708793.png)
 
 **（****1****）输入：模特图、结果图**
 
-**（****2****）关注点：背景、物理和结构逻辑**![](./assets/未命名%2014/file-20260527162307039.png)![](./assets/未命名%2014/file-20260527162325793.png)
+**（****2****）关注点：背景、物理和结构逻辑**![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708793.png)![](./assets/Tstars-Tryon%201.0%20Robust%20and%20Realistic%20Virtual/file-20260615144708794.png)

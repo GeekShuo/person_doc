@@ -1,7 +1,5 @@
 Paper Reading-2026.3.27
 
-# Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer
-
 ## Motivation：
 
 1、蒸馏闭源商用模型数据导致性能上限以及数据同质化；

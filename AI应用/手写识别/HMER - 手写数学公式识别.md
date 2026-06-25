@@ -1,4 +1,3 @@
-# HMER - 手写数学公式识别
 
 基于深度学习的手写数学公式识别方法研究及系统实现（杜瑞艳论文复现）
 
@@ -99,14 +98,14 @@ HMER_CHECKPOINT=~/hmer/checkpoints/v2c/best_model.pt python app.py
 
 ## 实验结果
 
-| 版本 | 架构 | 配置 | ExpRate |
-|------|------|------|---------|
-| v1 | DenseNet121 | 1卡 bs64 lr1.0 80ep | (中断) |
-| v1_8g5 | DenseNet121 | 8卡 bs8 lr1.0 80ep | 9.01% |
-| v2a | DenseNet121 | 8卡 bs8 lr1.0 80ep (修复) | ~40% |
-| v2b | DenseNet121 | 8卡 bs8 lr3.0 80ep | ~40% |
-| **v2c** | **DenseNet121** | **8卡 bs8 lr1.0 80ep** | **51.58%** |
-| v3 | DenseNet [16,16,16] | 8卡 bs8 lr1.0 240ep | (训练中) |
+| 版本      | 架构                  | 配置                     | ExpRate    |
+| ------- | ------------------- | ---------------------- | ---------- |
+| v1      | DenseNet121         | 1卡 bs64 lr1.0 80ep     | (中断)       |
+| v1_8g5  | DenseNet121         | 8卡 bs8 lr1.0 80ep      | 9.01%      |
+| v2a     | DenseNet121         | 8卡 bs8 lr1.0 80ep (修复) | ~40%       |
+| v2b     | DenseNet121         | 8卡 bs8 lr3.0 80ep      | ~40%       |
+| **v2c** | **DenseNet121**     | **8卡 bs8 lr1.0 80ep**  | **51.58%** |
+| v3      | DenseNet [16,16,16] | 8卡 bs8 lr1.0 240ep     | (训练中)      |
 
 论文基准（无增广）：CROHME 2014 56.39%, CROHME 2016 53.71%, CROHME 2019 52.96%
 
@@ -226,11 +225,11 @@ HMER_CHECKPOINT=~/hmer/checkpoints/v2c/best_model.pt python app.py
 
 ## 实验3最终对比
 
-| 实验 | lr | grad_clip | Train Loss | Val Loss | Best Val ExpRate |
-|------|-----|-----------|-----------|----------|-----------------|
-| 3a | 1.0 | 5.0 | 2.27 | 2.83 | 48.42% |
-| 3b | 3.0 | 5.0 | 2.29 | 3.05 | 50.90% |
-| 3c | 1.0 | 2.0 | 2.22 | 2.77 | **51.58%** |
+| 实验  | lr  | grad_clip | Train Loss | Val Loss | Best Val ExpRate |
+| --- | --- | --------- | ---------- | -------- | ---------------- |
+| 3a  | 1.0 | 5.0       | 2.27       | 2.83     | 48.42%           |
+| 3b  | 3.0 | 5.0       | 2.29       | 3.05     | 50.90%           |
+| 3c  | 1.0 | 2.0       | 2.22       | 2.77     | **51.58%**       |
 
 **结论**：
 - clip=2.0效果最好，训练更稳定，loss最低
@@ -489,7 +488,7 @@ proc = subprocess.Popen(cmd, env=env, ...)
 
 **现象**：训练到epoch 76，ExpRate只有9.68%，论文报告50%+。
 
-**根因**：`vocab.decode()` 的 `strip_special` 只是把所有SOS/EOS token从列表中删除，但没有在第一个EOS处截断。预测序列在EOS后面还有padding或垃圾token，decode后全部保留，导致pred永远不等于gt。
+**根因**：`vocab.decode()` 的 `strip_special` 只是把所有SOS/EOS token从列表中删除，但没有在第一个EOS处截断。预测序列在EOS后面还有padding或垃圾token，decode后全部保留，导致pred永远不等于gt 。
 
 原始代码：
 ```python

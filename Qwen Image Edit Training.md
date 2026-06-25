@@ -1,4 +1,3 @@
-# Qwen Image Edit Training
 
 基于 Flow Matching 的 Qwen 图像编辑 Diffusion 模型训练框架。支持全量微调和 LoRA 微调，实现文本 + 参考图驱动的图像编辑功能。
 
@@ -6,29 +5,29 @@
 
 ## 目录
 
-- [功能概述](#功能概述)
-- [项目架构](#项目架构)
-- [技术栈与依赖](#技术栈与依赖)
-- [快速开始](#快速开始)
-- [三个训练脚本对比](#三个训练脚本对比)
-- [训练参数详解](#训练参数详解)
-  - [模型与数据参数](#模型与数据参数)
-  - [图像预处理参数](#图像预处理参数)
-  - [训练超参数](#训练超参数)
-  - [Flow Matching 参数](#flow-matching-参数)
-  - [优化器参数](#优化器参数)
-  - [LoRA 参数](#lora-参数)
-  - [分布式与检查点参数](#分布式与检查点参数)
-- [核心训练流程](#核心训练流程)
-  - [模型加载与冻结策略](#模型加载与冻结策略)
-  - [Flow Matching 训练循环](#flow-matching-训练循环)
-  - [LoRA 微调流程](#lora-微调流程)
-  - [Plus 版本差异](#plus-版本差异)
-- [数据格式说明](#数据格式说明)
-- [VAE 编码与 Latent 处理](#vae-编码与-latent-处理)
-- [模型组件说明](#模型组件说明)
-- [分布式训练配置](#分布式训练配置)
-- [注意事项与已知问题](#注意事项与已知问题)
+- [功能概述](Qwen%20Image%20Edit%20Training.md#功能概述)
+- [项目架构](Qwen%20Image%20Edit%20Training.md#项目架构)
+- [技术栈与依赖](Qwen%20Image%20Edit%20Training.md#技术栈与依赖)
+- [快速开始](Qwen%20Image%20Edit%20Training.md#快速开始)
+- [三个训练脚本对比](Qwen%20Image%20Edit%20Training.md#三个训练脚本对比)
+- [训练参数详解](Qwen%20Image%20Edit%20Training.md#训练参数详解)
+  - [模型与数据参数](Qwen%20Image%20Edit%20Training.md#模型与数据参数)
+  - [图像预处理参数](Qwen%20Image%20Edit%20Training.md#图像预处理参数)
+  - [训练超参数](Qwen%20Image%20Edit%20Training.md#训练超参数)
+  - [Flow Matching 参数](Qwen%20Image%20Edit%20Training.md#flow-matching-参数)
+  - [优化器参数](Qwen%20Image%20Edit%20Training.md#优化器参数)
+  - [LoRA 参数](Qwen%20Image%20Edit%20Training.md#lora-参数)
+  - [分布式与检查点参数](Qwen%20Image%20Edit%20Training.md#分布式与检查点参数)
+- [核心训练流程](Qwen%20Image%20Edit%20Training.md#核心训练流程)
+  - [模型加载与冻结策略](Qwen%20Image%20Edit%20Training.md#模型加载与冻结策略)
+  - [Flow Matching 训练循环](Qwen%20Image%20Edit%20Training.md#flow-matching-训练循环)
+  - [LoRA 微调流程](Qwen%20Image%20Edit%20Training.md#lora-微调流程)
+  - [Plus 版本差异](Qwen%20Image%20Edit%20Training.md#plus-版本差异)
+- [数据格式说明](Qwen%20Image%20Edit%20Training.md#数据格式说明)
+- [VAE 编码与 Latent 处理](Qwen%20Image%20Edit%20Training.md#vae-编码与-latent-处理)
+- [模型组件说明](Qwen%20Image%20Edit%20Training.md#模型组件说明)
+- [分布式训练配置](Qwen%20Image%20Edit%20Training.md#分布式训练配置)
+- [注意事项与已知问题](Qwen%20Image%20Edit%20Training.md#注意事项与已知问题)
 
 ---
 

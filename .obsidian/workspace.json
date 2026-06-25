@@ -4,221 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f7f72d3a4e6800f3",
+        "id": "e6990e2d3dab7a10",
         "type": "tabs",
         "children": [
           {
-            "id": "7be946bc11129b16",
+            "id": "e7c1e37f1774a6ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/大模型/编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器.md",
+                "file": "JD实习总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器"
-            }
-          },
-          {
-            "id": "d0eae0ac77648077",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/大模型/损失函数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "损失函数"
-            }
-          },
-          {
-            "id": "d0044cbe5de589ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "规则.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "规则"
-            }
-          },
-          {
-            "id": "3063b54ec69c87c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自媒体/神图拉新项目/醒图.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "醒图"
-            }
-          },
-          {
-            "id": "4157704e666cf97a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "医美.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "医美"
-            }
-          },
-          {
-            "id": "4102cc6c42d8af54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人设备环境/电脑/mac使用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mac使用"
-            }
-          },
-          {
-            "id": "886aefe997a79ec8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OKR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OKR"
-            }
-          },
-          {
-            "id": "81363a30f4dabdda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/渗透测试/安全.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "安全"
-            }
-          },
-          {
-            "id": "5bca7455284e27a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "周报.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "周报"
-            }
-          },
-          {
-            "id": "fe62461926b47e47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/科研/Ponder AI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ponder AI"
-            }
-          },
-          {
-            "id": "17f175ef8cfa37b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/科研/hermes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hermes"
-            }
-          },
-          {
-            "id": "1d522e286ac3340a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/ocr/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "023f15c11507c901",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/科研/memory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "memory"
-            }
-          },
-          {
-            "id": "71bab5aa0097fb07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/ocr/未命名 5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名 5"
-            }
-          },
-          {
-            "id": "acadc8559fd71000",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/ocr/未命名 15.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名 15"
+              "title": "JD实习总结"
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -368,8 +171,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -393,54 +196,54 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "acadc8559fd71000",
+  "active": "e7c1e37f1774a6ce",
   "lastOpenFiles": [
-    "AI应用/ocr/assets/未命名 15/file-20260527162557271.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162550476.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162542267.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162534058.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162526006.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162514999.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162502827.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162454803.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162442303.png",
-    "AI应用/ocr/assets/未命名 15/file-20260527162433575.png",
+    "OKR.md",
+    "JD实习总结.md",
+    "未命名.base",
+    "未命名 2.md",
+    "Qwen Image Edit Training.md",
+    "未命名.md",
+    "工作/实习/电话号码有效性判断.md",
+    "工作/实习/assets/电话号码有效性判断/file-20260618115424787.png",
+    "工作/实习/assets/电话号码有效性判断",
+    "工作/实习/assets",
+    "AI应用/手写识别/resnet.md",
+    "工作/实习",
+    "AI应用/ocr/Z-Image An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer.md",
+    "AI应用/ocr/Image Edit Data Curation.md",
+    "AI应用/ocr/周报.md",
+    "AI应用/ocr/周报2.md",
+    "AI应用/ocr/seedream4.0.md",
+    "AI应用/ocr/assets/seedream4.0",
+    "AI应用/ocr/Tstars-Tryon 1.0 Robust and Realistic Virtual.md",
+    "AI应用/ocr/assets/Tstars-Tryon 1.0 Robust and Realistic Virtual",
+    "AI应用/ocr/assets/-Tstars-Tryon 1.0",
+    "AI应用/ocr/Pixel Space Diffusion.md",
+    "AI应用/ocr/Generalization vs. Memorization.md",
+    "AI应用/ocr/Paper reading - Normalized Flow.md",
+    "AI应用/ocr/生成理解统一模型和多图层生成调研分享.md",
+    "AI应用/ocr/JoyAI-Image技术调研.md",
+    "AI应用/ocr/试衣测评.md",
+    "AI应用/ocr/ocr标注标准.md",
+    "AI应用/ocr/单图清洗流程.md",
+    "AI应用/ocr/商品主图文字OCR模型对比.md",
+    "AI应用/ocr/方转长对比.md",
+    "AI应用/手写识别/HMER - 手写数学公式识别.md",
+    "周报.md",
+    "TODOlist.md",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725845.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725846.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725846 1.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725847.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725847 1.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725848.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725848 1.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725851.png",
+    "AI应用/ocr/assets/seedream4.0/file-20260615144725849.png",
     "AI应用/ocr/assets/未命名 15",
-    "AI应用/ocr/未命名 14.md",
-    "AI应用/ocr/未命名 15.md",
-    "AI应用/ocr/assets/未命名 14/file-20260527162325793.png",
     "AI应用/ocr/assets/未命名 14",
     "AI应用/ocr/assets",
-    "AI应用/ocr/未命名 13.md",
-    "AI应用/ocr/未命名 12.md",
-    "AI应用/ocr/未命名 11.md",
-    "AI应用/ocr/未命名 10.md",
-    "AI应用/ocr/未命名 9.md",
-    "AI应用/ocr/未命名 8.md",
-    "AI应用/ocr/未命名 7.md",
-    "AI应用/ocr/未命名 6.md",
-    "AI应用/ocr/未命名 5.md",
-    "AI应用/ocr/未命名 4.md",
-    "AI应用/ocr/未命名 3.md",
-    "AI应用/ocr/未命名 2.md",
-    "AI应用/ocr/未命名.md",
-    "项目/GR新闻推送项目/全新架构.md",
-    "项目/GR新闻推送项目/新闻打分提示词.md",
-    "AI应用/科研/hermes.md",
-    "AI应用/ai安全/未命名.md",
-    "AI应用/ai安全",
-    "AI应用/ocr/未命名 1.md",
-    "未命名 2.md",
-    "AI应用/科研/memory.md",
-    "AI应用/resnet.md",
-    "未命名 1.md",
-    "AI应用/手写识别/基础.md",
-    "AI应用/ocr",
-    "AI应用/手写识别",
-    "未命名.base",
-    "AI应用/渗透测试",
-    "assets/医美",
-    "assets",
     "AI应用/通用chatbot/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
