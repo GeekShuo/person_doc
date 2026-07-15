@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOlist.md",
+                "file": "算法/大模型/编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODOlist"
+              "title": "编码器（Encoder-only）**、**仅解码器（Decoder-only）**和**编解码器"
             }
           }
         ]
@@ -198,11 +198,16 @@
   },
   "active": "e7c1e37f1774a6ce",
   "lastOpenFiles": [
+    "算法/大模型/多卡集群分布式训练推理.md",
+    "算法/大模型/模型部署算力需求.md",
+    "算法/大模型/显卡算力价格排名.md",
+    "Qwen Image Edit Training.md",
+    "日历/1.26.md",
+    "TODOlist.md",
     "OKR.md",
     "JD实习总结.md",
     "未命名.base",
     "未命名 2.md",
-    "Qwen Image Edit Training.md",
     "未命名.md",
     "工作/实习/电话号码有效性判断.md",
     "工作/实习/assets/电话号码有效性判断/file-20260618115424787.png",
@@ -227,11 +232,6 @@
     "AI应用/ocr/试衣测评.md",
     "AI应用/ocr/ocr标注标准.md",
     "AI应用/ocr/单图清洗流程.md",
-    "AI应用/ocr/商品主图文字OCR模型对比.md",
-    "AI应用/ocr/方转长对比.md",
-    "AI应用/手写识别/HMER - 手写数学公式识别.md",
-    "周报.md",
-    "TODOlist.md",
     "AI应用/ocr/assets/seedream4.0/file-20260615144725845.png",
     "AI应用/ocr/assets/seedream4.0/file-20260615144725846.png",
     "AI应用/ocr/assets/seedream4.0/file-20260615144725846 1.png",
