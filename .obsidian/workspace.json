@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "碎碎念流水.md",
+                "file": "TODOlist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "碎碎念流水"
+              "title": "TODOlist"
             }
           }
         ]
@@ -196,8 +196,11 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "e7c1e37f1774a6ce",
   "lastOpenFiles": [
+    "碎碎念流水.md",
+    "实习项目/电商主图生成与评测/Qwen Image Edit Training.md",
+    "实习项目/多模态审核项目/ai安全部实习.md",
     "实习项目/电商主图生成与评测/周报 1.md",
     "工作/岗位大全/抖音搜索算法实习生-大模型应用.md",
     "未命名.base",
@@ -227,9 +230,6 @@
     "实习项目/电商主图生成与评测/JoyAI-Image技术调研.md",
     "实习项目/电商主图生成与评测/Image Edit Data Curation.md",
     "实习项目/电商主图生成与评测/Generalization vs. Memorization.md",
-    "实习项目/电商主图生成与评测/周报2.md",
-    "实习项目/电商主图生成与评测/周报.md",
-    "实习项目/电商主图生成与评测/试衣测评.md",
     "AI应用/通用chatbot/未命名.canvas",
     "开发环境/agent环境",
     "实习项目",
