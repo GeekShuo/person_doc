@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/岗位大全/抖音搜索算法实习生-大模型应用.md",
+                "file": "碎碎念流水.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "抖音搜索算法实习生-大模型应用"
+              "title": "碎碎念流水"
             }
           }
         ]
@@ -196,10 +196,12 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "e7c1e37f1774a6ce",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
-    "工作/岗位大全/2025-12-28.md",
+    "实习项目/电商主图生成与评测/周报 1.md",
+    "工作/岗位大全/抖音搜索算法实习生-大模型应用.md",
     "未命名.base",
+    "工作/岗位大全/2025-12-28.md",
     "生活/旅游/小韩todolist.md",
     "规则.md",
     "投递记录.md",
@@ -214,8 +216,8 @@
     "生活/医美/file-20260525141326741.png",
     "生活/医美/file-20260525141215714.png",
     "生活/医美/file-20260525140015566.png",
-    "AI应用/通用chatbot/Gemini 3 深度使用指南：系统指令、禁忌事项与幻觉规避.md",
-    "AI应用/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
+    "工具/通用chatbot/Gemini 3 深度使用指南：系统指令、禁忌事项与幻觉规避.md",
+    "工具/通用chatbot/Chatgpt vs gemini vs grok vs claude.md",
     "实习项目/电商主图生成与评测/Z-Image An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer.md",
     "实习项目/电商主图生成与评测/Tstars-Tryon 1.0 Robust and Realistic Virtual.md",
     "实习项目/电商主图生成与评测/seedream4.0.md",
@@ -228,8 +230,6 @@
     "实习项目/电商主图生成与评测/周报2.md",
     "实习项目/电商主图生成与评测/周报.md",
     "实习项目/电商主图生成与评测/试衣测评.md",
-    "实习项目/电商主图生成与评测/生成理解统一模型和多图层生成调研分享.md",
-    "实习项目/电商主图生成与评测/商品主图文字OCR模型对比.md",
     "AI应用/通用chatbot/未命名.canvas",
     "开发环境/agent环境",
     "实习项目",
