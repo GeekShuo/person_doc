@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "e6990e2d3dab7a10",
+        "id": "5cbab4229ba4d421",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c1e37f1774a6ce",
+            "id": "87e79f27d148c474",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "实习项目/电商主图生成与评测/京东零售实习 gpt.md",
@@ -19,6 +20,12 @@
               },
               "icon": "lucide-file",
               "title": "京东零售实习 gpt"
+=======
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+>>>>>>> 18df5fbe9f9787a145be455f045e7508ea0fe0e0
             }
           }
         ]
@@ -196,6 +203,7 @@
   },
   "active": "e7c1e37f1774a6ce",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "实习项目/电商主图生成与评测/单图清洗流程.md",
     "碎碎念流水.md",
     "实习项目/电商主图生成与评测/Image Edit Data Curation.md",
@@ -243,6 +251,55 @@
     "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846 1.png",
     "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847.png",
     "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847 1.png",
+=======
+    "实习项目/多模态审核项目/文本审核.md",
+    "实习项目/多模态审核项目/ai安全部实习.md",
+    "工作/工作方向.md",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_9.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_8.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_7.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_6.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_5.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_4.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_3.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_1.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcsp语法mediaimage_2.png",
+    "408/操作系统/实验四/pmD5mXFaQLCpcM5FjmdNTTccfcspmediaimage.png",
+    "408/操作系统/实验四",
+    "408/操作系统/实验四 6f4612a3037848d5addd5bd76c3aad5f.md",
+    "408/操作系统/实验六",
+    "408/操作系统/实验六 10e6540b37204e479c37969096839641.md",
+    "408/操作系统/实验五 1f9723fa8a064b658d3fd7ffdf97519d.md",
+    "408/操作系统/实验五",
+    "408/操作系统/实验二 a2cb376c175b411ea310f8524f7ee072.md",
+    "408/操作系统/实验二",
+    "408/操作系统/实验三 d9287d424043405db91e23acbc474de8.md",
+    "408/操作系统/实验三",
+    "408/操作系统/实验一 7be0613fdf034f5d9b4e2d6d4b513793.md",
+    "408/操作系统/实验一",
+    "408/git与github/git与github e9572ffc95834212b7e081c3f45692cf.md",
+    "408/操作系统",
+    "408/git与github",
+    "408",
+    "2025-12-28.md",
+    "工作/工作和学习的区别.md",
+    "工作/怎么找工作.md",
+    "conflict-files-obsidian-git.md",
+    "实习项目/电商主图生成与评测/JoyAI-Image技术调研.md",
+    "实习项目/电商主图生成与评测/ocr标注标准.md",
+    "实习项目/电商主图生成与评测/Image Edit Data Curation.md",
+    "实习项目/电商主图生成与评测/周报2.md",
+    "实习项目/电商主图生成与评测/周报.md",
+    "实习项目/电商主图生成与评测/周报 1.md",
+    "实习项目/电商主图生成与评测/生成理解统一模型和多图层生成调研分享.md",
+    "实习项目/电商主图生成与评测/试衣测评.md",
+    "实习项目/电商主图生成与评测/方转长对比.md",
+    "实习项目/电商主图生成与评测/单图清洗流程.md",
+    "周报.md",
+    "408/计算机网络/链路层 f39a1d10ffd74c2f91c53e9b6936b3ae.md",
+    "408/计算机组成原理/ＣＰＵ",
+    "AI应用/通用chatbot/未命名.canvas",
+>>>>>>> 18df5fbe9f9787a145be455f045e7508ea0fe0e0
     "未命名.canvas",
     "未命名 1.canvas"
   ]
