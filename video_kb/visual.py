@@ -86,7 +86,7 @@ def _sample_frames(video_path: str, interval_sec: int = 30, max_frames: int = 24
         pattern, "-y",
     ]
     subprocess.run(cmd, capture_output=True)
-    return sorted(glob.glob(os.path.join(tmp, "*.jpg"))
+    return sorted(glob.glob(os.path.join(tmp, "*.jpg")))
 
 
 def _deepseek(video_path: str) -> dict:
