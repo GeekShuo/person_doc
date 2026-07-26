@@ -1,9 +1,13 @@
 import os
 import json
 import re
+import base64
+import glob
+import subprocess
+import tempfile
 
 from config import (VISION_PROVIDER, VISION_MODEL, GEMINI_API_KEY,
-                    KIMI_API_KEY, VISUAL_DIR)
+                    KIMI_API_KEY, DEEPSEEK_API_KEY, VISUAL_DIR)
 
 VISUAL_PROMPT = """请观看视频，重点提取【画面中呈现但旁白/字幕没有明说的信息】。
 输出 JSON（只输出 JSON，不要多余解释）：
@@ -20,6 +24,8 @@ def analyze_video(video_path: str) -> dict:
         return _gemini(video_path)
     elif VISION_PROVIDER == "kimi":
         return _kimi(video_path)
+    elif VISION_PROVIDER == "deepseek":
+        return _deepseek(video_path)
     raise ValueError(f"未知 provider: {VISION_PROVIDER}")
 
 
@@ -51,6 +57,40 @@ def _kimi(video_path: str) -> dict:
                 {"type": "video_url", "video_url": {"url": f"file://{file_obj.id}"}},
             ],
         }],
+    )
+    return _extract_json(resp.choices[0].message.content)
+
+
+def _sample_frames(video_path: str, interval_sec: int = 30, max_frames: int = 24):
+    """用 ffmpeg 按固定间隔抽帧。覆盖约 interval_sec*max_frames 秒。"""
+    tmp = tempfile.mkdtemp()
+    pattern = os.path.join(tmp, "frame_%04d.jpg")
+    cmd = [
+        "ffmpeg", "-i", video_path,
+        "-vf", f"fps=1/{interval_sec}",
+        "-frames:v", str(max_frames),
+        pattern, "-y",
+    ]
+    subprocess.run(cmd, capture_output=True)
+    return sorted(glob.glob(os.path.join(tmp, "*.jpg")))
+
+
+def _deepseek(video_path: str) -> dict:
+    """DeepSeek-V4 多模态：抽帧 + 图生文（最稳、可控的接入方式）。
+    需要系统已安装 ffmpeg（yt-dlp 通常已依赖它）。"""
+    from openai import OpenAI
+    client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
+    frames = _sample_frames(video_path)
+    content = [{"type": "text", "text": VISUAL_PROMPT}]
+    for fp in frames:
+        b64 = base64.b64encode(open(fp, "rb").read()).decode()
+        content.append({
+            "type": "image_url",
+            "image_url": {"url": f"data:image/jpeg;base64,{b64}"},
+        })
+    resp = client.chat.completions.create(
+        model=VISION_MODEL,
+        messages=[{"role": "user", "content": content}],
     )
     return _extract_json(resp.choices[0].message.content)
 

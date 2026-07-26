@@ -1,4 +1,5 @@
-from config import VISION_PROVIDER, VISION_MODEL, GEMINI_API_KEY, KIMI_API_KEY
+from config import (VISION_PROVIDER, VISION_MODEL, GEMINI_API_KEY,
+                   KIMI_API_KEY, DEEPSEEK_API_KEY)
 
 
 def complete(prompt: str, system: str | None = None) -> str:
@@ -12,6 +13,15 @@ def complete(prompt: str, system: str | None = None) -> str:
     elif VISION_PROVIDER == "kimi":
         from openai import OpenAI
         client = OpenAI(api_key=KIMI_API_KEY, base_url="https://api.moonshot.cn/v1")
+        messages = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+        resp = client.chat.completions.create(model=VISION_MODEL, messages=messages)
+        return resp.choices[0].message.content
+    elif VISION_PROVIDER == "deepseek":
+        from openai import OpenAI
+        client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
         messages = []
         if system:
             messages.append({"role": "system", "content": system})

@@ -5,6 +5,7 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 KIMI_API_KEY = os.getenv("KIMI_API_KEY", "")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 VISION_PROVIDER = os.getenv("VISION_PROVIDER", "gemini").lower()
 VISION_MODEL = os.getenv("VISION_MODEL", "gemini-2.5-flash")
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "medium")
