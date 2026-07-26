@@ -11,10 +11,14 @@
             "id": "87e79f27d148c474",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "个人项目/AIforDate/怎么邀约.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "怎么邀约"
             }
           }
         ]
@@ -192,8 +196,9 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "87e79f27d148c474",
   "lastOpenFiles": [
+    "实习项目/多模态审核项目/文生图模型安全评测.md",
     "实习项目/多模态审核项目/文本审核.md",
     "实习项目/多模态审核项目/ai安全部实习.md",
     "工作/工作方向.md",
@@ -238,7 +243,6 @@
     "实习项目/电商主图生成与评测/方转长对比.md",
     "实习项目/电商主图生成与评测/单图清洗流程.md",
     "周报.md",
-    "408/计算机网络/链路层 f39a1d10ffd74c2f91c53e9b6936b3ae.md",
     "408/计算机组成原理/ＣＰＵ",
     "AI应用/通用chatbot/未命名.canvas",
     "未命名.canvas",
