@@ -1,0 +1,72 @@
+import os
+import json
+import re
+
+from config import (VISION_PROVIDER, VISION_MODEL, GEMINI_API_KEY,
+                    KIMI_API_KEY, VISUAL_DIR)
+
+VISUAL_PROMPT = """请观看视频，重点提取【画面中呈现但旁白/字幕没有明说的信息】。
+输出 JSON（只输出 JSON，不要多余解释）：
+{
+  "visual_summary": "整体画面呈现了什么",
+  "screen_text": ["屏幕出现的关键文字 / OCR 结果"],
+  "unspoken_info": ["画面里有、但旁白没讲出来的信息"],
+  "key_entities": ["出现的人 / 物 / 品牌 / 地点"]
+}"""
+
+
+def analyze_video(video_path: str) -> dict:
+    if VISION_PROVIDER == "gemini":
+        return _gemini(video_path)
+    elif VISION_PROVIDER == "kimi":
+        return _kimi(video_path)
+    raise ValueError(f"未知 provider: {VISION_PROVIDER}")
+
+
+def _gemini(video_path: str) -> dict:
+    import google.generativeai as genai
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(VISION_MODEL)
+    with open(video_path, "rb") as f:
+        data = f.read()
+    resp = model.generate_content([
+        VISUAL_PROMPT,
+        {"mime_type": "video/mp4", "data": data},
+    ])
+    return _extract_json(resp.text)
+
+
+def _kimi(video_path: str) -> dict:
+    """Kimi K2.6/K3 原生多模态，支持直接理解视频。
+    注：Kimi 文件/视频接口细节以官方最新文档为准，如变动请相应调整。"""
+    from openai import OpenAI
+    client = OpenAI(api_key=KIMI_API_KEY, base_url="https://api.moonshot.cn/v1")
+    file_obj = client.files.create(file=open(video_path, "rb"), purpose="file-extract")
+    resp = client.chat.completions.create(
+        model=VISION_MODEL,
+        messages=[{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": VISUAL_PROMPT},
+                {"type": "video_url", "video_url": {"url": f"file://{file_obj.id}"}},
+            ],
+        }],
+    )
+    return _extract_json(resp.choices[0].message.content)
+
+
+def _extract_json(text: str) -> dict:
+    try:
+        return json.loads(text)
+    except Exception:
+        m = re.search(r"\{.*\}", text, re.S)
+        return json.loads(m.group(0)) if m else {"raw": text}
+
+
+def analyze_and_save(video_path: str) -> str:
+    res = analyze_video(video_path)
+    base = os.path.splitext(os.path.basename(video_path))[0]
+    out = os.path.join(VISUAL_DIR, base + ".json")
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(res, f, ensure_ascii=False, indent=2)
+    return out
