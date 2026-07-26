@@ -11,14 +11,21 @@
             "id": "87e79f27d148c474",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
-                "file": "个人项目/AIforDate/怎么邀约.md",
+                "file": "实习项目/电商主图生成与评测/京东零售实习 gpt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "怎么邀约"
+              "title": "京东零售实习 gpt"
+=======
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+>>>>>>> 18df5fbe9f9787a145be455f045e7508ea0fe0e0
             }
           }
         ]
@@ -156,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语法/Markdown.md",
+                "file": "待办清单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Markdown 的大纲"
+              "title": "待办清单 的大纲"
             }
           },
           {
@@ -176,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -191,14 +198,60 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "simple-rss:Simple RSS": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "87e79f27d148c474",
+  "active": "e7c1e37f1774a6ce",
   "lastOpenFiles": [
-    "实习项目/多模态审核项目/文生图模型安全评测.md",
+<<<<<<< HEAD
+    "实习项目/电商主图生成与评测/单图清洗流程.md",
+    "碎碎念流水.md",
+    "实习项目/电商主图生成与评测/Image Edit Data Curation.md",
+    "实习项目/电商主图生成与评测/shixi.md",
+    "实习项目/电商主图生成与评测/清晰度识别.md",
+    "实习项目/电商主图生成与评测/腾讯实习.md",
+    "实习项目/电商主图生成与评测/京东零售实习 gpt.md",
+    "实习项目/电商主图生成与评测/Generalization vs. Memorization.md",
+    "实习项目/电商主图生成与评测/ai 安全实习.md",
+    "实习项目/电商主图生成与评测/周报2.md",
+    "实习项目/电商主图生成与评测/周报 1.md",
+    "实习项目/电商主图生成与评测/周报.md",
+    "实习项目/电商主图生成与评测/商品主图文字OCR模型对比.md",
+    "实习项目/电商主图生成与评测/方转长对比.md",
+    "工作/岗位大全/抖音搜索算法实习生-大模型应用.md",
+    "实习项目/电商主图生成与评测/试衣测评.md",
+    "实习项目/电商主图生成与评测/Z-Image An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer.md",
+    "实习项目/电商主图生成与评测/Tstars-Tryon 1.0 Robust and Realistic Virtual.md",
+    "实习项目/电商主图生成与评测/ai 安全实习.nd",
+    "待办清单.md",
+    "2026-07-15.md",
+    "实习项目/电商主图生成与评测/Qwen Image Edit Training.md",
+    "实习项目/多模态审核项目/ai安全部实习.md",
+    "未命名.base",
+    "工作/岗位大全/2025-12-28.md",
+    "生活/旅游/小韩todolist.md",
+    "规则.md",
+    "投递记录.md",
+    "生活/医美/file-20260525141509724.png",
+    "生活/旅游",
+    "生活/医美/file-20260525141326741.png",
+    "生活/医美/file-20260525141215714.png",
+    "生活/医美/file-20260525140015566.png",
+    "AI应用/通用chatbot/未命名.canvas",
+    "开发环境/agent环境",
+    "实习项目",
+    "实习项目/电话号码校验/assets/电话号码有效性判断/file-20260618115424787.png",
+    "实习项目/电话号码校验/assets/电话号码有效性判断",
+    "实习项目/电话号码校验/assets",
+    "实习项目/电话号码校验",
+    "实习项目/电商主图生成与评测/assets/seedream4.0",
+    "实习项目/电商主图生成与评测/assets/Tstars-Tryon 1.0 Robust and Realistic Virtual",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725845.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846 1.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847 1.png",
+=======
     "实习项目/多模态审核项目/文本审核.md",
     "实习项目/多模态审核项目/ai安全部实习.md",
     "工作/工作方向.md",
@@ -243,8 +296,10 @@
     "实习项目/电商主图生成与评测/方转长对比.md",
     "实习项目/电商主图生成与评测/单图清洗流程.md",
     "周报.md",
+    "408/计算机网络/链路层 f39a1d10ffd74c2f91c53e9b6936b3ae.md",
     "408/计算机组成原理/ＣＰＵ",
     "AI应用/通用chatbot/未命名.canvas",
+>>>>>>> 18df5fbe9f9787a145be455f045e7508ea0fe0e0
     "未命名.canvas",
     "未命名 1.canvas"
   ]
