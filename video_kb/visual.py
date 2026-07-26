@@ -61,6 +61,20 @@ def _kimi(video_path: str) -> dict:
     return _extract_json(resp.choices[0].message.content)
 
 
+def _video_duration(path: str) -> float:
+    """用 ffprobe 取视频时长（秒）。"""
+    out = subprocess.run(
+        ["ffprobe", "-v", "error",
+         "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", path],
+        capture_output=True, text=True,
+    )
+    try:
+        return float(out.stdout.strip())
+    except Exception:
+        return 0.0
+
+
 def _sample_frames(video_path: str, interval_sec: int = 30, max_frames: int = 24):
     """用 ffmpeg 按固定间隔抽帧。覆盖约 interval_sec*max_frames 秒。"""
     tmp = tempfile.mkdtemp()
@@ -72,17 +86,20 @@ def _sample_frames(video_path: str, interval_sec: int = 30, max_frames: int = 24
         pattern, "-y",
     ]
     subprocess.run(cmd, capture_output=True)
-    return sorted(glob.glob(os.path.join(tmp, "*.jpg")))
+    return sorted(glob.glob(os.path.join(tmp, "*.jpg"))
 
 
 def _deepseek(video_path: str) -> dict:
-    """DeepSeek-V4 多模态：抽帧 + 图生文（最稳、可控的接入方式）。
-    需要系统已安装 ffmpeg（yt-dlp 通常已依赖它）。"""
+    """DeepSeek-V4 多模态：自适应抽帧 + 图生文（最稳、可控的接入方式）。
+    按视频时长均匀覆盖全片，最多 30 帧。需要系统已安装 ffmpeg/ffprobe。"""
     from openai import OpenAI
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
-    frames = _sample_frames(video_path)
+    dur = _video_duration(video_path)
+    frames = min(30, max(6, int(dur / 60))) if dur else 24
+    interval = max(20, int(dur / frames)) if dur else 30
+    sampled = _sample_frames(video_path, interval_sec=interval, max_frames=frames)
     content = [{"type": "text", "text": VISUAL_PROMPT}]
-    for fp in frames:
+    for fp in sampled:
         b64 = base64.b64encode(open(fp, "rb").read()).decode()
         content.append({
             "type": "image_url",
