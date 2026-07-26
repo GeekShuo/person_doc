@@ -7,7 +7,8 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 KIMI_API_KEY = os.getenv("KIMI_API_KEY", "")
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 VISION_PROVIDER = os.getenv("VISION_PROVIDER", "gemini").lower()
-VISION_MODEL = os.getenv("VISION_MODEL", "gemini-2.5-flash")
+VISION_MODEL = os.getenv("VISION_MODEL", "gemini-2.5-flash")       # 文本模型（笔记合并/问答）
+DEEPSEEK_VISION_MODEL = os.getenv("DEEPSEEK_VISION_MODEL", "deepseek-vl-chat")  # DeepSeek 视觉模型（与文本模型分开）
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "medium")
 
 # 工作目录（所有中间产物都放在这里）

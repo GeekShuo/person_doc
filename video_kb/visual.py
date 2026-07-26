@@ -7,7 +7,8 @@ import subprocess
 import tempfile
 
 from config import (VISION_PROVIDER, VISION_MODEL, GEMINI_API_KEY,
-                    KIMI_API_KEY, DEEPSEEK_API_KEY, VISUAL_DIR)
+                    KIMI_API_KEY, DEEPSEEK_API_KEY, DEEPSEEK_VISION_MODEL,
+                    VISUAL_DIR)
 
 VISUAL_PROMPT = """请观看视频，重点提取【画面中呈现但旁白/字幕没有明说的信息】。
 输出 JSON（只输出 JSON，不要多余解释）：
