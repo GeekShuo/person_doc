@@ -6,8 +6,15 @@ from faster_whisper import WhisperModel
 
 
 def transcribe(video_path: str) -> dict:
-    """本地 Whisper 转写（免费，吃 2060 的 CUDA）。"""
-    model = WhisperModel(WHISPER_MODEL, device="cuda", compute_type="int8")
+    """本地 Whisper 转写（免费）。优先 CUDA，失败则回退 CPU(int8)。"""
+    try:
+        model = WhisperModel(WHISPER_MODEL, device="cuda", compute_type="int8")
+        device = "cuda"
+    except Exception as e:
+        print(f"[warn] CUDA 不可用，回退 CPU：{e}")
+        model = WhisperModel(WHISPER_MODEL, device="cpu", compute_type="int8")
+        device = "cpu"
+    print(f"[info] Whisper 使用设备: {device}")
     segments, info = model.transcribe(video_path, beam_size=5, language="zh")
     return {
         "language": info.language,
