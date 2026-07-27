@@ -91,8 +91,9 @@ def _sample_frames(video_path: str, interval_sec: int = 30, max_frames: int = 24
 
 
 def _deepseek(video_path: str) -> dict:
-    """DeepSeek-V4 多模态：自适应抽帧 + 图生文（最稳、可控的接入方式）。
-    按视频时长均匀覆盖全片，最多 30 帧。需要系统已安装 ffmpeg/ffprobe。"""
+    """DeepSeek 视觉模型：自适应抽帧 + 图生文（最稳、可控的接入方式）。
+    按视频时长均匀覆盖全片，最多 30 帧。需要系统已安装 ffmpeg/ffprobe。
+    注意：必须用专门的视觉模型(deepseek-vl-chat)，deepseek-v4-flash 是纯文本模型不支持图片。"""
     from openai import OpenAI
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
     dur = _video_duration(video_path)
@@ -107,8 +108,9 @@ def _deepseek(video_path: str) -> dict:
             "image_url": {"url": f"data:image/jpeg;base64,{b64}"},
         })
     resp = client.chat.completions.create(
-        model=VISION_MODEL,
+        model=DEEPSEEK_VISION_MODEL,
         messages=[{"role": "user", "content": content}],
+        max_tokens=4096,
     )
     return _extract_json(resp.choices[0].message.content)
 
