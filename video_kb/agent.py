@@ -1,19 +1,14 @@
-from knowledge_base import query as kb_query
 from llm import complete
+from knowledge_base import get_context
+
+SYSTEM = (
+    "你是一个视频知识库问答助手。下面是从知识库检索到的相关内容片段，"
+    "可能来自视频口播转写（带时间戳）或结构化笔记。请基于这些内容回答用户问题，"
+    "引用时尽量标注来源视频与时间点。如果检索内容不足以回答，就如实说明。"
+)
 
 
-def ask(question: str, n: int = 5) -> str:
-    """基于知识库的 RAG 问答。"""
-    res = kb_query(question, n)
-    docs = res["documents"][0]
-    metas = res["metadatas"][0]
-    context = "\n\n---\n\n".join(
-        f"来源: {m.get('title', '')}  ({m.get('url', '')})\n{d}"
-        for d, m in zip(docs, metas)
-    )
-    prompt = (
-        f"以下是某博主视频知识库中的相关片段：\n\n{context}\n\n"
-        f"请根据以上内容回答问题：{question}\n"
-        f"如果信息不足，请明确说明。"
-    )
-    return complete(prompt)
+def ask(question: str) -> str:
+    ctx = get_context(question)
+    prompt = f"【检索到的知识库内容】\n{ctx}\n\n【用户问题】\n{question}"
+    return complete(prompt, system=SYSTEM)

@@ -1,1 +1,22 @@
-.obsidian/workspace.json
+# ===== 派生 / 大文件：不入库 =====
+# 原始下载的视频与音频（体积大，可重新用 run_crawl.py 下载）
+video_kb/data/raw/
+# 向量库（可由 data/transcripts + data/notes 重新 ingest 重建，见知识库脚本）
+video_kb/data/chroma/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 日志 =====
+*.log
+
+# ===== 敏感凭据（含 B站登录态 cookie，切勿提交） =====
+video_kb/cookies.txt
+
+# ===== 临时 / 调试产物 =====
+video_kb/_run2.py
+video_kb/run2.log
+video_kb/tr2.log
+video_kb/cuda_install*.log
+cuda_install.log
