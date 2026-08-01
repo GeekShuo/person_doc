@@ -29,8 +29,18 @@ def _chunk_transcript(segments, max_chars: int = 220):
     return chunks
 
 
+def _base_meta(video_id: str, title: str, url: str, extra: dict | None) -> dict:
+    """公共 metadata，可附加 platform/author/publish_date 等扩展字段。"""
+    m = {"video_id": video_id, "title": title, "url": url}
+    for k, v in (extra or {}).items():
+        if v is not None and v != "":
+            m[k] = str(v)
+    return m
+
+
 def ingest_video(video_id: str, title: str, url: str,
-                 transcript_path: str, notes_path: str | None = None) -> int:
+                 transcript_path: str, notes_path: str | None = None,
+                 extra: dict | None = None) -> int:
     """把一段视频的转写（切片）+ 笔记 入库。会先清掉该视频旧数据。"""
     try:
         old = _col.get(where={"video_id": video_id})
@@ -48,7 +58,7 @@ def ingest_video(video_id: str, title: str, url: str,
         ids.append(f"{video_id}#seg{i}")
         docs.append(text)
         metas.append({
-            "video_id": video_id, "title": title, "url": url,
+            **_base_meta(video_id, title, url, extra),
             "type": "segment", "start": start,
         })
     if notes_path and os.path.exists(notes_path):
@@ -56,7 +66,7 @@ def ingest_video(video_id: str, title: str, url: str,
         ids.append(f"{video_id}#note")
         docs.append(md)
         metas.append({
-            "video_id": video_id, "title": title, "url": url,
+            **_base_meta(video_id, title, url, extra),
             "type": "note", "start": -1,
         })
     if docs:
@@ -81,7 +91,8 @@ def _chunk_text(text: str, max_chars: int = 220):
     return chunks
 
 
-def ingest_article(video_id: str, title: str, url: str, text: str) -> int:
+def ingest_article(video_id: str, title: str, url: str, text: str,
+                   extra: dict | None = None) -> int:
     """把一篇抓取的图文（已清洗）按段落切片入库，score 与视频一致。"""
     try:
         old = _col.get(where={"video_id": video_id})
@@ -94,7 +105,7 @@ def ingest_article(video_id: str, title: str, url: str, text: str) -> int:
         ids.append(f"{video_id}#art{i}")
         docs.append(ch)
         metas.append({
-            "video_id": video_id, "title": title, "url": url,
+            **_base_meta(video_id, title, url, extra),
             "type": "article", "start": -1,
         })
     if docs:

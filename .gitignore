@@ -20,3 +20,8 @@ video_kb/run2.log
 video_kb/tr2.log
 video_kb/cuda_install*.log
 cuda_install.log
+
+# ===== 第三方爬虫项目（独立 git 仓库，体积大，单独管理） =====
+video_kb/MediaCrawler/
+# 研究 Agent 的中间产物（原始抓取结果，可重新生成）
+video_kb/data/research/raw/

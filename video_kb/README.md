@@ -45,3 +45,59 @@ print(ask("总结他对 Y 的观点"))
 - B站下载可能需要登录 cookie，YouTube 一般不用。
 - 视觉 API 对超长视频可能截断，建议单条 ≤ 1 小时；更长可按章节切片。
 - 仅用于个人学习整理，注意平台 ToS 与版权，勿二次分发/商用。
+
+---
+
+# 研究 Agent（run_research.py）
+
+给定一个**领域**，自动完成：跨平台搜索 → LLM 筛选 → 入库 → 生成《领域研究报告》
+（领域现状 / 关键人物图谱 / 核心观点汇总 / 信息源清单）。
+回答的就是：“这个领域现在发展得怎么样？有哪些大牛？他们讲了什么观点？”
+
+## 流程
+```
+领域 → planner(LLM 生成各平台搜索关键词+研究问题)
+     → collectors(各平台搜索)
+     → filter(LLM 相关性打分+互动量排序)
+     → ingest(视频走 GPU 转写链路 / 图文直接入库，metadata 含平台/作者/日期)
+     → report(LLM 综合报告 → data/reports/，并入库可被 ask 问答引用)
+```
+
+## 平台覆盖
+| 平台 | 方式 | 登录 |
+|---|---|---|
+| B站 | yt-dlp `bilisearch:`（或 MediaCrawler bili） | 免登录 |
+| YouTube | yt-dlp `ytsearch:` | 免登录 |
+| 知乎 / 小红书 / 抖音 / 微博 | MediaCrawler 子进程 | 首次扫码，登录态缓存 |
+| 推特/X 等 | `--urls 文件` 手动链接（自动补全元数据+转写） | 视站点 |
+
+## 用法
+```bash
+# 全平台研究（xhs/dy/zhihu/wb 首次会弹浏览器扫码）
+python run_research.py "具身智能" --platforms bili,youtube,zhihu,xhs,dy
+
+# 快速模式：只搜免登录平台，视频不转写（按摘要入库）
+python run_research.py "AI Agent 创业" --platforms bili,youtube --no-video
+
+# 只看能搜到什么，不入库不出报告
+python run_research.py "一人公司" --platforms bili --dry-run
+
+# 补充手动链接（每行一个 URL，支持 twitter/x）
+python run_research.py "AI 编程" --platforms bili --urls my_links.txt
+
+# 两轮研究：第 2 轮从报告中提取人物/概念追加搜索
+python run_research.py "具身智能" --platforms bili,zhihu --rounds 2
+```
+产物：`data/research/raw/{领域}_{时间}/`（plan/候选/筛选结果 JSON）+
+`data/reports/{领域}_{日期}.md`（报告）。
+
+## MediaCrawler 集成说明
+- 仓库在 `video_kb/MediaCrawler/`（独立 git 仓库，已被 .gitignore 排除），
+  以**子进程**方式调用，依赖装在它自己的 `MediaCrawler/venv/` 里，
+  与转写环境（onnxruntime/cublas）隔离。
+- 首次使用某平台：运行时会弹出浏览器，扫码登录一次即可（登录态缓存在
+  `MediaCrawler/browser_data/`）。抖音/知乎签名还需要本机装 Node.js ≥ 16。
+- 本项目已 patch 其 `tools/user_hash.py`（昵称/ID 不再脱敏），
+  否则无法识别“谁说了什么”。数据仅供本地个人研究，勿外发。
+- 合规提醒：控制频率（`--max-per-kw` 默认 8），仅供个人学习研究。
+
