@@ -11,8 +11,9 @@ __pycache__/
 # ===== 日志 =====
 *.log
 
-# ===== 敏感凭据（含 B站登录态 cookie，切勿提交） =====
+# ===== 敏感凭据（含 B站/YouTube 登录态 cookie，切勿提交） =====
 video_kb/cookies.txt
+video_kb/yt_cookies.txt
 
 # ===== 临时 / 调试产物 =====
 video_kb/_run2.py
