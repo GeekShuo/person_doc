@@ -1,0 +1,134 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{彭硕}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{(+86) 173-3774-5286}{shuopeng\_hust@qq.com}{https://github.com/GeekShuo}
+% {GitHub @hijiangtao}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+
+% \section{\faGraduationCap\ 教育背景}
+\section{教育背景}
+\datedsubsection{\textbf{厦门大学},网络空间安全,\textit{工学学士}}{2020.9 - 2024.6}
+\ \textbf{排名1/44},国家奖学金,优秀三好学生,优秀毕业生
+\datedsubsection{\textbf{华中科技大学},网络空间安全,\textit{在读硕士研究生}}{2024.9 - 至今}
+
+
+\section{技术能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item \textbf{深度学习/LLM}: PyTorch, Transformers, PEFT (LoRA/QLoRA), DeepSpeed/vLLM, Model Distillation
+  \item \textbf{编程与工程}: Python (Expert), C/C++, SQL, Linux, Git, Docker, uv, FastAPI
+  \item \textbf{Agent}： LangChain, Dify, MCP, Multi-Agent Systems (AutoGPT/ReAct), Vector DB (Milvus/ES),Skills
+   \item \textbf{英语}: 可作为工作语言，熟练阅读英文论文与技术文档
+%  % \item \textbf{关键词}: 
+% \end{itemize}
+% \section{教学经历}
+% % increase linespacing [parsep=0.5ex]
+% \begin{itemize}[parsep=0.2ex]
+%   \item 有着扎实的高等数学基础，过硬的专业能力与教学经验，对性质概念的讲解通俗易懂，对待学生问题一针见血。高考总分666分，数学135分，获得过大学生数学建模比赛国际级一等奖和国家级二等奖等奖项，高数90分。
+%   \item 辅导厦门大学马来西亚分校大一女生高等数学半学期，从期中不到40分，提高到期末80分。对新南威尔士大学计算机专业本科生全科辅导，也辅导过C++编程、高中数学，高中英语等课程，学生成绩均有明显进步，受到学生与家长认可。此外，还以负责人身份培训厦漳泉州地区80多位中学教师python编程，开展厦门大学附属中学益智编程培训班。
+%  % \item \textbf{关键词}: 
+\end{itemize}
+% \end{itemize}
+\section{实习经历}
+\datedsubsection{\textbf{京东 | CCO体系-信息安全部-AI安全部},算法开发岗}{2025.10-至今}
+\begin{itemize}
+  % \item 开发运维Autosec低代码智能体应用平台，赋能CCO体系完成AI化。上线多款面向CCO数十个部门的工作流、智能体、MCP Server、插件、RAG构建工具等，累计获得3W+调用量。
+  \item 通过清洗业务数据、编写爬虫、筛选开源数据集、数据合成的方式构建图文理解审核数据集。设计基于。Qwen3-VL-235B 的多模型聚合投票推理策略，成功从海量非结构化业务数据中蒸馏出\textbf{100W+} 高质量带有多模态思维链的SFT 数据，覆盖涉政、色情、暴力等数十种风险。支持图像检测、图像分类、图像理解等下游任务。
+  \item 构建了统一的多轮的多模态审核框架。运用SWIFT框架，通过高效的显存管理与混合精度训练，大规模分布式\textbf{全参数微调 Qwen3VL-8B模型}。通过数据增强提高了模型的指令遵循能力和灵活性。在此基础上引入 \textbf{GDPO} 强化学习算法进行多目标优化。通过解耦风险拦截、误杀惩罚、格式遵循等多维奖励模型的归一化过程，有效缓解多目标优化中的奖励坍塌问题。在保证高风险拦截率（F1 > 85\%）的同时，过度拒绝率降低了37\%。
+    \item 主导开发合规数字人智能体，提供知识问答、政务新闻推送、公文写作、DeepResearch、长短期记忆等功能。新闻推送功能覆盖300+强政务相关新闻源，并对 150+ 部门级与个人级用户定制化推荐。RAG系统通过 \textbf{Hybrid Search 与 Re-ranking }的两阶段召回策略，解决长尾政务知识的幻觉问题。引入 Long-term Memory（向量化记忆库） 机制，使 Agent 具备跨会话的上下文保持能力。
+\end{itemize}
+\section{项目经历}
+\datedsubsection{\textbf{华为 | 校企合作项目}, WebAssembly性能优化}{2024.11-2025.4}
+\begin{itemize}
+  \item 我们提出了一种\textbf{离线的、硬件无关的、保障安全为前提的}WebAssembly运行时性能提升方法。
+该方法创新性地引入混合执行器、安全分析器、静态重写框架，通过跳过非必要的动态检查尽可能提升执行效率。在真实用例与经典benchmark speccpu上进行了测试，获得了12.95\%的性能提升。
+\end{itemize}
+
+\datedsubsection{\textbf{虹服 | 校企合作项目}, 自动化渗透测试Agent开发}{2025.1-2025.6}
+\begin{itemize}
+  \item 设计并实现基于大语言模型的\textbf{ Multi-Agent 自动化渗透测试}系统，
+  采用“任务规划–策略推理–工具执行”的分层架构，
+  支持复杂网络环境下的攻击路径搜索与漏洞发现。
+
+  \item 通过 Tool-Calling 机制赋予模型端口扫描、目录扫描、指纹识别、
+  漏洞扫描、爬虫与自动化浏览器操作等能力，
+  并结合 RAG 机制为 Agent 提供目标相关的上下文知识，
+  提升生成指令的针对性与成功率。
+
+  \item 系统采用异步执行与并行调度优化整体推理效率
+\end{itemize}
+% \datedsubsection{\textbf{YYYY科技有限公司 | YYYYYY},数据挖掘与可视化工程师}{2005-2011}
+% \begin{itemize}
+%   \item \textbf{利用海量用户定位数据，对城市空间及人群移动特征进行研究。}第一个课题是基于香农熵和人群出行模式，构建城市网格与用户矩阵分析城市多样性/流动性分布；可视分析平台前端与可视化基于D3/Vue/Express开发，数据分析与存储采用Python/MySQL/MongoDB技术，为了均衡大数据情况下的页面可视化渲染消耗用canvas替代svg。第二个课题是对海量商场定位数据做人群分类与可视化查询，依据该系统撰写的论文被CIKM 2016(DAVA Workshop)录用，并收录于中科院软件所年会成果集
+%   \item 负责数据科学部HQ LAB的可视化原型开发，主导 TalkingMind 平台系统设计与前端开发
+% \end{itemize}
+
+
+
+% \begin{onehalfspacing}
+% \end{onehalfspacing}
+
+% \datedsubsection{\textbf{DID-ACTE} 荷兰莱顿}{2015年}
+% \role{本科毕业设计}{LIACS 交换生}
+% 利用结巴分词对中国古文进行分词与词性标注，用已有领域知识训练形成 classifier 并对结果进行调优
+% \begin{onehalfspacing}
+% \begin{itemize}
+%   \item 利用结巴分词对中国古文进行分词与词性标注
+%   \item 利用已有领域知识训练形成 classifier, 并用分词结果进行测试反馈
+%   \item 尝试不同规则，对 classifier 进行调优
+% \end{itemize}
+% \end{onehalfspacing}
+
+\section{竞赛获奖}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+%   \item LeetCodeOJ Solutions, \textit{https://github.com/hijiangtao/LeetCodeOJ}
+ \item 计算机设计大赛\textbf{国家级三等奖},2023年7月
+  \item   美国大学生数学建模竞赛 Honorable Winner \textbf{国际级三等奖},2022 年1 月
+  \item 全国大学生数学建模竞赛\textbf{省级二等奖},2021年9月
+%   \item 中国机器人大赛暨Robocup公开赛(武术擂台赛)全国一等奖,2013年10月
+  \item 蓝桥杯C++ a组\textbf{省级二等奖},2022年4月
+
+%   \item 电视节目"爸爸去哪儿"可视化分析展示, \textit{https://hijiangtao.github.io/variety-show-hot-spot-vis/}
+\end{itemize}
+
+% \section{\faHeartO\ 项目/作品摘要}
+% \section{项目/作品摘要}
+% \datedline{\textit{An Integrated Version of Security Monitor Vis System}, https://hijiangtao.github.io/ss-vis-component/ }{}
+% \datedline{\textit{Dark-Tech}, https://github.com/hijiangtao/dark-tech/ }{}
+% \datedline{\textit{融合社交网络数据挖掘的电视节目可视化分析系统}, https://hijiangtao.github.io/variety-show-hot-spot-vis/}{}
+% \datedline{\textit{LeetCodeOJ Solutions}, https://github.com/hijiangtao/LeetCodeOJ}{}
+% \datedline{\textit{Info-Vis}, https://github.com/ISCAS-VIS/infovis-ucas}{}
+
+
+% \section{\faInfo\ 社会实践/其他}
+\section{社区参与/实践其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex] 
+  \item 担任华科网安硕士3班副班长，院学生会学术部干事，担任厦门大学创客协会核心骨干。
+  \item 担任厦门大学纸飞机公益创客编程教育社会实践队队长，获得校级优秀团队表彰。
+  \item 获得金龙鱼奖学金(校级，专业仅一人）
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
