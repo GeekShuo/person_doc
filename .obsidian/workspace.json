@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5cbab4229ba4d421",
+        "id": "46eb242cf3acf033",
         "type": "tabs",
         "children": [
           {
-            "id": "87e79f27d148c474",
+            "id": "e857df98e88f8220",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -192,8 +198,12 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "87e79f27d148c474",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "工作/简历/简历0430.tex",
+    "工作/简历/彭硕-简历-27届-算法岗.typ",
+    "工作/简历/彭硕-简历-27届-算法岗.pdf",
     "video_kb/_nvdl.py",
     "video_kb/_nvapi.py",
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013/link_lists.bin",
@@ -201,14 +211,9 @@
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013/data_level0.bin",
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013/header.bin",
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013",
-    "video_kb/data/chroma/chroma.sqlite3-journal",
     "video_kb/data/notes/BV1KV9SYdEYV.md",
-    "video_kb/__pycache__/agent.cpython-311.pyc",
-    "video_kb/data/chroma/chroma.sqlite3",
-    "video_kb/__pycache__/knowledge_base.cpython-311.pyc",
     "video_kb/README.md",
     "个人项目/AIforDate/怎么邀约.md",
-    "conflict-files-obsidian-git.md",
     "实习项目/电商主图生成与评测/腾讯实习.md",
     "实习项目/电商主图生成与评测/清晰度识别.md",
     "实习项目/电商主图生成与评测/京东零售实习 gpt.md",
