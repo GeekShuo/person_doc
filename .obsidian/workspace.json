@@ -11,10 +11,14 @@
             "id": "daf253c5a7c2b784",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "工作/简历/彭硕-简历-27届-算法岗.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "彭硕-简历-27届-算法岗"
             }
           }
         ]
@@ -194,8 +198,10 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "daf253c5a7c2b784",
   "lastOpenFiles": [
+    "工作/简历/2510.14276v1.pdf",
+    "工作/简历/Unconfirmed 463664.crdownload",
     "conflict-files-obsidian-git.md",
     "工作/简历/简历0430.tex",
     "工作/简历/彭硕-简历-27届-算法岗.typ",
@@ -206,7 +212,6 @@
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013/length.bin",
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013/data_level0.bin",
     "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013/header.bin",
-    "video_kb/data/chroma/b779dd0a-8116-4b15-ac73-175aef2d5013",
     "video_kb/data/notes/BV1KV9SYdEYV.md",
     "video_kb/README.md",
     "个人项目/AIforDate/怎么邀约.md",
