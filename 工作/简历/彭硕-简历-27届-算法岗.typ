@@ -6,7 +6,7 @@
 #let fs = 11.5pt
 #let lead = 0.72em
 
-#set page(paper: "a4", margin: (top: 1.0cm, bottom: 1.0cm, left: 1.2cm, right: 1.2cm))
+#set page(paper: "a4", margin: (top: 0.65cm, bottom: 0.65cm, left: 1.2cm, right: 1.2cm))
 #set text(
   font: ("Libertinus Serif", "Times New Roman", "Microsoft YaHei"),
   size: fs,
