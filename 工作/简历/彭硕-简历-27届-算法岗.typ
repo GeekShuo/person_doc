@@ -3,12 +3,12 @@
 // 预览：typst watch 彭硕-简历-27届-算法岗.typ
 // 想要更宽松/更紧凑：调#let fs（正文字号）与 #let lead（行距）
 
-#let fs = 9.05pt
-#let lead = 0.58em
+#let fs = 11pt
+#let lead = 0.62em
 
-#set page(paper: "a4", margin: (top: 0.9cm, bottom: 0.9cm, left: 1.15cm, right: 1.15cm))
+#set page(paper: "a4", margin: (top: 1.0cm, bottom: 1.0cm, left: 1.2cm, right: 1.2cm))
 #set text(
-  font: ("Libertinus Serif", "Times New Roman", "Songti SC", "PingFang SC"),
+  font: ("Libertinus Serif", "Times New Roman", "Microsoft YaHei"),
   size: fs,
   lang: "zh",
 )
@@ -24,7 +24,13 @@
 
 // 左右两栏条目（左：机构 / 角色，右：时间）
 #let entry(left-body, right-body) = block(above: 0.4em, below: 0.15em)[
-  #grid(columns: (1fr, auto), gutter: 0.5em, left-body, text(weight: "bold")[#right-body])
+  #grid(
+    columns: (1fr, auto),
+    gutter: 0.7em,
+    align: (left + horizon, right + horizon),
+    left-body,
+    text(weight: "bold")[#right-body],
+  )
 ]
 
 // 项目符号列表
@@ -37,7 +43,7 @@
 #align(center)[
   #text(size: 18pt, weight: "bold")[彭硕]
   #v(0.1em)
-  #text(size: fs)[
+  #text(size: 9.5pt)[
     (+86) 173-3774-5286 #h(0.5em)|#h(0.5em) shuopeng\_hust\@qq.com
     #h(0.5em)|#h(0.5em) #link("https://github.com/GeekShuo")[github.com/GeekShuo]
     #h(0.5em)|#h(0.5em) 求职意向：多模态大模型 / 算法岗（2027 届）
