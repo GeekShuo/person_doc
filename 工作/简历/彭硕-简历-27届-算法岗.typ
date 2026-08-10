@@ -34,11 +34,11 @@
 ]
 
 // 经历概述：与标题和列表保留稳定间距，避免文字上下粘连
-#let intro(body) = block(above: 0.2em, below: 0.3em)[#body]
+#let intro(body) = block(above: 0.45em, below: 0.55em)[#body]
 
 // 项目符号列表：强制形成独立块，避免下一段标题插入末行
-#let bullets(..items) = block(above: 0.25em, below: 0.55em)[
-  #set list(indent: 0.2em, body-indent: 0.5em, spacing: 0.42em, marker: [•])
+#let bullets(..items) = block(above: 0.4em, below: 0.6em)[
+  #set list(indent: 0.2em, body-indent: 0.5em, spacing: 0.55em, marker: [•])
   #list(..items)
 ]
 
@@ -57,7 +57,7 @@
 #sec[教育背景]
 #entry[*华中科技大学*　网络空间安全　_硕士研究生_][2024.09 -- 2027.06（预计）]
 #entry[*厦门大学*　网络空间安全　_工学学士_　专业排名 *1/44*][2020.09 -- 2024.06]
-国家奖学金、金龙鱼奖学金（校级，专业 1 人）、优秀毕业生
+#block(above: 0.45em)[国家奖学金、金龙鱼奖学金（校级，专业 1 人）、优秀毕业生]
 
 // ======================== 技术能力 ========================
 #sec[技术能力]
