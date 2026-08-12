@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "13b0d1c430c46b08",
+        "id": "e6990e2d3dab7a10",
         "type": "tabs",
         "children": [
           {
-            "id": "daf253c5a7c2b784",
+            "id": "e7c1e37f1774a6ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/简历/彭硕-简历-27届-算法岗.md",
+                "file": "待办清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "彭硕-简历-27届-算法岗"
+              "title": "待办清单"
             }
           }
         ]
@@ -41,9 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -158,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语法/Markdown.md",
+                "file": "待办清单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Markdown 的大纲"
+              "title": "待办清单 的大纲"
             }
           },
           {
@@ -178,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,60 +191,58 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "simple-rss:Simple RSS": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "daf253c5a7c2b784",
+  "active": "e7c1e37f1774a6ce",
   "lastOpenFiles": [
-    "工作/简历/彭硕-简历-27届-算法岗-Typst终版.pdf",
-    "resume-check-v10-1.png",
-    "resume-check-v10.pdf",
-    "resume-check-v9-2.png",
-    "resume-check-v9-1.png",
-    "resume-check-v9.pdf",
-    "resume-crop-3.png",
-    "resume-crop-2.png",
-    "resume-crop-1.png",
-    "resume-check-v8-1.png",
-    "resume-check-v8.pdf",
-    "resume-check-300.png",
-    "resume-final-v7.png",
-    "工作/简历/彭硕-简历-27届-算法岗-Typst修正版.pdf",
-    "resume-final-v7.pdf",
-    "resume-typst-v6-1.png",
-    "resume-typst-v6.pdf",
-    "resume-typst-v5.pdf",
-    "resume-typst-v4.pdf",
-    "工作/简历/彭硕-简历-27届-算法岗-Typst新版.pdf",
-    "resume-final-typst.pdf",
-    "工作/简历/彭硕-简历-27届-算法岗 copy.md",
     "工作/简历/问题准备.md",
-    "conflict-files-obsidian-git.md",
-    "video_kb/data/notes/BV1KV9SYdEYV.md",
-    "video_kb/README.md",
-    "个人项目/AIforDate/怎么邀约.md",
-    "实习项目/电商主图生成与评测/腾讯实习.md",
-    "实习项目/电商主图生成与评测/清晰度识别.md",
+    "工作/简历/彭硕-简历-27届-算法岗-Typst终版.pdf",
+    "工作/简历/彭硕-简历-27届-算法岗-Typst新版.pdf",
+    "工作/简历/彭硕-简历-27届-算法岗-Typst修正版.pdf",
+    "工作/简历/彭硕-简历-27届-算法岗 copy.md",
+    "工作/简历/彭硕-27届-17337745286.pdf",
+    "工作/简历/2510.14276v1.pdf",
+    "工作/简历/彭硕-简历-27届-算法岗.md",
+    "工作/简历/彭硕-简历-27届-算法岗.pdf",
+    "实习项目/电商主图生成与评测/单图清洗流程.md",
+    "工作/简历/彭硕-简历-27届-算法岗.typ",
+    "工作/简历/简历0430.tex",
+    "工作/简历/简历0430.txt",
+    "工作/简历/shixi.md",
     "实习项目/电商主图生成与评测/京东零售实习 gpt.md",
-    "实习项目/电商主图生成与评测/shixi.md",
-    "实习项目/电商主图生成与评测/ai 安全实习.md",
-    "实习项目/多模态审核项目/文生图模型安全评测.md",
-    "实习项目/多模态审核项目/文本审核.md",
-    "实习项目/多模态审核项目/ai安全部实习.md",
-    "工作/工作方向.md",
-    "408/操作系统/实验四 6f4612a3037848d5addd5bd76c3aad5f.md",
-    "408/操作系统/实验六 10e6540b37204e479c37969096839641.md",
-    "408/操作系统/实验五 1f9723fa8a064b658d3fd7ffdf97519d.md",
-    "408/操作系统/实验二 a2cb376c175b411ea310f8524f7ee072.md",
-    "408/操作系统/实验三 d9287d424043405db91e23acbc474de8.md",
-    "408/操作系统/实验一 7be0613fdf034f5d9b4e2d6d4b513793.md",
-    "408/git与github/git与github e9572ffc95834212b7e081c3f45692cf.md",
-    "2025-12-28.md",
-    "工作/工作和学习的区别.md",
-    "工作/怎么找工作.md",
+    "工作/简历/京东零售实习 gpt.md",
+    "工作/简历/ai 安全实习.md",
+    "工作/简历/腾讯实习.md",
+    "工作/简历",
+    "video_kb/data/notes/zhuxiaohu_waitan_2025.md",
+    "video_kb/data/notes/quantum_ai_app_2026.md",
+    "video_kb/data/notes/one_person_company_tencent_2025.md",
+    "video_kb/data/notes/one_person_company_earn_36kr_2026.md",
+    "video_kb/data/notes/one_person_company_36kr_2026.md",
+    "video_kb/data/notes/luqi_tsinghua_huxiu_2026.md",
+    "video_kb/data/notes/luqi_robotics_sohu_2026.md",
+    "video_kb/data/notes/luqi_researcher_founder_2026.md",
+    "video_kb/data/notes/luqi_qinghua_tencent_2026.md",
+    "video_kb/data/notes/kaifu_wangxiaochuan_pivot_2026.md",
+    "video_kb/data/notes/fucheng_ai_landing_2026.md",
+    "video_kb/data/notes/bytedance_ai_2026.md",
+    "video_kb/data/notes/ai_value_validation_sohu_2026.md",
+    "video_kb/data/notes/ai_five_sectors_2026.md",
+    "video_kb/data/notes/ai_commercialization_sohu_2026.md",
+    "video_kb/data/notes/ai_application_market_2026.md",
+    "video_kb/data/notes/BV1sQKAe4EoU.md",
+    "生活/医美/file-20260525141509724.png",
+    "生活/医美/file-20260525141326741.png",
+    "生活/医美/file-20260525141215714.png",
+    "生活/医美/file-20260525140015566.png",
     "AI应用/通用chatbot/未命名.canvas",
+    "实习项目/电话号码校验/assets/电话号码有效性判断/file-20260618115424787.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725845.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846 1.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847.png",
+    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847 1.png",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
