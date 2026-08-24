@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e6990e2d3dab7a10",
+        "id": "2ac3456839c6bbe8",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c1e37f1774a6ce",
+            "id": "563a358e3c83a0a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待办清单.md",
+                "file": "个人项目/AI展示面/如何修图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待办清单"
+              "title": "如何修图"
+            }
+          },
+          {
+            "id": "3567aea3b3d91079",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人项目/AI展示面/展示面提示词.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "展示面提示词"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -53,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tmux",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 350.890625
   },
   "right": {
     "id": "c5293b2b30264d78",
@@ -194,55 +211,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e7c1e37f1774a6ce",
+  "active": "3567aea3b3d91079",
   "lastOpenFiles": [
+    "实习项目/风控/~$彭硕-实习答辩-2027届FiT最终最终.pptx",
+    "实习项目/风控/~$彭硕-实习答辩-2027届FiT.pptx",
+    "工作台.md",
+    "个人项目/AI展示面/展示面提示词.md",
+    "未命名.md",
+    "个人项目/AI展示面/展示面融入聊天.md",
+    "个人项目/AI展示面/如何修图.md",
+    "个人项目/AI展示面/如何做展示面.md",
+    "个人项目/AI展示面/ai展示面.md",
+    "实习项目/风控/ppt大纲.md",
+    "个人项目/AI展示面",
+    "实习项目/风控/彭硕-实习答辩-2027届FiT最终最终.pptx",
+    "实习项目/风控/彭硕-实习答辩-2027届FiT最终版.备份.pptx",
+    "实习项目/风控/彭硕-实习答辩-2027届FiT最终版.pptx",
+    "实习项目/风控/有效性与一致性校验链路-融合流程图.png",
+    "实习项目/风控/有效性与一致性校验链路-融合流程图v1 copy.png",
+    "实习项目/风控/有效性与一致性校验链路-融合流程图v1.png",
+    "实习项目/风控/有效性与一致性校验链路-融合流程图.svg.png",
+    "实习项目/风控/有效性与一致性校验链路-融合流程图.svg",
+    "实习项目/风控/~$彭硕-实习答辩-2027届FiT14252.pptx",
+    "实习项目/风控/彭硕-实习答辩-2027届FiT14252.pptx",
+    "实习项目/风控/全局链路-红框标注我的工作.png",
+    "实习项目/风控/一张极其简洁_留白充足的超宽横向流程图_纯白背景_低饱和度性_2026-08-20T03-53-24.png",
+    "实习项目/风控/截屏2026-08-20 11.00.38.png",
+    "实习项目/风控/印章检测_三阶段协同流程图.pptx",
+    "实习项目/风控/查冻扣电话号码合规校验_单页流程图.pptx",
+    "实习项目/风控/司法单据校验全局链路-我的工作定位.png",
+    "实习项目/风控/一张专业的横向流程图信息图_纯白色背景_企业级扁平矢量风格__2026-08-20T03-48-39.png",
+    "实习项目/风控/实习答辩总结.md",
+    "实习项目/风控/答辩.md",
+    "实习项目/风控/彭硕-腾讯风控实习答辩-介绍稿.md",
+    "实习项目/风控/文书类型.md",
+    "实习项目/风控/印章识别.md",
+    "实习项目/风控/电话号码校验.md",
+    "实习项目/风控/清晰度标签模型.md",
+    "实习项目/风控/法院电话号码有效性判断规则（v2.1）.md",
     "工作/简历/问题准备.md",
-    "工作/简历/彭硕-简历-27届-算法岗-Typst终版.pdf",
-    "工作/简历/彭硕-简历-27届-算法岗-Typst新版.pdf",
-    "工作/简历/彭硕-简历-27届-算法岗-Typst修正版.pdf",
     "工作/简历/彭硕-简历-27届-算法岗 copy.md",
-    "工作/简历/彭硕-27届-17337745286.pdf",
-    "工作/简历/2510.14276v1.pdf",
     "工作/简历/彭硕-简历-27届-算法岗.md",
-    "工作/简历/彭硕-简历-27届-算法岗.pdf",
     "实习项目/电商主图生成与评测/单图清洗流程.md",
-    "工作/简历/彭硕-简历-27届-算法岗.typ",
-    "工作/简历/简历0430.tex",
-    "工作/简历/简历0430.txt",
     "工作/简历/shixi.md",
     "实习项目/电商主图生成与评测/京东零售实习 gpt.md",
     "工作/简历/京东零售实习 gpt.md",
     "工作/简历/ai 安全实习.md",
     "工作/简历/腾讯实习.md",
-    "工作/简历",
-    "video_kb/data/notes/zhuxiaohu_waitan_2025.md",
-    "video_kb/data/notes/quantum_ai_app_2026.md",
-    "video_kb/data/notes/one_person_company_tencent_2025.md",
-    "video_kb/data/notes/one_person_company_earn_36kr_2026.md",
-    "video_kb/data/notes/one_person_company_36kr_2026.md",
-    "video_kb/data/notes/luqi_tsinghua_huxiu_2026.md",
-    "video_kb/data/notes/luqi_robotics_sohu_2026.md",
-    "video_kb/data/notes/luqi_researcher_founder_2026.md",
-    "video_kb/data/notes/luqi_qinghua_tencent_2026.md",
-    "video_kb/data/notes/kaifu_wangxiaochuan_pivot_2026.md",
-    "video_kb/data/notes/fucheng_ai_landing_2026.md",
-    "video_kb/data/notes/bytedance_ai_2026.md",
-    "video_kb/data/notes/ai_value_validation_sohu_2026.md",
-    "video_kb/data/notes/ai_five_sectors_2026.md",
-    "video_kb/data/notes/ai_commercialization_sohu_2026.md",
-    "video_kb/data/notes/ai_application_market_2026.md",
-    "video_kb/data/notes/BV1sQKAe4EoU.md",
-    "生活/医美/file-20260525141509724.png",
-    "生活/医美/file-20260525141326741.png",
-    "生活/医美/file-20260525141215714.png",
-    "生活/医美/file-20260525140015566.png",
     "AI应用/通用chatbot/未命名.canvas",
-    "实习项目/电话号码校验/assets/电话号码有效性判断/file-20260618115424787.png",
-    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725845.png",
-    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846.png",
-    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725846 1.png",
-    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847.png",
-    "实习项目/电商主图生成与评测/assets/seedream4.0/file-20260615144725847 1.png",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
