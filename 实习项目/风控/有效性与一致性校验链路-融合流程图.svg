@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1830" height="870" viewBox="0 0 1830 870" font-family="PingFang SC, Microsoft YaHei, Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a5568"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1a202c" flood-opacity="0.08"/>
+    </filter>
+    <g id="checkIcon">
+      <circle r="10" fill="#2f9e6e"/>
+      <path d="M -4.5 0.5 L -1.5 3.5 L 4.5 -3.5" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="checkIconLg">
+      <circle r="13" fill="#2f9e6e"/>
+      <path d="M -5.5 0.5 L -2 4.5 L 5.5 -4" stroke="#ffffff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="crossIconLg">
+      <circle r="13" fill="#e53e3e"/>
+      <path d="M -5 -5 L 5 5 M 5 -5 L -5 5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+    <g id="pdfIcon">
+      <path d="M 0 0 H 18 L 24 6 V 28 H 0 Z" fill="#e53e3e"/>
+      <path d="M 18 0 L 24 6 H 18 Z" fill="#9b2c2c"/>
+      <line x1="4" y1="9" x2="15" y2="9" stroke="#ffffff" stroke-width="1.2" opacity="0.75"/>
+      <line x1="4" y1="13.5" x2="15" y2="13.5" stroke="#ffffff" stroke-width="1.2" opacity="0.75"/>
+      <text x="12" y="25" text-anchor="middle" font-size="8" font-weight="700" fill="#ffffff">PDF</text>
+    </g>
+    <g id="idIcon">
+      <rect width="30" height="24" rx="4" fill="#2b6cb0"/>
+      <circle cx="8.5" cy="8" r="3.2" fill="#ffffff"/>
+      <path d="M 4 19.5 A 4.5 4.5 0 0 1 13 19.5 Z" fill="#ffffff"/>
+      <line x1="17" y1="6.5" x2="26" y2="6.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="17" y1="11.5" x2="26" y2="11.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="17" y1="16.5" x2="23" y2="16.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <g id="chartIcon">
+      <rect x="0" y="12" width="4" height="7" rx="1" fill="#2b6cb0"/>
+      <rect x="6" y="6" width="4" height="13" rx="1" fill="#2b6cb0"/>
+      <rect x="12" y="0" width="4" height="19" rx="1" fill="#2b6cb0"/>
+    </g>
+    <g id="fieldIcon">
+      <rect width="30" height="24" rx="4" fill="#805ad5"/>
+      <circle cx="6" cy="6.5" r="1.6" fill="#ffffff"/>
+      <line x1="11" y1="6.5" x2="25" y2="6.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="6" cy="12" r="1.6" fill="#ffffff"/>
+      <line x1="11" y1="12" x2="25" y2="12" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="6" cy="17.5" r="1.6" fill="#ffffff"/>
+      <line x1="11" y1="17.5" x2="25" y2="17.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect width="1830" height="870" fill="#ffffff"/>
+
+  <!-- 图例（左上） -->
+  <rect x="30" y="26" width="22" height="15" fill="#ffffff" stroke="#e53e3e" stroke-width="2.5" rx="3"/>
+  <text x="58" y="39" font-size="12" fill="#4a5568">红框为我的工作覆盖面</text>
+
+  <!-- ========== 顶部一行：司法请求输入（左） → 有权中台（右），整体居中 ========== -->
+  <rect x="350" y="40" width="640" height="110" rx="12" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="370" cy="66" r="12" fill="#2d3748"/>
+  <text x="370" y="71" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+  <text x="388" y="71" font-size="15" font-weight="700" fill="#2d3748">司法请求输入</text>
+  <text x="388" y="89" font-size="10" fill="#a0aec0">PDF / 图片 / 扫描件 / 字段</text>
+
+  <rect x="365" y="100" width="145" height="38" rx="7" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <use href="#pdfIcon" x="377" y="105"/>
+  <text x="407" y="124" font-size="12.5" fill="#2d3748">裁定书</text>
+
+  <rect x="520" y="100" width="145" height="38" rx="7" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <use href="#pdfIcon" x="532" y="105"/>
+  <text x="562" y="124" font-size="12" fill="#2d3748">协助执行通知书</text>
+
+  <rect x="675" y="100" width="145" height="38" rx="7" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <use href="#idIcon" x="687" y="107"/>
+  <text x="723" y="124" font-size="12.5" fill="#2d3748">工作证</text>
+
+  <rect x="830" y="100" width="145" height="38" rx="7" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <use href="#fieldIcon" x="842" y="107"/>
+  <text x="878" y="116" font-size="12" fill="#2d3748">结构化字段</text>
+  <text x="878" y="131" font-size="9" fill="#718096">（电话号码、账号等）</text>
+
+  <!-- 箭头：输入 → 中台 -->
+  <line x1="990" y1="95" x2="1027" y2="95" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 有权中台系统卡片 -->
+  <rect x="1030" y="40" width="230" height="110" rx="12" fill="#fffbf0" stroke="#f6ad55" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="1052" y="65" width="36" height="7" rx="2.5" fill="#fbd38d"/>
+  <rect x="1048" y="76" width="44" height="7" rx="2.5" fill="#f6ad55"/>
+  <rect x="1044" y="87" width="52" height="7" rx="2.5" fill="#ed8936"/>
+  <text x="1116" y="73" font-size="15" font-weight="700" fill="#c05621">有权中台系统</text>
+  <text x="1116" y="95" font-size="10.5" fill="#9c4221">请求接收 / 任务分发</text>
+  <text x="1116" y="115" font-size="10.5" fill="#9c4221">结果回传</text>
+
+  <!-- 中台 → 向下进入链路（走廊线） -->
+  <line x1="1145" y1="150" x2="1145" y2="200" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1145" y1="200" x2="357" y2="200" stroke="#4a5568" stroke-width="2"/>
+  <line x1="357" y1="200" x2="357" y2="393" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ========== 处理链路大框 ========== -->
+  <rect x="245" y="270" width="1120" height="570" rx="16" fill="#f8fafc" stroke="#cbd5e0" stroke-width="1.5"/>
+  <rect x="480" y="255" width="240" height="30" rx="15" fill="#ffffff" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="600" y="275" text-anchor="middle" font-size="14" font-weight="700" fill="#2d3748">有效性与一致性校验处理链路</text>
+
+  <!-- ========== 模块1：基本有效性校验与预处理（P0） ========== -->
+  <rect x="265" y="395" width="185" height="320" rx="12" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="279" y="409" width="34" height="24" rx="6" fill="#2b6cb0"/>
+  <text x="296" y="426" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">P0</text>
+  <text x="321" y="426" font-size="11" font-weight="700" fill="#e53e3e">当前重点</text>
+  <text x="279" y="451" font-size="15" font-weight="700" fill="#2d3748">基本有效性校验</text>
+  <text x="279" y="471" font-size="15" font-weight="700" fill="#2d3748">与预处理</text>
+  <line x1="279" y1="483" x2="436" y2="483" stroke="#e2e8f0"/>
+  <text x="283" y="507" font-size="13" fill="#2d3748">· 格式判断</text>
+  <text x="283" y="534" font-size="13" fill="#2d3748">· 破损文件识别</text>
+  <text x="283" y="561" font-size="13" fill="#2d3748">· PDF / 图片分流</text>
+  <text x="283" y="588" font-size="13" fill="#2d3748">· 无法解码拒单</text>
+  <rect x="273" y="595" width="169" height="30" rx="6" fill="#fef2f2" stroke="#e53e3e" stroke-width="2"/>
+  <text x="283" y="616" font-size="13" font-weight="700" fill="#c53030">· 电话号码校验</text>
+  <rect x="275" y="647" width="165" height="52" rx="8" fill="#e6f6ec"/>
+  <use href="#checkIcon" x="293" y="673"/>
+  <text x="309" y="678" font-size="11" font-weight="700" fill="#1e7e4a">新增约 4% 拒单拦截</text>
+
+  <!-- 箭头：模块1 → 模块2 -->
+  <line x1="450" y1="555" x2="467" y2="555" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ========== 模块2：质量治理与版面（P1） ========== -->
+  <rect x="470" y="395" width="180" height="320" rx="12" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="484" y="409" width="34" height="24" rx="6" fill="#805ad5"/>
+  <text x="501" y="426" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">P1</text>
+  <text x="484" y="461" font-size="15" font-weight="700" fill="#2d3748">质量治理与版面治理</text>
+  <line x1="484" y1="483" x2="636" y2="483" stroke="#e2e8f0"/>
+  <text x="484" y="507" font-size="13" fill="#2d3748">· 去噪增强</text>
+  <text x="484" y="534" font-size="13" fill="#2d3748">· 印章/水印/二维码剥离</text>
+  <text x="484" y="561" font-size="13" fill="#2d3748">· 多页横排切分</text>
+  <text x="484" y="588" font-size="13" fill="#2d3748">· 阅读顺序重建</text>
+  <text x="484" y="615" font-size="13" fill="#2d3748">· 要素定位</text>
+  <rect x="480" y="647" width="160" height="52" rx="8" fill="#e9f2fb"/>
+  <use href="#chartIcon" x="492" y="659"/>
+  <text x="516" y="670" font-size="11" font-weight="700" fill="#2b6cb0">改善 5%-20%</text>
+  <text x="516" y="687" font-size="10.5" fill="#2b6cb0">复杂版式与图像干扰</text>
+
+  <!-- 箭头：模块2 → 模块3 -->
+  <line x1="650" y1="555" x2="667" y2="555" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ========== 模块3：清晰度检验（P0，红框） ========== -->
+  <rect x="670" y="395" width="175" height="320" rx="12" fill="#ffffff" stroke="#e53e3e" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="684" y="409" width="34" height="24" rx="6" fill="#2b6cb0"/>
+  <text x="701" y="426" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">P0</text>
+  <text x="726" y="426" font-size="11" font-weight="700" fill="#e53e3e">当前重点</text>
+  <text x="684" y="461" font-size="15" font-weight="700" fill="#2d3748">清晰度检验</text>
+  <line x1="684" y1="483" x2="831" y2="483" stroke="#e2e8f0"/>
+  <text x="684" y="507" font-size="13" fill="#2d3748">· 模糊检测（ML 模型）</text>
+  <text x="684" y="534" font-size="13" fill="#2d3748">· 严重模糊拒单</text>
+  <text x="684" y="561" font-size="13" fill="#2d3748">· 中度模糊降级 / 复核</text>
+  <text x="684" y="588" font-size="13" fill="#2d3748">· 清晰文件放行</text>
+  <rect x="680" y="647" width="155" height="52" rx="8" fill="#e6f6ec"/>
+  <use href="#checkIcon" x="698" y="673"/>
+  <text x="714" y="667" font-size="10.5" font-weight="700" fill="#1e7e4a">新增 5%-20% 拒单</text>
+  <text x="714" y="684" font-size="10.5" fill="#1e7e4a">低质文件提前拦截</text>
+
+  <!-- 分发：模块3 → 并行子卡 -->
+  <line x1="845" y1="555" x2="863" y2="555" stroke="#4a5568" stroke-width="2"/>
+  <line x1="863" y1="399" x2="863" y2="723" stroke="#4a5568" stroke-width="2"/>
+  <line x1="863" y1="399" x2="883" y2="399" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="863" y1="507" x2="883" y2="507" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="863" y1="615" x2="883" y2="615" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="863" y1="723" x2="883" y2="723" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ========== 模块4：并行内容识别理解（P2） ========== -->
+  <rect x="870" y="285" width="270" height="540" rx="14" fill="#f4f8fd" stroke="#bdd7f0" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="886" y="301" width="34" height="24" rx="6" fill="#2b6cb0"/>
+  <text x="903" y="318" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">P2</text>
+  <text x="928" y="318" font-size="14.5" font-weight="700" fill="#1a365d">并行内容识别理解</text>
+  <line x1="886" y1="339" x2="1124" y2="339" stroke="#bdd7f0"/>
+
+  <!-- 子卡1：文书类型识别（红框） -->
+  <rect x="885" y="351" width="240" height="96" rx="10" fill="#ffffff" stroke="#e53e3e" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="1005" y="371" text-anchor="middle" font-size="14" font-weight="700" fill="#1a365d">文书类型识别</text>
+  <text x="1005" y="388" text-anchor="middle" font-size="10.5" fill="#718096">ftype 判断 + LLM 识别</text>
+  <line x1="899" y1="397" x2="1111" y2="397" stroke="#e2e8f0"/>
+  <text x="899" y="415" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 自身有效性校验</text>
+  <text x="899" y="434" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 跨字段一致性校验</text>
+
+  <!-- 子卡2：印章检测（红框） -->
+  <rect x="885" y="459" width="240" height="96" rx="10" fill="#ffffff" stroke="#e53e3e" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="1005" y="479" text-anchor="middle" font-size="14" font-weight="700" fill="#1a365d">印章检测</text>
+  <text x="1005" y="496" text-anchor="middle" font-size="10.5" fill="#718096">Seal OCR 印章识别模型</text>
+  <line x1="899" y1="505" x2="1111" y2="505" stroke="#e2e8f0"/>
+  <text x="899" y="523" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 自身有效性校验</text>
+  <text x="899" y="542" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 跨字段一致性校验</text>
+
+  <!-- 子卡3：账号专项识别 -->
+  <rect x="885" y="567" width="240" height="96" rx="10" fill="#ffffff" stroke="#bdd7f0" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1005" y="587" text-anchor="middle" font-size="14" font-weight="700" fill="#1a365d">账号专项识别</text>
+  <text x="1005" y="604" text-anchor="middle" font-size="10.5" fill="#718096">OCR / LLM 识别 + 规则匹配</text>
+  <line x1="899" y1="613" x2="1111" y2="613" stroke="#e2e8f0"/>
+  <text x="899" y="631" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 自身有效性校验</text>
+  <text x="899" y="650" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 跨字段一致性校验</text>
+
+  <!-- 子卡4：案号治理 -->
+  <rect x="885" y="675" width="240" height="96" rx="10" fill="#ffffff" stroke="#bdd7f0" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1005" y="695" text-anchor="middle" font-size="14" font-weight="700" fill="#1a365d">案号治理</text>
+  <text x="1005" y="712" text-anchor="middle" font-size="10.5" fill="#718096">案号提取与标准化治理</text>
+  <line x1="899" y1="721" x2="1111" y2="721" stroke="#e2e8f0"/>
+  <text x="899" y="739" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 自身有效性校验</text>
+  <text x="899" y="758" font-size="12" fill="#2d3748"><tspan fill="#2f9e6e" font-weight="700">✓</tspan> 跨字段一致性校验</text>
+
+  <!-- 并行区底部条 -->
+  <rect x="885" y="783" width="240" height="24" rx="6" fill="#e9f2fb"/>
+  <text x="1005" y="799" text-anchor="middle" font-size="11" font-weight="700" fill="#2b6cb0">各模块输出结构化字段</text>
+
+  <!-- 汇聚：子卡 → 模块5 -->
+  <line x1="1125" y1="399" x2="1147" y2="399" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1125" y1="507" x2="1147" y2="507" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1125" y1="615" x2="1147" y2="615" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1125" y1="723" x2="1147" y2="723" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1147" y1="399" x2="1147" y2="723" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1147" y1="555" x2="1157" y2="555" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ========== 模块5：后校验与兜底（P3-P4，红框） ========== -->
+  <rect x="1160" y="395" width="185" height="320" rx="12" fill="#ffffff" stroke="#e53e3e" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="1174" y="409" width="56" height="24" rx="6" fill="#2f9e6e"/>
+  <text x="1202" y="426" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">P3-P4</text>
+  <text x="1174" y="461" font-size="15" font-weight="700" fill="#2d3748">后校验与兜底</text>
+  <line x1="1174" y1="483" x2="1331" y2="483" stroke="#e2e8f0"/>
+  <text x="1178" y="507" font-size="13" fill="#2d3748">· 字符纠错</text>
+  <text x="1178" y="534" font-size="13" fill="#2d3748">· 格式约束</text>
+  <text x="1178" y="561" font-size="13" fill="#2d3748">· 跨字段一致性复核</text>
+  <text x="1178" y="588" font-size="13" fill="#2d3748">· 多模型投票</text>
+  <text x="1178" y="615" font-size="13" fill="#2d3748">· 低置信结果拒单</text>
+  <rect x="1170" y="647" width="165" height="52" rx="8" fill="#e6f6ec"/>
+  <use href="#checkIcon" x="1188" y="673"/>
+  <text x="1204" y="667" font-size="11" font-weight="700" fill="#1e7e4a">提升准确率</text>
+  <text x="1204" y="684" font-size="10.5" fill="#1e7e4a">低置信结果不直通</text>
+
+  <!-- 分流到 PASS / REJECT -->
+  <line x1="1345" y1="555" x2="1390" y2="555" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1390" y1="507" x2="1390" y2="627" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1390" y1="507" x2="1408" y2="507" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1390" y1="627" x2="1408" y2="627" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ========== PASS / REJECT 卡片 ========== -->
+  <rect x="1410" y="460" width="165" height="95" rx="12" fill="#ffffff" stroke="#2f9e6e" stroke-width="2" filter="url(#shadow)"/>
+  <use href="#checkIconLg" x="1440" y="507"/>
+  <text x="1461" y="503" font-size="15" font-weight="700" fill="#1e7e4a">PASS 通过</text>
+  <text x="1461" y="525" font-size="10.5" fill="#2f9e6e">结构化 JSON</text>
+
+  <rect x="1410" y="580" width="165" height="95" rx="12" fill="#fdecec" stroke="#e53e3e" stroke-width="2" filter="url(#shadow)"/>
+  <use href="#crossIconLg" x="1440" y="627"/>
+  <text x="1461" y="623" font-size="15" font-weight="700" fill="#c53030">REJECT 拒单</text>
+  <text x="1461" y="645" font-size="10.5" fill="#e53e3e">附原因拒单返回</text>
+
+  <!-- ========== 结果回传回环（右侧上行回中台） ========== -->
+  <line x1="1575" y1="507" x2="1590" y2="507" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1575" y1="627" x2="1590" y2="627" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1590" y1="507" x2="1590" y2="95" stroke="#4a5568" stroke-width="2"/>
+  <line x1="1590" y1="95" x2="1263" y2="95" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="1425" y="83" text-anchor="middle" font-size="11.5" fill="#718096">审核结果回传至有权中台（通过 / 拒绝 + 原因）</text>
+</svg>
