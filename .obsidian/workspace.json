@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习总结.md",
+                "file": "实习项目/风控/实习总结.md",
                 "mode": "source",
                 "source": false
               },
@@ -241,10 +241,10 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "cf5241e39be84d94",
+  "active": "1af2e2fb823dfc67",
   "lastOpenFiles": [
     "实习项目/风控/周报.md",
-    "实习总结.md",
+    "实习项目/风控/实习总结.md",
     "tencent/api/attachments/s3/url?attachmentid=53319456.md",
     "tencent/api/attachments/s3",
     "tencent/api/attachments",
