@@ -41,44 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习项目/风控/周报.md",
+                "file": "实习项目/风控/未命名 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "周报"
-            }
-          },
-          {
-            "id": "cf5241e39be84d94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习项目/风控/知识图谱.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "知识图谱"
-            }
-          },
-          {
-            "id": "704ce57d59665d57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习项目/风控/未命名 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "未命名 2"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -255,19 +227,30 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "704ce57d59665d57",
+  "active": "8a0cc275175bf6ca",
   "lastOpenFiles": [
-    "未命名 1.md",
-    "实习项目/风控/未命名 1.md",
-    "实习项目/风控/知识图谱.md",
+    "实习项目/风控/大模型×知识图谱新任务范.md",
+    "实习项目/风控/未命名 2.md",
+    "实习项目/风控/复现记录.md",
+    "实习项目/风控/合规实体一览.md",
+    "实习项目/风控/基于本体的风控知识图谱设计.md",
+    "实习项目/风控/实习总结.md",
     "实习项目/风控/未命名.md",
+    "实习项目/风控/周报.md",
+    "实习项目/风控/数据集设计.html",
+    "实习项目/风控/知识图谱.md",
+    "实习项目/风控/assets/知识图谱/file-20260831115100805.png",
+    "实习项目/风控/assets/知识图谱/file-20260831115044071.png",
+    "实习项目/风控/assets/知识图谱/file-20260831115030211.png",
+    "实习项目/风控/assets/知识图谱",
+    "实习项目/风控/assets",
+    "实习项目/风控/未命名 1.md",
+    "未命名 1.md",
     "工作/coding/语法/00_python_basics/05-coding-tricks/index.md",
     "工作/coding/语法/00_python_basics/04-collections/index.md",
     "工作/coding/语法/00_python_basics/03-functions/index.md",
     "工作/coding/语法/00_python_basics/02-control-flow/index.md",
     "工作/coding/语法/00_python_basics/01-variables-types/index.md",
-    "实习项目/风控/实习总结.md",
-    "实习项目/风控/周报.md",
     "tencent/api/attachments/s3/url?attachmentid=53319456.md",
     "tencent/api/attachments/s3",
     "tencent/api/attachments",
@@ -287,22 +270,11 @@
     "实习项目/风控/data/司法单据校验全局链路-我的工作定位.png",
     "实习项目/风控/data/实习答辩总结.pdf",
     "实习项目/风控/data/实习答辩总结.md",
-    "实习项目/风控/data/实习答辩总结.docx",
     "实习项目/风控/data/全局链路-红框标注我的工作.png",
-    "实习项目/风控/data/清晰度五级规则预标注-可视化.png",
-    "实习项目/风控/data/清晰度规则预标注-单页.pptx",
     "实习项目/风控/data/清晰度标签模型.md",
     "实习项目/风控/data/彭硕-腾讯风控实习答辩-介绍稿.md",
-    "实习项目/风控/data/彭硕-实习答辩-2027届FiT最终最终.pptx",
     "实习项目/风控/data/法院电话号码有效性判断规则（v2.1）.md",
     "实习项目/风控/data/电话号码校验.md",
-    "实习项目/风控/data/答辩.md",
-    "工作/coding/语法/00_python_basics/index.md",
-    "工作/语法/00_python_basics/05-coding-tricks/index.md",
-    "工作/语法/00_python_basics/04-collections/index.md",
-    "工作/语法/00_python_basics/03-functions/index.md",
-    "实习项目/风控/有效性与一致性校验链路-融合流程图.png",
-    "实习项目/风控/有效性与一致性校验链路-融合流程图v1 copy.png",
     "AI应用/通用chatbot/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

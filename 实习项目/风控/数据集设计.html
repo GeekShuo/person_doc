@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GraphSSR 四维度验证实验总览</title>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<style>
+  :root{
+    --bg:#f5f7fb; --card:#ffffff; --ink:#1c2333; --sub:#5a6478;
+    --accent:#3b6ef5; --accent2:#7c3aed; --good:#16a34a; --warn:#d97706; --bad:#dc2626;
+    --tssr:#3b6ef5; --traw:#93b4fc; --sssr:#0d9488; --sraw:#b7bfce;
+    --line:#e5e9f2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px 80px}
+  header{background:linear-gradient(120deg,#1e2a55 0%,#3b6ef5 70%,#7c3aed 100%);color:#fff;padding:44px 0 36px;margin-bottom:28px}
+  header .wrap{padding-bottom:0}
+  header h1{font-size:28px;font-weight:700;letter-spacing:.5px}
+  header p{opacity:.88;margin-top:8px;font-size:14.5px}
+  .chain{display:inline-flex;align-items:center;gap:8px;margin-top:16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:8px 16px;border-radius:999px;font-size:14px;flex-wrap:wrap}
+  .chain b{font-size:13px}
+  .toc{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 8px}
+  .toc a{font-size:13px;color:#fff;text-decoration:none;background:rgba(255,255,255,.12);padding:5px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.2)}
+  .toc a:hover{background:rgba(255,255,255,.25)}
+  .section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 28px;margin-top:26px;box-shadow:0 2px 10px rgba(28,35,51,.05)}
+  .section>h2{font-size:21px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .ds-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .badge{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
+  .b-best{background:#dcfce7;color:#15803d;border:1px solid #86efac}
+  .b-type{background:#e0e7ff;color:#3730a3;border:1px solid #a5b4fc}
+  .b-noise{background:#fef3c7;color:#92400e;border:1px solid #fcd34d}
+  .b-fail{background:#fee2e2;color:#b91c1c;border:1px solid #fca5a5}
+  .b-plan{background:#f3e8ff;color:#6b21a8;border:1px solid #d8b4fe}
+  .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;margin-top:16px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr}}
+  .info p{font-size:14.5px;color:var(--ink);margin-bottom:10px}
+  .info .sub{color:var(--sub);font-size:13.5px}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:10px}
+  th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+  th{background:#f0f3fa;font-weight:600;white-space:nowrap}
+  .task-box{background:#f8f9fe;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;margin-top:14px;font-size:14px}
+  .task-box b{color:var(--accent)}
+  .viz{background:#fafbff;border:1px solid var(--line);border-radius:12px;padding:10px}
+  .viz .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--sub);padding:4px 8px 6px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+  .viz .cap{font-size:12px;color:var(--sub);text-align:center;padding-bottom:4px}
+  .exp{border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:16px;background:#fcfdff}
+  .exp h3{font-size:15.5px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .exp .note{font-size:13.5px;color:var(--sub);margin-top:6px}
+  .bars{margin-top:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px 22px}
+  .bar-row{display:grid;grid-template-columns:64px 1fr 52px;align-items:center;gap:8px;font-size:13px}
+  .bar-track{background:#edf0f7;border-radius:999px;height:14px;overflow:hidden}
+  .bar-fill{height:100%;border-radius:999px;transition:width .6s ease}
+  .bar-row .val{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
+  .verdict{margin-top:12px;font-size:13.5px;font-weight:600}
+  .v-good{color:var(--good)} .v-warn{color:var(--warn)} .v-fail{color:var(--bad)}
+  .sum-table td,.sum-table th{text-align:center;font-variant-numeric:tabular-nums}
+  .sum-table .hl{background:#eff6ff;font-weight:700}
+  .concl li{margin:8px 0 8px 18px;font-size:14.5px}
+  footer{text-align:center;color:var(--sub);font-size:12.5px;margin-top:36px}
+  .node-label{font-size:10px;fill:#3a4358;pointer-events:none}
+  .link{stroke:#9aa4bb;stroke-opacity:.65}
+  .link.adv{stroke:#e05252;stroke-dasharray:5,4;stroke-opacity:.8}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>GraphSSR 四维度验证 · 数据集 / 任务 / 结果总览</h1>
+    <p>教师模型 × {SSR, Raw} × 学生模型 = 四格对照，检验「SSR 结构化推理」能否同时提升强模型与弱模型在图任务上的表现</p>
+    <div class="chain">理想链条&nbsp; <b>T+SSR</b> ＞ <b>T+Raw</b> ＞ <b>S+SSR</b> ＞ <b>S+Raw</b></div>
+    <nav class="toc">
+      <a href="#setup">实验设置</a><a href="#figraph">FiGraph</a><a href="#imdb">IMDB</a><a href="#acm">ACM-TA</a><a href="#cora">Cora</a><a href="#photo">Photo</a><a href="#summary">汇总与结论</a><a href="#planned">待跑任务</a>
+    </nav>
+  </div>
+</header>
+<div class="wrap" id="setup"></div>
+<div class="wrap" id="content"></div>
+<div class="wrap" id="summary"></div>
+<div class="wrap" id="planned"></div>
+<footer>GraphSSR 复现与异构扩展 · 四维度前置验证报告 · 生成于 2026-08</footer>
+
+<script>
+/* ---------------- 数据定义 ---------------- */
+const SETUP_HTML = `
+<div class="section">
+  <h2>🧪 公共实验设置</h2>
+  <div class="grid">
+    <div class="info">
+      <p><b>教师模型</b>：glm-5.2（开启思考模式）　<b>学生模型</b>：qwen3-30b-a3b-instruct-2507</p>
+      <p><b>SSR 模式</b>：同一子图 + 三步指令 —— ① 采 5 个候选 → ② 选 1 个 → ③ 给出推理。</p>
+      <p><b>Raw 模式</b>：同一子图 + 选项，去掉三步指令直接作答。</p>
+      <p class="sub">四种组合（T+SSR / T+Raw / S+SSR / S+Raw）在同一批样本上对比，指标为准确率（%）。判定标准：教师增益（T+SSR − T+Raw）显著为正、师生差距拉开、学生不因流程复杂化而崩坏。</p>
+    </div>
+    <div class="task-box" style="margin-top:0">
+      <b>任务类型说明</b><br>
+      本次四维度验证中所有已执行任务均为<b>节点分类（Node Classification）</b>：给定目标节点及其邻域子图，从候选标签中选出目标节点的类别。差异在于图的类型（同构/异构）、类别数、是否注入对抗噪声边。链路预测等其他任务类型见文末「待跑任务」。
+    </div>
+  </div>
+</div>`;
+
+const DATASETS = [
+{
+  id:'figraph', name:'FiGraph 2014 · 金融风控异构图', badge:'⭐ 主力证据', badgeCls:'b-best',
+  taskType:'节点分类 · 二分类（Normal / FinancialAnomaly）+ 三分类扩展',
+  intro:`FiGraph 2014 基于中国 A 股上市公司公开数据构建的金融风控异构图。<b>目标节点为上市公司</b>，标签 Normal / FinancialAnomaly（财务异常）。节点特征包含 10 余项财务指标（ZScore、OScore、现金流、杠杆率等）与 MDA 管理层讨论文本片段；公司之间通过四类异构关系相连。实验从正常、异常公司各抽 30 家，共 60 家非孤立公司。`,
+  schema:[['Company（目标）','财务指标 + MDA 文本，Normal/Anomaly 标签'],
+          ['Audit 审计关系','公司 ↔ 审计师/被审计公司'],
+          ['Investment 投资关系','公司 ↔ 被投资公司'],
+          ['Related-party 关联交易','公司 ↔ 关联公司'],
+          ['Supply chain 供应链','公司 ↔ 供应商/客户']],
+  noise:`对抗噪声：每类关系最多保留 6 条真实边，再从<b>标签相反</b>的公司池伪造连接，关系类型从四类真实关系中随机取。3x 档 = 12 条真实边 + 36 条干扰边 ≈ <b>75% 干扰边</b>；prompt 明确告知图中混有噪声关系，但不指明哪条。`,
+  graph:{
+    nodes:[
+      {id:'T',label:'目标公司(Normal)',type:'target'},
+      {id:'a',label:'公司A·审计',type:'real'},{id:'b',label:'公司B·供应链',type:'real'},
+      {id:'c',label:'公司C·投资',type:'real'},{id:'d',label:'公司D·关联交易',type:'real'},
+      {id:'x1',label:'Anomaly⚠',type:'adv'},{id:'x2',label:'Anomaly⚠',type:'adv'},
+      {id:'x3',label:'Anomaly⚠',type:'adv'},{id:'x4',label:'Anomaly⚠',type:'adv'}],
+    links:[
+      {source:'T',target:'a',rel:'审计'},{source:'T',target:'b',rel:'供应链'},
+      {source:'T',target:'c',rel:'投资'},{source:'T',target:'d',rel:'关联交易'},
+      {source:'T',target:'x1',rel:'伪造·投资',adv:1},{source:'T',target:'x2',rel:'伪造·供应链',adv:1},
+      {source:'T',target:'x3',rel:'伪造·审计',adv:1},{source:'T',target:'x4',rel:'伪造·关联交易',adv:1}]},
+  colors:{target:'#3b6ef5',real:'#16a34a',adv:'#e05252'},
+  typeNames:{target:'目标公司',real:'真实邻居',adv:'对抗干扰节点(标签相反)'},
+  experiments:[
+    {name:'二分类 · 3x 噪声（75% 干扰边）', verdict:['v-good','✅ 唯一稳定全链条成立'],
+     results:{tssr:66.7,traw:56.7,sssr:55.0,sraw:null},
+     note:'教师增益 +10.0%，师生差距拉开，链条 T+SSR ＞ T+Raw ＞ S+SSR 全部成立，是全部实验中唯一可稳定复现的主证据。'},
+    {name:'二分类 · 5x 噪声（83% 干扰边）', verdict:['v-warn','⚠️ 噪声过载'],
+     results:{tssr:56.7,traw:55.9,sssr:50.0,sraw:60.0},
+     note:'增益归零（+0.7%）：5 个候选里全是噪声，Select 步骤形同虚设；双方逼近 50% 随机基线。结论：3x 是噪声甜蜜点。'},
+    {name:'三分类风险分级（Normal / FinancialDistress / HiddenAnomaly）', verdict:['v-warn','⚠️ 易类稀释差距'],
+     results:{tssr:70.0,traw:66.7,sssr:null,sraw:null},
+     note:'随机基线降到 33%，但 FinancialDistress（ZScore<1.5）信号太强、师生全对，占 1/3 样本却贡献零差距，把 +10% 稀释成 +3.3%。加类 ≠ 加难度。'}]
+},
+{
+  id:'imdb', name:'IMDB (HGB) · 影视异构图', badge:'增益曾现 · 复现失败', badgeCls:'b-fail',
+  taskType:'节点分类 · 5 分类（Romance / Thriller / Comedy / Action / Drama）',
+  intro:`HGB 基准中的 IMDB 异构图。<b>目标节点为电影</b>，通过电影-演员、电影-导演、电影-关键词三类关系连接。任务为电影类型 5 分类。对抗注入策略升级：不是随机加噪，而是从<b>最易混淆类型</b>的池子里伪造边 —— Action 电影注入 Thriller 的演员和关键词，Comedy 注入 Romance 的，专挑模型最容易看错的邻居。`,
+  schema:[['Movie（目标）','类型标签，5 类'],
+          ['Actor','参演关系（M-A）'],
+          ['Director','执导关系（M-D）'],
+          ['Keyword','主题关键词（M-K）']],
+  noise:`干扰量分 1.5x / 3x / 5x 三档。3x 档约 75% 干扰边（真实信号剩约 3 演员 + 5 关键词 + 1 导演时即 5x 过载）。`,
+  graph:{
+    nodes:[{id:'m',label:'目标电影(Action)',type:'target'},
+      {id:'a1',label:'动作演员A',type:'real'},{id:'a2',label:'动作演员B',type:'real'},
+      {id:'d',label:'导演',type:'real'},{id:'k1',label:'关键词·追逐',type:'real'},{id:'k2',label:'关键词·爆炸',type:'real'},
+      {id:'xa',label:'惊悚演员⚠',type:'adv'},{id:'xk',label:'关键词·悬疑⚠',type:'adv'}],
+    links:[{source:'m',target:'a1',rel:'参演'},{source:'m',target:'a2',rel:'参演'},
+      {source:'m',target:'d',rel:'执导'},{source:'m',target:'k1',rel:'关键词'},{source:'m',target:'k2',rel:'关键词'},
+      {source:'m',target:'xa',rel:'伪造·参演',adv:1},{source:'m',target:'xk',rel:'伪造·关键词',adv:1}]},
+  colors:{target:'#3b6ef5',real:'#16a34a',adv:'#e05252'},
+  typeNames:{target:'目标电影',real:'真实关联',adv:'混淆类型干扰节点'},
+  experiments:[
+    {name:'1.5x 噪声（40 样本）', verdict:['v-warn','⚠️ 噪声不够狠'],
+     results:{tssr:65.0,traw:62.5,sssr:40.0,sraw:35.0}, note:'教师增益仅 +2.5%，区分度不足。'},
+    {name:'3x 噪声（57 样本）', verdict:['v-fail','❌ 当時判定 BEST，后复现失败'],
+     results:{tssr:73.7,traw:65.5,sssr:42.1,sraw:47.4},
+     note:'首跑 +8.2%、Gap 31.6%、学生 SSR 转负三信号齐现；但后续散射噪声 / 换 SSR 变体 / 换学生共 8 次实验仅 1 次复现成功。根因：教师太强，Raw 模式已能隐式滤噪，首跑含运气成分。IMDB 不作主证据。'},
+    {name:'5x 噪声（30 样本）', verdict:['v-fail','❌ 增益归零'],
+     results:{tssr:66.7,traw:66.7,sssr:30.0,sraw:30.0}, note:'噪声 85.3%，真实信号被淹没，与 FiGraph 5x 同病。'}]
+},
+{
+  id:'acm', name:'ACM-TA · 学术异构图（文本增强）', badge:'任务太难 · 师生反转', badgeCls:'b-fail',
+  taskType:'节点分类 · 10 分类（AI / ARCH / CN / SEC / SE 等研究领域）',
+  intro:`ACM 文本属性异构图（Text-Attributed）。<b>目标节点为论文</b>，关系包括论文-作者、论文-主题词、论文-会议。任务为论文研究领域 10 分类，随机基线仅 10%。使用真实异构子图，<b>无人工噪声</b>。`,
+  schema:[['Paper（目标）','研究领域标签，10 类'],
+          ['Author','论文-作者（P-A）'],
+          ['Subject','论文-主题词（P-S）'],
+          ['Conference','论文-会议（P-C）']],
+  noise:'无人工噪声，难度完全来自任务本身（10 类细分领域）。',
+  graph:{
+    nodes:[{id:'p',label:'目标论文',type:'target'},
+      {id:'u1',label:'作者A',type:'real'},{id:'u2',label:'作者B',type:'real'},
+      {id:'s1',label:'主题·神经网络',type:'real'},{id:'s2',label:'主题·路由协议',type:'real'},
+      {id:'c1',label:'会议·KDD',type:'real'},{id:'c2',label:'会议·SIGCOMM',type:'real'}],
+    links:[{source:'p',target:'u1',rel:'P-A'},{source:'p',target:'u2',rel:'P-A'},
+      {source:'p',target:'s1',rel:'P-S'},{source:'p',target:'s2',rel:'P-S'},
+      {source:'p',target:'c1',rel:'P-C'},{source:'p',target:'c2',rel:'P-C'}]},
+  colors:{target:'#3b6ef5',real:'#16a34a'},
+  typeNames:{target:'目标论文',real:'作者/主题/会议'},
+  experiments:[
+    {name:'10 类领域分类', verdict:['v-fail','❌ 师生反转，链条失效'],
+     results:{tssr:25.4,traw:22.0,sssr:26.7,sraw:null},
+     note:'学生 SSR 26.7% 反超教师，双方都只在随机基线 2.5 倍附近挣扎，方法差异被任务难度淹没。另踩坑：标签按研究内容而非会议分类，教师按会议名推理会系统性错分。难度须落在教师 60-90% 区间。'}]
+},
+{
+  id:'cora', name:'Cora · 引文网络', badge:'结构推理 · 验证失败', badgeCls:'b-fail',
+  taskType:'节点分类 · 7 分类（研究方向）',
+  intro:`经典引文网络 Cora。<b>目标节点为论文</b>，节点文本为 bag-of-words 关键词集合（无自然语言句子），边为引用关系。任务为 7 类研究方向分类，随机基线 14.3%。从目标论文 2 跳采样、每跳保留 5 个邻居，无人工噪声。`,
+  schema:[['Paper（目标）','bag-of-words 关键词，7 类标签'],
+          ['Citation','论文 → 论文（2 跳采样，每跳 5 邻居）']],
+  noise:'无人工噪声。难点在答案藏在引用结构而非文本里（关键词袋子语义稀薄）。',
+  graph:{
+    nodes:[{id:'p',label:'目标论文',type:'target'},
+      {id:'c1',label:'被引论文1',type:'real'},{id:'c2',label:'被引论文2',type:'real'},{id:'c3',label:'被引论文3',type:'real'},
+      {id:'g1',label:'2跳论文A',type:'hop2'},{id:'g2',label:'2跳论文B',type:'hop2'},{id:'g3',label:'2跳论文C',type:'hop2'}],
+    links:[{source:'p',target:'c1',rel:'引用'},{source:'p',target:'c2',rel:'引用'},{source:'p',target:'c3',rel:'引用'},
+      {source:'c1',target:'g1',rel:'引用'},{source:'c2',target:'g2',rel:'引用'},{source:'c3',target:'g3',rel:'引用'}]},
+  colors:{target:'#3b6ef5',real:'#16a34a',hop2:'#9a6ef5'},
+  typeNames:{target:'目标论文',real:'1 跳被引',hop2:'2 跳被引'},
+  experiments:[
+    {name:'7 类引文分类', verdict:['v-fail','❌ 链条断在第二环'],
+     results:{tssr:17.9,traw:10.7,sssr:14.3,sraw:14.3},
+     note:'T+Raw 10.7% 连学生都没超过；教师 17.9% 仅比随机高 3.6pp。失败根因：任务对两模型都太难 + 当时禁思考且代理层解析 bug + 与论文原始造数形态不对等。「结构推理型」任务不适合四格验证。'}]
+},
+{
+  id:'photo', name:'Amazon Photo · 共购图（原始论文同款）', badge:'教师饱和 · 学生+25pp', badgeCls:'b-warn',
+  taskType:'节点分类 · 12 分类（Tripods / Lenses / Bags & Cases 等）',
+  intro:`原始 GraphSSR 论文使用的同款数据集。Amazon Photo 共购图，<b>目标节点为商品</b>，边为共同购买关系，节点文本为商品评论（如 "Sturdy, well-made tripod for the price"）。24 样本 = 12 类 × 2，子图极小（平均 7 节点、最多 9），无人工噪声。`,
+  schema:[['Product（目标）','评论文本特征，12 类标签'],
+          ['Co-purchase','商品 ↔ 商品（共现购买）']],
+  noise:'无人工噪声。子图天然极小，难度低。',
+  graph:{
+    nodes:[{id:'p',label:'目标商品(三脚架)',type:'target'},
+      {id:'n1',label:'相机包',type:'real'},{id:'n2',label:'镜头布',type:'real'},{id:'n3',label:'SD卡',type:'real'},
+      {id:'n4',label:'云台',type:'real'},{id:'n5',label:'清洁套装',type:'real'}],
+    links:[{source:'p',target:'n1',rel:'共购'},{source:'p',target:'n2',rel:'共购'},
+      {source:'p',target:'n3',rel:'共购'},{source:'p',target:'n4',rel:'共购'},{source:'p',target:'n5',rel:'共购'}]},
+  colors:{target:'#3b6ef5',real:'#16a34a'},
+  typeNames:{target:'目标商品',real:'共购商品'},
+  experiments:[
+    {name:'12 类商品分类（24 样本）', verdict:['v-warn','⚠️ 教师饱和，但学生首次 SSR 增益 +25pp'],
+     results:{tssr:100,traw:100,sssr:95.8,sraw:70.8},
+     note:'任务对教师太简单（答案几乎写在评论里），第一环失效；但学生 SSR 95.8% vs Raw 70.8%——弱模型裸答易被无关邻居带偏，被迫走「采样→选择→推理」反而救了它。论文原版任务中 SSR 的价值主要体现在弱模型。'}]
+}];
+
+const SUMMARY_HTML = `
+<div class="section" id="sum-sec">
+  <h2>📊 全部实验汇总</h2>
+  <table class="sum-table">
+    <tr><th>实验</th><th>任务类型</th><th>T+SSR</th><th>T+Raw</th><th>教师增益</th><th>S+SSR</th><th>S+Raw</th><th>判定</th></tr>
+    <tr class="hl"><td>FiGraph 二分类 3x</td><td>节点分类·2类</td><td>66.7%</td><td>56.7%</td><td class="v-good">+10.0%</td><td>55.0%</td><td>—</td><td class="v-good">✅ 唯一稳定全链条</td></tr>
+    <tr><td>FiGraph 二分类 5x</td><td>节点分类·2类</td><td>56.7%</td><td>55.9%</td><td>+0.7%</td><td>50.0%</td><td>60.0%</td><td class="v-warn">⚠️ 噪声过载</td></tr>
+    <tr><td>FiGraph 三分类 3x</td><td>节点分类·3类</td><td>70.0%</td><td>66.7%</td><td>+3.3%</td><td>—</td><td>—</td><td class="v-warn">⚠️ 易类稀释差距</td></tr>
+    <tr><td>IMDB 5分类 1.5x</td><td>节点分类·5类</td><td>65.0%</td><td>62.5%</td><td>+2.5%</td><td>40.0%</td><td>35.0%</td><td class="v-warn">⚠️ 噪声不够狠</td></tr>
+    <tr><td>IMDB 5分类 3x</td><td>节点分类·5类</td><td>73.7%</td><td>65.5%</td><td>+8.2%</td><td>42.1%</td><td>47.4%</td><td class="v-fail">❌ 无法复现</td></tr>
+    <tr><td>IMDB 5分类 5x</td><td>节点分类·5类</td><td>66.7%</td><td>66.7%</td><td>0.0%</td><td>30.0%</td><td>30.0%</td><td class="v-fail">❌ 增益归零</td></tr>
+    <tr><td>ACM-TA 10类</td><td>节点分类·10类</td><td>25.4%</td><td>22.0%</td><td>+3.4%</td><td>26.7%</td><td>—</td><td class="v-fail">❌ 师生反转</td></tr>
+    <tr><td>Cora 7类</td><td>节点分类·7类</td><td>17.9%</td><td>10.7%</td><td>+7.2%</td><td>14.3%</td><td>14.3%</td><td class="v-fail">❌ 链条断第二环</td></tr>
+    <tr><td>Photo 12类</td><td>节点分类·12类</td><td>100%</td><td>100%</td><td>0.0%</td><td>95.8%</td><td>70.8%</td><td class="v-warn">⚠️ 教师饱和(学生+25pp)</td></tr>
+  </table>
+  <div class="task-box" style="margin-top:18px"><b>三条核心规律</b>
+    <ul class="concl">
+      <li><b>难度区间</b>：教师准确率须落在 60–90% —— 太高饱和（Photo）、太低贴随机（Cora / ACM），方法差异都测不出来。</li>
+      <li><b>噪声甜蜜点</b>：对抗干扰边 ≈75%（3x）时 Select 篮子最能发挥作用；过 80%（5x）筛不动、低于六成不够狠。</li>
+      <li><b>类别数</b>：二分类比多分类更能保住师生差距；多分类中的「易类」会稀释增益（FiGraph 三分类）。</li>
+    </ul>
+  </div>
+</div>`;
+
+const PLANNED_HTML = `
+<div class="section">
+  <h2>🗓️ 已设计 · 待执行</h2>
+  <div class="exp"><h3>FiGraph 三分类 · 硬钉子版 <span class="badge b-plan">未执行 · 节点分类·3类</span></h3>
+    <p class="note">Normal 取 ZScore 2–3、HiddenAnomaly 取 ZScore≥2，专挑「指标与 MDA 矛盾」的硬样本，去掉全对的 FinancialDistress 易类。预期教师增益 +15~25%。脚本已就绪：figraph_3class_ssr_vs_raw.py。</p></div>
+  <div class="exp"><h3>指标-MDA 矛盾检测 <span class="badge b-plan">未执行 · 节点分类·2类(一致性判断)</span></h3>
+    <p class="note">判断财务数字与管理层叙述是否「打架」的二分类任务；SSR 分维度采样（先分别总结指标面/文本面，再比对），让矛盾自己暴露。属于文本-数值一致性判断型任务，可视作节点分类的变体。</p></div>
+</div>`;
+
+/* ---------------- 渲染 ---------------- */
+document.getElementById('setup').innerHTML = SETUP_HTML;
+document.getElementById('planned').innerHTML = PLANNED_HTML;
+document.getElementById('content').innerHTML = DATASETS.map(ds=>`
+<div class="section" id="${ds.id}">
+  <div class="ds-head"><h2>${ds.name}</h2>
+    <span class="badge ${ds.badgeCls}">${ds.badge}</span>
+    <span class="badge b-type">${ds.taskType}</span></div>
+  <div class="grid">
+    <div class="info">
+      <p>${ds.intro}</p>
+      <table><tr><th>要素</th><th>说明</th></tr>${ds.schema.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join('')}</table>
+      <div class="task-box"><b>任务类型</b>：${ds.taskType}<br>${ds.noise}</div>
+    </div>
+    <div class="viz">
+      <div class="legend">${Object.entries(ds.typeNames).map(([t,n])=>`<span><i class="dot" style="background:${ds.colors[t]}"></i>${n}</span>`).join('')}
+        ${ds.graph.links.some(l=>l.adv)?'<span><svg width="22" height="6"><line x1="0" y1="3" x2="22" y2="3" stroke="#e05252" stroke-width="2" stroke-dasharray="5,4"/></svg>对抗干扰边</span>':'<span><svg width="22" height="6"><line x1="0" y1="3" x2="22" y2="3" stroke="#9aa4bb" stroke-width="2"/></svg>真实边</span>'}
+      </div>
+      <svg id="g-${ds.id}" width="100%" viewBox="0 0 420 300"></svg>
+      <div class="cap">▲ 示意子图：节点如何连接（红色虚线 = 人为注入的对抗噪声边）</div>
+    </div>
+  </div>
+  ${ds.experiments.map(e=>`
+  <div class="exp">
+    <h3>${e.name}</h3>
+    <div class="bars">${barRows(e.results)}</div>
+    <div class="verdict ${e.verdict[0]}">${e.verdict[1]}</div>
+    <p class="note">${e.note}</p>
+  </div>`).join('')}
+</div>`).join('');
+document.getElementById('summary').innerHTML = SUMMARY_HTML;
+
+function barRows(r){
+  const defs=[['T+SSR','tssr','var(--tssr)'],['T+Raw','traw','var(--traw)'],['S+SSR','sssr','var(--sssr)'],['S+Raw','sraw','var(--sraw)']];
+  return defs.map(([lab,k,c])=>{
+    const v=r[k];
+    return `<div class="bar-row"><span>${lab}</span><div class="bar-track"><div class="bar-fill" style="width:${v==null?0:v}%;background:${c}"></div></div><span class="val">${v==null?'—':v+'%'}</span></div>`;
+  }).join('');
+}
+
+/* D3 力导向子图可视化 */
+DATASETS.forEach(ds=>{
+  const svg=d3.select('#g-'+ds.id), W=420,H=300;
+  const nodes=ds.graph.nodes.map(n=>({...n})), links=ds.graph.links.map(l=>({...l}));
+  const gAll=svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.5,2.5]).on('zoom',e=>gAll.attr('transform',e.transform)));
+  const sim=d3.forceSimulation(nodes)
+    .force('link',d3.forceLink(links).id(d=>d.id).distance(d=>d.adv?95:75).strength(d=>d.adv?0.5:1))
+    .force('charge',d3.forceManyBody().strength(-260))
+    .force('center',d3.forceCenter(W/2,H/2))
+    .force('collide',d3.forceCollide().radius(22));
+  const link=gAll.selectAll('line').data(links).join('line')
+    .attr('class',d=>d.adv?'link adv':'link').attr('stroke-width',1.6);
+  const linkLabel=gAll.selectAll('text.lrel').data(links).join('text')
+    .attr('class','node-label').attr('text-anchor','middle')
+    .text(d=>d.rel||'');
+  const node=gAll.selectAll('g').data(nodes).join('g')
+    .attr('cursor','grab').call(d3.drag()
+      .on('start',(e,d)=>{if(!e.active)sim.alphaTarget(.25).restart();d.fx=d.x;d.fy=d.y})
+      .on('drag',(e,d)=>{d.fx=e.x;d.fy=e.y})
+      .on('end',(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null}));
+  node.append('circle').attr('r',d=>d.type==='target'?16:10)
+    .attr('fill',d=>ds.colors[d.type]).attr('stroke','#fff').attr('stroke-width',2);
+  node.append('text').attr('class','node-label').attr('dy',d=>d.type==='target'?28:20)
+    .attr('text-anchor','middle').text(d=>d.label);
+  sim.on('tick',()=>{
+    link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    linkLabel.attr('x',d=>(d.source.x+d.target.x)/2).attr('y',d=>(d.source.y+d.target.y)/2-4);
+    node.attr('transform',d=>`translate(${d.x},${d.y})`);
+  });
+  const tgt=nodes.find(n=>n.type==='target');
+  if(tgt){tgt.fx=W/2;tgt.fy=H/2;}
+});
+</script>
+</body>
+</html>
