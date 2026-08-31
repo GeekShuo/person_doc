@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习项目/风控/实习总结.md",
+                "file": "工作/coding/语法/00_python_basics/05-coding-tricks/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "实习总结"
+              "title": "index"
             }
           }
         ],
@@ -241,10 +241,15 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "cf5241e39be84d94",
   "lastOpenFiles": [
-    "实习项目/风控/周报.md",
+    "实习项目/风控/知识图谱.md",
+    "工作/coding/语法/00_python_basics/04-collections/index.md",
+    "工作/coding/语法/00_python_basics/03-functions/index.md",
+    "工作/coding/语法/00_python_basics/02-control-flow/index.md",
+    "工作/coding/语法/00_python_basics/01-variables-types/index.md",
     "实习项目/风控/实习总结.md",
+    "实习项目/风控/周报.md",
     "tencent/api/attachments/s3/url?attachmentid=53319456.md",
     "tencent/api/attachments/s3",
     "tencent/api/attachments",
@@ -275,10 +280,6 @@
     "实习项目/风控/data/电话号码校验.md",
     "实习项目/风控/data/答辩.md",
     "工作/coding/语法/00_python_basics/05-coding-tricks/index.md",
-    "工作/coding/语法/00_python_basics/04-collections/index.md",
-    "工作/coding/语法/00_python_basics/03-functions/index.md",
-    "工作/coding/语法/00_python_basics/02-control-flow/index.md",
-    "工作/coding/语法/00_python_basics/01-variables-types/index.md",
     "工作/coding/语法/00_python_basics/index.md",
     "工作/语法/00_python_basics/05-coding-tricks/index.md",
     "工作/语法/00_python_basics/04-collections/index.md",
@@ -286,7 +287,6 @@
     "工作/语法/00_python_basics/02-control-flow/index.md",
     "工作/语法/00_python_basics/01-variables-types/index.md",
     "工作/语法/00_python_basics/index.md",
-    "个人项目/AI展示面/如何做展示面.md",
     "实习项目/风控/有效性与一致性校验链路-融合流程图.png",
     "实习项目/风控/有效性与一致性校验链路-融合流程图v1 copy.png",
     "AI应用/通用chatbot/未命名.canvas",
