@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/coding/语法/00_python_basics/05-coding-tricks/index.md",
+                "file": "实习项目/风控/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "未命名"
             }
           }
         ],
@@ -243,6 +243,8 @@
   },
   "active": "cf5241e39be84d94",
   "lastOpenFiles": [
+    "工作/coding/语法/00_python_basics/05-coding-tricks/index.md",
+    "实习项目/风控/未命名.md",
     "实习项目/风控/知识图谱.md",
     "工作/coding/语法/00_python_basics/04-collections/index.md",
     "工作/coding/语法/00_python_basics/03-functions/index.md",
@@ -279,14 +281,12 @@
     "实习项目/风控/data/法院电话号码有效性判断规则（v2.1）.md",
     "实习项目/风控/data/电话号码校验.md",
     "实习项目/风控/data/答辩.md",
-    "工作/coding/语法/00_python_basics/05-coding-tricks/index.md",
     "工作/coding/语法/00_python_basics/index.md",
     "工作/语法/00_python_basics/05-coding-tricks/index.md",
     "工作/语法/00_python_basics/04-collections/index.md",
     "工作/语法/00_python_basics/03-functions/index.md",
     "工作/语法/00_python_basics/02-control-flow/index.md",
     "工作/语法/00_python_basics/01-variables-types/index.md",
-    "工作/语法/00_python_basics/index.md",
     "实习项目/风控/有效性与一致性校验链路-融合流程图.png",
     "实习项目/风控/有效性与一致性校验链路-融合流程图v1 copy.png",
     "AI应用/通用chatbot/未命名.canvas",
