@@ -39,12 +39,14 @@
             "id": "8a0cc275175bf6ca",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "工作/简历/彭硕-27届-1733774528605.pdf"
+                "file": "实习项目/电商主图生成与评测/方转长对比.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "彭硕-27届-1733774528605"
+              "icon": "lucide-file",
+              "title": "方转长对比"
             }
           }
         ],
@@ -225,15 +227,16 @@
       "simple-rss:Simple RSS": false
     }
   },
-  "active": "1af2e2fb823dfc67",
+  "active": "8a0cc275175bf6ca",
   "lastOpenFiles": [
+    "实习项目/电商主图生成与评测/单图清洗流程.md",
+    "工作/简历/彭硕-27届-1733774528605.pdf",
     "工作/简历/彭硕_17337745286_0814.pdf",
     "工作/简历/彭硕-简历-27届-算法岗05.md",
     "工作/简历/彭硕-简历-27届-算法岗08v1.md",
     "工作/简历/彭硕-简历-27届-算法岗-Typst终版.pdf",
     "工作/简历/彭硕-简历-27届-算法岗-Typst修正版.pdf",
     "工作/简历/彭硕-简历-27届-算法岗-Typst新版.pdf",
-    "工作/简历/彭硕-27届-1733774528605.pdf",
     "工作/简历/彭硕-简历-27届-算法岗.pdf",
     "工作/简历/补充字段.md",
     "工作/简历/问题准备.md",
@@ -261,7 +264,6 @@
     "工作/coding/语法/00_python_basics/01-variables-types/index.md",
     "tencent/api/attachments/s3/url?attachmentid=53319456.md",
     "tencent/api/attachments/s3",
-    "tencent/api/attachments",
     "个人项目/AI展示面/展示面融入聊天.md",
     "实习项目/风控/data/ppt大纲.md",
     "实习项目/风控/data/有效性与一致性校验链路-我的工作.png",
