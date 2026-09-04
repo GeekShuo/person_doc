@@ -1,0 +1,10 @@
+Step 1: 让AI先读readme，让其拆解核心需求，并写入Plan.md；
+Step 2：开多次session，作为reviewer，去review Plan.md 并与 readme 逐条确认对齐，查看每次ai的review意见对Plan.md进行补充；
+Step 3：让AI参考两份文档 和 项目原始代码 逐步进行开发；
+Step 4: 引导大模型进行思考与反思：在 prompt 里，一定要每次都 @ 上需求文档和Readme文档，并向附上文档的说明【readme.md: 核心题目要求文档，plan.md: 需求拆解文档】，并要求模型先阅读再思考，提出对【边界条件、必须实现、核心功能】修改意见。并在同一个 session 进行修改，遇到不确定的阅读readme 多次尝试。
+	
+总结：
+- 拆需求 -》 需求与readme 开多个窗口反复对齐到细节 -》 要求 AI 参照两份文档逐个需求步骤执行 -》执行完 开始反思需求是否达成、代码是否能跑通 -》跑测试用例 -》根据readme补充核心测试用例（重要） -》 (若有多次提交机会) 根据提交的测试结果，在同一个session进行修改/回滚 (参考Step 4)#后端开发 #美团笔试 #笔试
+
+① 读 README ↓ ② 明确输入 / 输出 ↓ ③ 看评价指标 ↓ ④ 找数据泄漏 ↓ ⑤ EDA ↓ ⑥ 建 baseline ↓ ⑦ 本地验证 ↓ ⑧ 特征工程 ↓ ⑨ 换模型 ↓ ⑩ 调参 ↓ ⑪ 输出合法性检查 ↓ ⑫ 提交
+baseline → validation → feature engineering → model → ensemble
