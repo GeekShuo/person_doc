@@ -86,9 +86,3 @@ for i in range(n):
 ---
 
 [← 返回首页](../../index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -480,9 +480,3 @@ if __name__ == "__main__":
 - 端点相接不冲突，应使用 `bisect_right` 查找结束时间不大于当前开始时间的前缀。
 - 二分范围只需覆盖当前任务之前的部分，代码用右边界 `i - 1` 明确限制。
 - 最大收益可达 $2\times10^{14}$；Python 整数不会溢出，其他语言需使用 64 位整数。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

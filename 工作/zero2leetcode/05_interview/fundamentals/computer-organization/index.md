@@ -144,9 +144,3 @@ source: "https://onefly.top/zero2Leetcode/05_interview/fundamentals/computer-org
 
 | [返回计算机基础系统课](../cs-core/index.md) | [进入操作系统速查](../operating-system/index.md) | [进入网络速查](../computer-network/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

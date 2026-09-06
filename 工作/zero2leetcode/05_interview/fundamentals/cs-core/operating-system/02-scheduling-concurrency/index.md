@@ -1404,9 +1404,3 @@ L1 < L2 < L3
 
 | [上一课：内核与进程](../01-kernel-process-thread/index.md) | [下一课：虚拟内存 →](../03-virtual-memory/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

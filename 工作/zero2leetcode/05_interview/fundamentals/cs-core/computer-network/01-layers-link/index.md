@@ -1040,9 +1040,3 @@ tcpdump -n -e arp
 
 | [返回网络导学](../index.md) | [下一课：IP 与路由 →](../02-ip-routing/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

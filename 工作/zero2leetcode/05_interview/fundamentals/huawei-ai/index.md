@@ -501,9 +501,3 @@ source: "https://onefly.top/zero2Leetcode/05_interview/fundamentals/huawei-ai/in
 - 反问：对应届生的建议、看中应聘者什么
 
 **个人总结**：华为更看重解决问题的能力而非对口知识的多寡，熟悉项目比什么都强。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

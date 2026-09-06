@@ -311,9 +311,3 @@ source: "https://onefly.top/zero2Leetcode/04_real_interviews/huawei/ai-exam-guid
 3. **编程题保 150 争 200**：35 道必刷题覆盖所有高频知识点
 4. **不要死磕**：15 分钟没思路就看题解，暴力骗分也是分
 5. **分值 ≠ 难度**：一定先浏览两道编程题再决定做题顺序
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

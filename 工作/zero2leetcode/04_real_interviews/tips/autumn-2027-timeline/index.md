@@ -70,9 +70,3 @@ source: "https://onefly.top/zero2Leetcode/04_real_interviews/tips/autumn-2027-ti
 ## 一句话结论
 
 27 届秋招笔试正在从“纯算法”转向“算法 + AI Coding + 岗位基础”的混合考查。准备重点不只是多刷题，而是先确认目标岗位的试卷结构，再按真实时间线安排限时训练和投递节奏。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

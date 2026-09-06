@@ -250,9 +250,3 @@ print(left, right, current, file=sys.stderr)
 
 | [← 返回 Python 基础](../index.md) | [上一篇：类与节点对象](../05-classes/index.md) | [下一篇：输入输出与 ACM →](../06-input-output/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

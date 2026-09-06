@@ -202,9 +202,3 @@ for _ in range(T):
 
 > **提示**：`import sys; input = sys.stdin.readline` 是 Python 笔试中加速输入的标准写法，比内置的 `input()` 快很多，在大数据量时可以避免 TLE。
 >
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

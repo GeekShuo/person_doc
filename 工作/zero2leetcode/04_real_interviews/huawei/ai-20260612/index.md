@@ -479,9 +479,3 @@ print("\n".join(" ".join(fmt2(v) for v in row) for row in Y))
 
 - 第一题是标准 K-Means 模板，核心在于利用 NumPy 广播一次性算出距离矩阵，`argmin` 天然处理平局规则
 - 第二题是 MoE 前向路由的完整模拟，虽然流程长但每一步都是确定性的矩阵运算，关键是数值稳定 softmax（减行最大值）和排序选 Top-S 的平局处理
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

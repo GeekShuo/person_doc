@@ -817,9 +817,3 @@ find 之后 parent 链可以变短
 
 | [← 返回数据结构](../index.md) | [上一篇：字典树](../08-trie/index.md) | [下一篇：进阶结构 →](../10-advanced-structures/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

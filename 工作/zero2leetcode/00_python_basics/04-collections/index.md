@@ -268,9 +268,3 @@ ordered = sorted(frequency.items(), key=lambda item: (-item[1], item[0]))
 
 | [← 返回 Python 基础](../index.md) | [上一篇：函数](../03-functions/index.md) | [下一篇：类与节点对象 →](../05-classes/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

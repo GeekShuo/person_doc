@@ -61,9 +61,3 @@ source: "https://onefly.top/zero2Leetcode/00_python_basics/index.html"
 ---
 
 [开始学习：变量与数据类型 →](01-variables-types/index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

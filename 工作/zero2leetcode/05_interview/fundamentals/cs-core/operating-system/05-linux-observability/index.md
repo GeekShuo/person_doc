@@ -1616,9 +1616,3 @@ Pod 显示 OOMKilled 时检查：
 
 | [上一课：文件系统与 I/O](../04-filesystem-io/index.md) | [下一门：计算机网络 →](../../computer-network/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

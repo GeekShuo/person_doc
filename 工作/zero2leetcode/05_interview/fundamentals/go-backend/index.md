@@ -407,9 +407,3 @@ Go 1.23 之前，底层 channel 有容量，未停止的 ticker 不可被 GC 回
 `pprof` 的采样结果要结合业务流量和基线比较；优化后必须用相同负载复测吞吐、尾延迟、CPU 和内存，防止把成本转移到别处。
 
 **常见追问**：为什么线上 profile 有开销？CPU、mutex、block、trace 的采集方式和开销不同，应控制采样时长和采样率，先在压测环境验证，再按生产规范操作。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -259,9 +259,3 @@ ORDER BY u.user_id;
 - 第一题是 LEFT JOIN 的经典应用，核心是 `COUNT(列名)` 区分空组和 `COUNT(*)`
 - 第二题考查 ROW_NUMBER 分组 TopN 模式，关键是退款要在叫号之前过滤，排序键要唯一
 - 第三题用窗口函数做累计求和，再利用”累计只增不减”的性质用 MIN + CASE WHEN 取首次达标日
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -458,9 +458,3 @@ echo "$result"
 - 第一题是 SQL 基本功考察，核心是 INNER JOIN + GROUP BY + CASE WHEN 内嵌聚合函数的组合运用。注意”超过150%”意味着 `MAX(price) > base_price * 1.5`，以及用左闭右开区间处理时间范围
 - 第二题是博弈分析，关键洞察是 $(x + y) \bmod 4 = 3$ 只取决于余数，将元素按余数分为 (0,3) 和 (1,2) 两组，然后根据孤儿元素的分布情况分三种局面讨论
 - 第三题是 Shell 管道编程的签到题，`tr | sort -n | uniq -c | awk` 是处理”统计并筛选”类问题的经典组合，注意在 awk 中处理无结果时输出 `none`
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -551,9 +551,3 @@ if __name__ == "__main__":
 6. **栈类题高频**：有效的括号、字符串解码、每日温度、最小栈
 7. **AI 岗额外准备 ML 手撕**：Self-Attention（18次）、MHA（15次）、KMeans（14次）是 Top 3
 8. **ACM 模式 + 规范命名**：面试官看重代码质量，提前练好模板
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

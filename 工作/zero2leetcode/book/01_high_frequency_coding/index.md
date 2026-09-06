@@ -83,9 +83,3 @@ source: "https://onefly.top/zero2Leetcode/book/01_high_frequency_coding/"
 ```
 
 没有教学价值的解法可以省略，但必须说明最终推荐哪种写法及原因。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

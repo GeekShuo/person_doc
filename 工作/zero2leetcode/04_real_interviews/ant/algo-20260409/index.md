@@ -288,9 +288,3 @@ for _ in range(T):
 - 第一题贪心，四种运算对权值具有单调性，每关选更大结果即全局最优
 - 第二题 HMM Viterbi 是 ML 编程题，对数域 DP 避免下溢，NumPy 向量化实现高效解码
 - 第三题质因数分解 + DFS 枚举，按质因子独立分配指数，剪枝后搜索空间极小
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

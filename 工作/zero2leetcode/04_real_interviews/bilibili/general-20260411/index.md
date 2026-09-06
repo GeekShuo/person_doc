@@ -176,9 +176,3 @@ for _ in range(T):
 
 - 第一题数位 DP 是高频考点，关键在于状态设计：用 first 记录首位数字，在最后一位与 first 比较
 - 第二题 Toeplitz 矩阵判定是经典模拟题，逐元素检查对角线一致性即可
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

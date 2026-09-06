@@ -925,9 +925,3 @@ Kahn 算法处理完队列后，若输出节点数小于 V，图中必有环。�
 
 | [← 返回数据结构](../index.md) | [上一篇：堆](../06-heap/index.md) | [下一篇：字典树 →](../08-trie/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

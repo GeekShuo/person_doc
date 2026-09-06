@@ -381,9 +381,3 @@ main()
 - 选择题覆盖面广，重点考察了 Beam Search、RAG、Sigmoid 缺陷、对比损失/匹配损失区别、Flash Decoding 适用阶段、MHA 参数量/FLOPs 等高频知识点
 - 第一题是公式模拟题，核心是理解 NTK-aware RoPE 的三步变换（动态缩放 → 基频变换 → 逐对旋转），难度在于精度控制
 - 第二题是本场压轴难题，朴素 $O(K \cdot N^2)$ 区间 DP 可拿部分分，满分需利用代价函数的四边形不等式性质进行决策单调性分治优化
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

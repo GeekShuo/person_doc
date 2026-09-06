@@ -486,9 +486,3 @@ python main.py --input <csv_path> --output <pred_path>
 - 选择题覆盖机器学习、深度学习、大模型训练与经典数据结构，需要兼顾计算和概念边界。
 - 编程题的关键是把全局两两绝对差拆成单点贡献，再用两棵树状数组维护值域前缀个数与前缀和。
 - AI Coding 的优先级应是防止时间泄漏、建立可信验证方式、跑通稳健基线，最后再做特征与模型迭代。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

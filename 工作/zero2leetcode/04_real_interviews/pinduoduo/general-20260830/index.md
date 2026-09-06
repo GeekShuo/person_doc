@@ -645,9 +645,3 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

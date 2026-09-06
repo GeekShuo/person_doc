@@ -1241,9 +1241,3 @@ CPU 节点 0 -> 节点 1 内存：跨互连，较慢
 
 | [上一课：存储层次](../03-memory-cache/index.md) | [下一门：操作系统 →](../../operating-system/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

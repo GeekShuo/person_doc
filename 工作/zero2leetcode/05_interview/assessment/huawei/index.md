@@ -169,9 +169,3 @@ source: "https://onefly.top/zero2Leetcode/05_interview/assessment/huawei/index.h
 2. **核心原则**：乐观、合作、守信、抗压、不激进、不求当领导
 3. **避免矛盾**：提前列好各维度预设答案，做题时对照
 4. **面试准备**：技术面重点准备八股文 + 手撕代码（ACM 模式），主管面准备好价值观和团队协作相关的故事
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

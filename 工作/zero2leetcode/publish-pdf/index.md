@@ -41,9 +41,3 @@ brew install --cask mactex-no-gui font-inter font-tex-gyre-heros
 ```
 
 构建分为三步：组装 Markdown、使用 Pandoc AST 检查公式与特殊字符、调用 XeLaTeX 生成 PDF。代码运行验证由本机 Python 环境单独完成，不依赖 LeetCode 在线判题。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -268,9 +268,3 @@ while left < right:
 
 | [← 返回 Python 基础](../index.md) | [上一篇：变量与数据类型](../01-variables-types/index.md) | [下一篇：函数 →](../03-functions/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

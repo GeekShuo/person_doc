@@ -268,9 +268,3 @@ class Edge:
 
 | [← 返回 Python 基础](../index.md) | [上一篇：集合类型](../04-collections/index.md) | [下一篇：刷题工具与调试 →](../05-coding-tricks/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

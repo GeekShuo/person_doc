@@ -327,9 +327,3 @@ SSD/HDD 等持久存储：
 
 | [返回系统课总览](../index.md) | [第一课：数据表示与指令 →](01-data-and-instructions/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

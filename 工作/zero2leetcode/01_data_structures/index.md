@@ -257,9 +257,3 @@ source: "https://onefly.top/zero2Leetcode/01_data_structures/index.html"
 ---
 
 [开始学习：数组与字符串 →](01-array-string/index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

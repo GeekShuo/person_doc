@@ -325,9 +325,3 @@ solve()
 - 第一题是贪心数位构造，核心观察是”在某位减 1 后面全填 9”一定最优，线性扫描即可
 - 第二题是二分答案经典题，内层 check 用滑动窗口 + 最小堆实现”最早过期优先”贪心
 - 第三题是 Hamiltonian Path 的状压 DP，$n \leq 16$ 是强烈暗示，按 mask 升序转移即可
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

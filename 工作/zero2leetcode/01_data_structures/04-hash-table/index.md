@@ -1005,9 +1005,3 @@ def find_anagrams(s: str, p: str) -> list[int]:
 | **常见搭配** | 哈希表 + 前缀和、哈希表 + 滑动窗口、哈希表 + 排序 |
 
 掌握哈希表的关键不在于记住 API，而在于识别”需要快速查找/计数/去重”的场景，并选择合适的数据结构来实现。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

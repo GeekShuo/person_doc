@@ -429,9 +429,3 @@ Streams 提供持久化消息、消费者组、待确认列表和显式 ACK，�
 下一篇建议继续看：
 
 - [2026 年夏季后端面经八股整理](../recent-2026-summer/index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -282,9 +282,3 @@ hex(255)                 # "0xff"
 
 | [← 返回 Python 基础](../index.md) | [下一篇：控制流 →](../02-control-flow/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -1503,9 +1503,3 @@ tcpdump -nn -i any 'tcp port 443'
 
 | [上一课：IP 与路由](../02-ip-routing/index.md) | [下一课：DNS 与 HTTP →](../04-dns-http/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

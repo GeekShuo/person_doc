@@ -421,9 +421,3 @@ ORDER BY s.decline_count DESC,
 - 第一题用 `LEFT JOIN` 保留未使用优惠券，`COUNT(列名)` 与 `COALESCE` 分别处理空计数和空金额
 - 第二题先把支付流水聚合到团粒度，再用条件聚合计算活动成团率，核心是始终明确当前统计粒度
 - 第三题用 `LAG` 构造相邻比较，再用全量行号与降价行号的差值识别连续区间
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

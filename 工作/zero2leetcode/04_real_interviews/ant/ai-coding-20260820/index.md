@@ -650,9 +650,3 @@ def test_parse_decimal():
 ```
 
 AI Coding 考试中，Agent 可以帮你快速写代码，但“先观察什么、采用什么抽象、如何证明结果正确”仍然需要候选人主导。对于这道账单解析题，最重要的交付标准依次是：**字段正确、样例全覆盖、异常不扩散、输出可验证、代码可扩展**。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

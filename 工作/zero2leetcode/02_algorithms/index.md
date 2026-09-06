@@ -49,9 +49,3 @@ source: "https://onefly.top/zero2Leetcode/02_algorithms/index.html"
 ---
 
 [开始学习：排序算法 →](01-sorting/index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

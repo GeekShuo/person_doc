@@ -1373,9 +1373,3 @@ balance：每个节点都回到 [-1, 1]
 ### 复杂度必须写高度 h
 
 树算法更准确的表达是 O(n) 或 O(h)，而 BST 的查找是 O(h)：平衡时 h=O(log n)，退化时 h=O(n)。面试回答“BST 查找 O(log n)”前，先补一句“在树保持平衡的前提下”，否则忽略了普通 BST 的最坏情况。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -1594,9 +1594,3 @@ curl --http2 -I https://example.com/
 
 | [上一课：UDP 与 TCP](../03-transport-tcp/index.md) | [下一课：TLS 与排障 →](../05-tls-debugging/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

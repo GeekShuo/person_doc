@@ -425,9 +425,3 @@ if __name__ == "__main__":
 
 | [← 返回 Python 基础](../index.md) | [上一篇：刷题工具与调试](../05-coding-tricks/index.md) | [下一章：数据结构 →](../../01_data_structures/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -984,9 +984,3 @@ mid = (left + right) // 2
 
 | [← 返回数据结构](../index.md) | [上一篇：并查集](../09-union-find/index.md) | [下一篇：ACM 构造数据结构 →](../11-acm-construction/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

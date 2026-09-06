@@ -608,9 +608,3 @@ if __name__ == '__main__':
 - 选择题覆盖了大模型工程（Adam 显存估算、gradient accumulation、MHA、BLIP-2 Q-Former）、经典数学（互斥独立、贝叶斯、张量收缩、Weierstrass 逼近）和机器学习基础（Precision/Recall、聚类指标、MLE）三大方向
 - 第一题是**决策树遍历 + 多数表决**，核心是把每棵树的节点读进数组、按 idx/val 跳左右孩子，最后统计票数。Python 注意用 `buffer.read().split()` 避免 IO 超时
 - 第二题是**字典树（Trie）**，朴素暴力逐条比对会超时，关键优化是把同节点的所有缓存序列合并为共享前缀树，LCP 查询变成从根节点沿请求逐步向下走
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

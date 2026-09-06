@@ -517,9 +517,3 @@ solve()
 1. **选择题**：本场选择题重点考察大模型推理优化（KV-Cache、PagedAttention、Prefill/Decode 分阶段）、RLHF（PPO clipping）、PEFT（Prompt Tuning），以及 ML 基础（逻辑回归、PCA、贝叶斯网络）。建议系统复习 Transformer 推理加速和 RLHF 流程。
 2. **第一题（逻辑回归 BGD）**：纯公式模拟题，核心陷阱在于”批量梯度下降”必须一轮统一更新，不能边遍历边改参数。Safe sigmoid 分段实现避免数值溢出。
 3. **第二题（多头注意力掩码）**：逻辑链较长但每步都有明确公式。用 NumPy 广播一次性构造因果+Padding 双重掩码，$-\infty$ 占位让 softmax 自然屏蔽无效位置，Safe Softmax 减行最大值防溢出。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

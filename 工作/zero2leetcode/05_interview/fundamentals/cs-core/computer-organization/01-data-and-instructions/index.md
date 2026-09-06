@@ -1490,9 +1490,3 @@ cc -O2 -S example.c -o example.s
 
 | [返回组成原理导学](../index.md) | [下一课：CPU、流水线与性能 →](../02-cpu-pipeline-performance/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

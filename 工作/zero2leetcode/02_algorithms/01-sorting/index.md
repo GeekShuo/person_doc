@@ -560,9 +560,3 @@ sorted(intervals, key=lambda x: (x[0], -x[1]))
 4. **实际刷题**直接用 `sorted()` / `list.sort()`，重点掌握 `key` 参数与稳定性。
 5. 排序不是孤立知识点，二分、贪心、分治、Top K 和区间题都依赖有序性。
 6. 稳定性记忆：**快、选、堆、希通常不稳定**；实现细节也可能改变稳定性。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

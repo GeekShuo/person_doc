@@ -788,9 +788,3 @@ Unicode 需要先决定规范化规则
 
 | [← 返回数据结构](../index.md) | [上一篇：图](../07-graph/index.md) | [下一篇：并查集 →](../09-union-find/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

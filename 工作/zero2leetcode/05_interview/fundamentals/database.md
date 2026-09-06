@@ -289,9 +289,3 @@ MVCC（多版本并发控制）通过保存数据的多个版本，使读操作�
 
 > 来源：[卡码笔记](https://notes.kamacoder.com/base/)
 >
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -635,9 +635,3 @@ class Solution:
 **边界/易错点**：空段、尾部分隔符、IPv4 前导零、正负号、IPv6 非法字母、同时含点和冒号。
 
 **面试追问**：如何支持 IPv6 的 `::` 压缩和 IPv4 映射地址？不用 `split` 如何写状态机？
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -990,9 +990,3 @@ HTTP 请求经 CDN、代理和服务端处理。
 
 | [返回面试备战](../../index.md) | [开始学习：计算机组成原理 →](computer-organization/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

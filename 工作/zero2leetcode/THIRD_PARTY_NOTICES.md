@@ -71,9 +71,3 @@ The Temurin distribution and the derived OpenJDK signature data are provided und
 - Original notice: [`NOTICE`](https://onefly.top/zero2Leetcode/third_party/temurin-21.0.12+8/NOTICE)
 - Original release metadata: [`release`](https://onefly.top/zero2Leetcode/third_party/temurin-21.0.12+8/release)
 - Complete module notices: [`legal/`](https://onefly.top/zero2Leetcode/third_party/temurin-21.0.12+8/legal/)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

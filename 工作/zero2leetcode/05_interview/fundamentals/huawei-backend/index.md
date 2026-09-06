@@ -155,9 +155,3 @@ source: "https://onefly.top/zero2Leetcode/05_interview/fundamentals/huawei-backe
 - 自我介绍
 - 项目介绍
 - 常见面试问题（建议提前准备）
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

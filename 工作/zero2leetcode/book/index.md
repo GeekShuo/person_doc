@@ -24,9 +24,3 @@ PDF 出版命令与依赖说明见 [`publish-pdf/README.md`](../publish-pdf/inde
 - 新编高频题解必须经过统一改写、代码验证和交叉审校后才能进入定稿。
 - 不同统计样本的原始频次不能直接相加；其他公司数据主要用于优先级参考和补充新题。
 - 书稿中的代码、复杂度、边界条件和样例必须相互一致。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

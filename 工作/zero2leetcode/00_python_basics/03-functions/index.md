@@ -288,9 +288,3 @@ if __name__ == "__main__":
 
 | [← 返回 Python 基础](../index.md) | [上一篇：控制流](../02-control-flow/index.md) | [下一篇：集合类型 →](../04-collections/index.md) |
 |---|---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

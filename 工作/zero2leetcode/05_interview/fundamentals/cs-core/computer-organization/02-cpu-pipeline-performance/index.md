@@ -1119,9 +1119,3 @@ perf stat ./your_program
 
 | [上一课：数据与指令](../01-data-and-instructions/index.md) | [下一课：存储层次与 Cache →](../03-memory-cache/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -1761,9 +1761,3 @@ Sidecar/节点代理可能：
 
 | [上一课：DNS 与 HTTP](../04-dns-http/index.md) | [进入网络面试速查题库 →](../../../computer-network/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

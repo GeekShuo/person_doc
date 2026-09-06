@@ -482,9 +482,3 @@ main()
 - 第二题 ML pipeline：掌握 One-Class SVM 的原理和 scikit-learn 标准流程，注意标准化只在训练集 fit、验证集构造、多级排序选参
 - 第三题折半搜索：经典的指数级优化技巧，3^n 拆成 2 * 3^(n/2)，关键在于按跳过次数分组后二分合并
 - 第四题分治 + RMQ：以区间最大值为分割点分治，枚举较短侧配合二分统计，总复杂度 O(n log^2 n)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -686,9 +686,3 @@ print_list(result)
 |---|---|---|---|---|
 | 2026-04 | 后台AI开发 | 一面 | 牛客 | AI工程化(Prompt/RAG/分段策略) + MySQL(原子性/持久性/锁/分库分表/QPS) + Java并发(线程池/ThreadLocal) |
 | 2026-04 | 后台AI开发 | 一面 | 牛客 | Spring(AOP/ReentrantLock/synchronized) + JVM(类加载) + OS(Page Cache) + NIO + 分布式事务 + 设计模式 + 算法(LC21) |
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

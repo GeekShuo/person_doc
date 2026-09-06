@@ -278,9 +278,3 @@ def canFinish(numCourses, prerequisites):
 4. 网格问题本质就是图问题，四方向移动是固定套路。
 5. 拓扑排序用 BFS（Kahn 算法）处理有向无环图的依赖关系。
 6. 刷题时先判断是 DFS 还是 BFS 场景，再套模板，最后根据题意调整细节。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

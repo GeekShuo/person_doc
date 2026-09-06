@@ -132,9 +132,3 @@ HTTP 是协议，RPC 是调用抽象，RPC 完全可以运行在 HTTP/2 上。UR
 - [2026 年夏季后端面经八股整理（6–8 月）](../recent-2026-summer/index.md)
 
 统计口径截至 7 月；8 月新增样本已收入夏季合集，下一轮统计时统一更新频次。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -483,9 +483,3 @@ solve()
 - 第二题三维网格枚举的核心是 26 个方向 + 合法起点的笛卡儿积，初值用负无穷避免全负权值被屏蔽
 - 第三题是 sklearn 管线题，严格按题目参数搭建 StandardScaler + SVC + StratifiedKFold + GridSearchCV 管线即可
 - 第四题利用异或消去律将 $O(n^4)$ 暴力拆成”中途相遇”的 $O(n^2)$，滑动分界点巧妙保证下标严格递增约束
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

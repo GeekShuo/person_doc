@@ -1261,9 +1261,3 @@ Padding 不是无条件正确：
 
 | [上一课：CPU 与流水线](../02-cpu-pipeline-performance/index.md) | [下一课：I/O 与多核 →](../04-io-multicore/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

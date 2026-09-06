@@ -242,9 +242,3 @@ def partitionLabels(s: str) -> list[int]:
   - **跳跃类**：跳跃游戏系列
   - **分配类**：分发饼干、任务分配
 - 记住一个口诀：**排序是贪心的好朋友**，大部分贪心题第一步都是排序。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

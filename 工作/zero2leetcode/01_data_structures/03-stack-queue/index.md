@@ -1023,9 +1023,3 @@ full:  size == C
 一句话总结：先定 LIFO/FIFO，再定空满并发，最后选 list、deque、堆或单调容器。
 
 `peek` 只观察不删除，`pop/dequeue` 才改变 size；这两个接口不要混为一谈。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

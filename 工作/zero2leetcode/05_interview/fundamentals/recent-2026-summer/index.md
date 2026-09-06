@@ -3024,9 +3024,3 @@ Effect 用于与网络、订阅、计时器、DOM 或第三方组件等**外部�
 下一篇建议继续看：
 
 - [2026 年 3–7 月高频后端八股统计](../backend-frequency-2026-march-july/index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

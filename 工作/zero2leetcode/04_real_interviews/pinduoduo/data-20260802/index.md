@@ -394,9 +394,3 @@ ORDER BY user_id ASC;
 - 第一题使用 `ROW_NUMBER` 完成分组 Top1，并通过 `id ASC` 稳定解决并列问题
 - 第二题先汇总月度 GMV，再用 `LAG` 取得数据中实际出现的上一月份，最后计算环比
 - 第三题先聚合用户指标，再完成 R/F/M 打分和组合分层，重点是阈值边界与兜底标签
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

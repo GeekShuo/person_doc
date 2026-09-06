@@ -31,9 +31,3 @@ source: "https://onefly.top/zero2Leetcode/book/assets/bluebook-cover-prompt.html
 - 顶部和底部各预留至少 90 像素纯背景安全区，即使各裁掉约 21 像素也不能损失任何文字或关键图形。
 
 质量要求：中文字体准确、笔画完整；英文大小写严格正确；画面锐利，适合印刷；不要任何额外小字、页码、价格、出版社名、徽章或水印。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

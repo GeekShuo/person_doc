@@ -643,9 +643,3 @@ trade_count = sum(trade_count)
 5. 场景题：K 线存储重点讲清数据模型、实时聚合、版本修正、冷热分层和回放校验。
 
 真正能拉开差距的不是背出名词，而是先说明约束，再解释方案为什么成立、何时失效，以及故障发生后如何恢复。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

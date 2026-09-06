@@ -690,9 +690,3 @@ def test_completed_visit_is_not_called_again():
 ```
 
 这道题考的不是页面做得多漂亮，而是能否在 2 小时内把一个多角色、多科室、带状态流转的业务系统做出最小闭环。候选人应让 Agent 负责代码产出，但自己必须掌握状态模型、排队规则、权限边界和验收标准。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -390,9 +390,3 @@ CPU 特权级和页表提供硬件保护。应用需要服务时，通过系统�
 
 | [返回系统课总览](../index.md) | [第一课：内核、进程与线程 →](01-kernel-process-thread/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

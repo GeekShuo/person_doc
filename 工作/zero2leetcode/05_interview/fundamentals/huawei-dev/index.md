@@ -884,9 +884,3 @@ source: "https://onefly.top/zero2Leetcode/05_interview/fundamentals/huawei-dev/i
 6. **升级机制**：无法达成一致时，提交上级裁决
 
 **核心心态**：大家目标一致（交付好产品），分歧只是角度不同，不是对立。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

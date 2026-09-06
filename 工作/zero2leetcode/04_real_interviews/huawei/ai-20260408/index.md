@@ -285,9 +285,3 @@ solve()
 - 选择题涵盖概率统计、线代、深度学习和大模型前沿，重点关注 RMSNorm vs LN、Flash Attention 原理、线性注意力 RNN 化、KV Cache 量化策略
 - 第一题 BGD 线性回归，核心是 min-max 归一化训练后还原权重，NumPy 向量化实现高效
 - 第二题 K-Means 聚类，注意种子点初始化规则和配送顺序不等于聚类顺序
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -1229,9 +1229,3 @@ tracepath 8.8.8.8
 
 | [上一课：链路层](../01-layers-link/index.md) | [下一课：UDP 与 TCP →](../03-transport-tcp/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

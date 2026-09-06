@@ -1228,9 +1228,3 @@ right.prev = node       # right 可能是 None，需按哨兵设计处理
 空时：head == None 且 tail == None
 非空时：tail.next == None
 ```
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

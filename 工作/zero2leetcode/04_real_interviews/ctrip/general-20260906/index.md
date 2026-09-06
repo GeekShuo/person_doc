@@ -244,11 +244,3 @@ n = int(input())
 v = list(map(int, input().split()))
 print(' '.join(map(str, harmonic_sums(n, v))))
 ```
-
----
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -45,9 +45,3 @@ print(sol.twoSum([3, 2, 4], 6))       # [1, 2]
 ---
 
 [← 返回 LeetCode 实战](../index.md)
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

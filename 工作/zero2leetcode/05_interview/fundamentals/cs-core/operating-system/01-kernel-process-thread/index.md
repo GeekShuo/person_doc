@@ -2515,9 +2515,3 @@ Linux 如何表示任务
 
 | [返回操作系统导学](../index.md) | [下一课：调度与并发 →](../02-scheduling-concurrency/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

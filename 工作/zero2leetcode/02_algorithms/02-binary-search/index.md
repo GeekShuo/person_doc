@@ -280,9 +280,3 @@ def find_min(nums):
 3. **收缩逻辑** —— `left = mid + 1` 还是 `left = mid`？`right = mid - 1` 还是 `right = mid`？取决于 mid 是否可能是答案。
 
 **一句话记忆：** 定义好区间，写对循环，想清楚 mid 留不留。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

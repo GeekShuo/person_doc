@@ -552,9 +552,3 @@ print(' '.join(results))
 - 选择题重点覆盖大模型推理优化（KV Cache、GQA、RoPE、量化、FlashAttention）和深度学习基础（CNN 卷积计算、激活函数、混合精度训练），是华为 AI 岗的核心考点方向
 - 第一题 MMR 算法是信息检索的经典方法，核心在于用 `max_sim` 数组做增量更新，每轮 $O(N)$ 扫描即可
 - 第二题 ID3 决策树是机器学习基础中的基础，关键在于正确实现信息熵计算、递归建树的终止条件、以及空分支和平局的处理
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -277,9 +277,3 @@ def count_lucky_substrings(s: str, k: int) -> int:
 - 算法岗能否不查文档写出常见 NumPy 计算。
 
 **百度笔试的高性价比策略，是先把基础题做稳，再用贪心、二分和数学扩大得分面。** 稳定、细心和时间管理，往往比追求少数高难题更重要。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

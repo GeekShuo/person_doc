@@ -1364,9 +1364,3 @@ strace -e trace=epoll_wait,accept,recvfrom,sendto -p <pid>
 
 | [上一课：虚拟内存](../03-virtual-memory/index.md) | [下一课：Linux 故障定位 →](../05-linux-observability/index.md) |
 |---|---|
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

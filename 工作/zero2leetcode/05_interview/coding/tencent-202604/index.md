@@ -304,9 +304,3 @@ LeetCode 原题是所有技术岗的绝对主力，仅 TOP 10 就贡献了 596 �
 很多人算法会写，但栽在 ACM 模式上。平时练习务必用 ACM 模式！
 
 本站所有题解均采用 ACM 模式（标准输入输出），可直接作为面试手撕的练习素材。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

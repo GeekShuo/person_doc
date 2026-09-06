@@ -14,9 +14,3 @@ source: "https://onefly.top/zero2Leetcode/book/04_other/"
 - AI Coding 技巧
 
 `05_interview/coding` 中的 AI Coding 指南在出版结构中归入本章，不混入第一章算法题解。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

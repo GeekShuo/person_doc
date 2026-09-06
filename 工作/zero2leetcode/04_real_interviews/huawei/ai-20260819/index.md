@@ -448,9 +448,3 @@ if __name__ == "__main__":
 2. 区间查询应保持块的原始顺序。
 3. 输出的是合并后的 `v / d`，不是三元组本身。
 4. 使用 `None` 作为单位元比猜测一个足够小的有限哨兵更稳健。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

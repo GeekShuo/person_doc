@@ -343,9 +343,3 @@ Fastjson 有一个 `autoType` 特性，允许 JSON 中通过 `@type` 字段指�
 | 日期 | 岗位 | 面次 | 来源 | 考察内容 |
 |---|---|---|---|---|
 | 2026-04 | 后端AI开发 | 一面 | 牛客 | Redis安全 + 缓存(布隆过滤器/击穿) + RAG权限控制 + Agent工具安全 + 系统安全(反弹shell/Docker逃逸/K8s/Web安全/Fastjson) |
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

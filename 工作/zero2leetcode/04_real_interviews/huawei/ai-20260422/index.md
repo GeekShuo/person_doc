@@ -544,9 +544,3 @@ print(ans)
 - **选择题**大模型方向占比约 40%（RAG、张量并行、Pipeline Bubble、KV Cache swap、prefix cache、多模态连接器、Conv+BN 融合），是华为 AI 岗的绝对核心考点
 - **第一题**是 LeetCode 437「路径总和 III」的变体，核心是”前缀和 + 哈希表 + DFS 回溯”的组合拳。注意节点值为 $0$ 时要排除长度为 $1$ 的路径
 - **第二题**的难度主要在读题和建模，算法本身只是 DAG 最长路 DP。关键是分清三个步骤：建邻接矩阵 → 筛关键节点 → 按时间排序后 DP
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

@@ -433,9 +433,3 @@ def minDistance(word1: str, word2: str) -> int:
 ```
 
 记住：DP 题目做多了自然就有感觉了。每道题都用五步法分析，刻意练习，很快就能在面试中游刃有余。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

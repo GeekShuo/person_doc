@@ -344,9 +344,3 @@ assert snapshot_after == snapshot_before
 - 统一处理校验原子性、幂等和逻辑时间；
 - 让预算、状态与账本同步变化；
 - 用失败无副作用、重放、时间边界和并发竞争用例主动验证。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

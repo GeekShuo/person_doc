@@ -490,9 +490,3 @@ Reward 可是稀疏终局分数、过程分数或多目标向量；Verifier 优�
 **常见追问**：训练侧重算 old logprob 与推理服务返回值可能因模板、采样后处理和数值实现不同而偏离；LoRA 热切换和 speculative decoding 还要求记录实际生效 adapter、最终采样分布与接受路径。
 
 **易错点**：只记录模型名称远远不够；也不能用新 tokenizer 重新解释旧轨迹，或把 temperature 后的行为分布与未经同样变换的 logits 混算。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager

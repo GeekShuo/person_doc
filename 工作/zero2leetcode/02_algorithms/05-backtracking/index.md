@@ -278,9 +278,3 @@ def solveNQueens(n):
 - **每一层的选择列表是什么？如何剪枝？**
 
 想清楚这两点，代码自然就写出来了。
-
-Article Feedback
-这篇文章有帮助吗？
-|
-GitHub 留言
-Prev / Next pager
