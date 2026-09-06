@@ -16,7 +16,7 @@ source: "https://onefly.top/zero2Leetcode/04_real_interviews/huawei/ai-exam-guid
 
 所有以 **AI 为前缀**的岗位：AI 应用工程师、AI 开发工程师、AI 数开工程师、AI 算法工程师。
 
-非 AI 前缀岗位（通软、嵌软、算法工程师等）考传统机考，参见 [传统机考备考指南](exam-guide/index.md)。
+非 AI 前缀岗位（通软、嵌软、算法工程师等）考传统机考，参见 [传统机考备考指南](https://onefly.top/zero2Leetcode/04_real_interviews/huawei/ai-exam-guide/exam-guide/)。
 
 ### 题型与分值
 

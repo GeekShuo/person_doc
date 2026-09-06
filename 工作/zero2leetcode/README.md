@@ -7,7 +7,7 @@ source: "https://onefly.top/zero2Leetcode/"
 
 > 来源：[https://onefly.top/zero2Leetcode/](https://onefly.top/zero2Leetcode/)  
 > 抓取时间：2026-09-07  
-> 内容：264 个页面 + LeetCode Hot 100 题单（112 题，其中 86 道含完整题面与代码模板）+ 2 本蓝皮书 PDF
+> 内容：263 个页面 + LeetCode Hot 100 题单（112 题，其中 86 道含完整题面与代码模板）+ 2 本蓝皮书 PDF
 
 ## 模块导航
 
@@ -19,14 +19,13 @@ source: "https://onefly.top/zero2Leetcode/"
 - **05 大厂面试（手撕/八股）**（46 篇）
 - **蓝皮书（PDF 电子书）**（11 篇）
 - **附录文档**（3 篇）
-- **04_real_interviews.md**（1 篇）
 - **LICENSE-EPL-2.0.txt.md**（1 篇）
 - **THIRD_PARTY_NOTICES.md**（1 篇）
 - **acm-playground.md**（1 篇）
 - **index.md**（1 篇）
 - **playground.md**（1 篇）
 - **publish-pdf**（1 篇）
-- **题库**（Hot 100 题单 112 题 + 85 道完整题面）
+- **题库**（Hot 100 题单 112 题 + 86 道完整题面）
 - **book**：2 本 PDF 蓝皮书（算法面试通关指南 / 高频手撕）
 
 ## 00 Python 基础语法
@@ -1034,10 +1033,6 @@ source: "https://onefly.top/zero2Leetcode/"
 ### study_guide
 
 - [学习指南](docs/study_guide/index.md) <sub>[原网页](https://onefly.top/zero2Leetcode/docs/study_guide/)</sub>
-
-## 04_real_interviews.md
-
-- [2026大厂笔试真题题解 - 阿里/华为/京东/美团/字节/拼多多/OPPO/蚂蚁/百度/携程/网易/得物/米哈游/蔚来/荣耀/虾皮/上海AILab笔试机试真题汇总](04_real_interviews.md) <sub>[原网页](https://onefly.top/zero2Leetcode/04_real_interviews)</sub>
 
 ## LICENSE-EPL-2.0.txt.md
 

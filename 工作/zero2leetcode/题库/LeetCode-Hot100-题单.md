@@ -68,7 +68,7 @@ source: "https://onefly.top/zero2Leetcode/playground.html"
 | 138 | 随机链表的复制 | 中等 | [链接](https://leetcode.cn/problems/copy-list-with-random-pointer/) | [✅ 题面](练习题/0138-随机链表的复制.md) |
 | 141 | 环形链表 | 简单 | [链接](https://leetcode.cn/problems/linked-list-cycle/) |  |
 | 142 | 环形链表 II | 中等 | [链接](https://leetcode.cn/problems/linked-list-cycle-ii/) | [✅ 题面](练习题/0142-环形链表%20II.md) |
-| 146 | LRU 缓存 | 中等 | [链接](https://leetcode.cn/problems/lru-cache/) | [✅ 题面](练习题/0146-LRU%20缓存.md) |
+| 146 | LRU 缓存 | 中等 | [链接](https://leetcode.cn/problems/lru-cache/) | [✅ 题面](练习题/0146-LRU%20缓存-2.md) |
 | 148 | 排序链表 | 中等 | [链接](https://leetcode.cn/problems/sort-list/) | [✅ 题面](练习题/0148-排序链表.md) |
 | 160 | 相交链表 | 简单 | [链接](https://leetcode.cn/problems/intersection-of-two-linked-lists/) |  |
 | 206 | 反转链表 | 简单 | [链接](https://leetcode.cn/problems/reverse-linked-list/) |  |
@@ -102,7 +102,7 @@ source: "https://onefly.top/zero2Leetcode/playground.html"
 |---|---|---|---|---|
 | 200 | 岛屿数量 | 中等 | [链接](https://leetcode.cn/problems/number-of-islands/) |  |
 | 207 | 课程表 | 中等 | [链接](https://leetcode.cn/problems/course-schedule/) | [✅ 题面](练习题/0207-课程表.md) |
-| 208 | 实现 Trie (前缀树) | 中等 | [链接](https://leetcode.cn/problems/implement-trie-prefix-tree/) | [✅ 题面](练习题/0208-实现%20Trie%20(前缀树).md) |
+| 208 | 实现 Trie (前缀树) | 中等 | [链接](https://leetcode.cn/problems/implement-trie-prefix-tree/) | [✅ 题面](练习题/0208-实现%20Trie%20（前缀树）.md) |
 | 695 | 岛屿的最大面积 | 中等 | [链接](https://leetcode.cn/problems/max-area-of-island/) | [✅ 题面](练习题/0695-岛屿的最大面积.md) |
 | 994 | 腐烂的橘子 | 中等 | [链接](https://leetcode.cn/problems/rotting-oranges/) | [✅ 题面](练习题/0994-腐烂的橘子.md) |
 

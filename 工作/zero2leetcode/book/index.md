@@ -12,8 +12,8 @@ PDF 出版命令与依赖说明见 [`publish-pdf/README.md`](../publish-pdf/inde
 ## 全书结构
 
 1. [面试高频手撕](01_high_frequency_coding/index.md)
-2. 八股文：编译时读取 [`05_interview/fundamentals`](../05_interview/fundamentals.md)
-3. 大厂笔试真题：编译时读取 [`04_real_interviews`](../04_real_interviews.md)
+2. 八股文：编译时读取 [`05_interview/fundamentals`](https://onefly.top/zero2Leetcode/05_interview/fundamentals)
+3. 大厂笔试真题：编译时读取 [`04_real_interviews`](https://onefly.top/zero2Leetcode/04_real_interviews)
 4. [其他知识](04_other/index.md)
 
 ## 编写原则
