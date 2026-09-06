@@ -19,12 +19,7 @@ source: "https://onefly.top/zero2Leetcode/"
 - **05 大厂面试（手撕/八股）**（46 篇）
 - **蓝皮书（PDF 电子书）**（11 篇）
 - **附录文档**（3 篇）
-- **LICENSE-EPL-2.0.txt.md**（1 篇）
-- **THIRD_PARTY_NOTICES.md**（1 篇）
-- **acm-playground.md**（1 篇）
-- **index.md**（1 篇）
-- **playground.md**（1 篇）
-- **publish-pdf**（1 篇）
+- **其他页面（工具与说明）**（6 篇）
 - **题库**（Hot 100 题单 112 题 + 86 道完整题面）
 - **book**：2 本 PDF 蓝皮书（算法面试通关指南 / 高频手撕）
 
@@ -1034,28 +1029,13 @@ source: "https://onefly.top/zero2Leetcode/"
 
 - [学习指南](docs/study_guide/index.md) <sub>[原网页](https://onefly.top/zero2Leetcode/docs/study_guide/)</sub>
 
-## LICENSE-EPL-2.0.txt.md
+## 其他页面（工具与说明）
 
 - [LICENSE-EPL-2.0.txt.md](LICENSE-EPL-2.0.txt.md) <sub>[原网页](https://onefly.top/zero2Leetcode/LICENSE-EPL-2.0.txt)</sub>
-
-## THIRD_PARTY_NOTICES.md
-
 - [Third-Party Notices](THIRD_PARTY_NOTICES.md) <sub>[原网页](https://onefly.top/zero2Leetcode/THIRD_PARTY_NOTICES.html)</sub>
-
-## acm-playground.md
-
 - [ACM 模拟 IDE](acm-playground.md) <sub>[原网页](https://onefly.top/zero2Leetcode/acm-playground.html)</sub>
-
-## index.md
-
 - [Zero2Leetcode | 算法面试通关指南](index.md) <sub>[原网页](https://onefly.top/zero2Leetcode/)</sub>
-
-## playground.md
-
 - [在线练习场](playground.md) <sub>[原网页](https://onefly.top/zero2Leetcode/playground.html)</sub>
-
-## publish-pdf
-
 - [蓝皮书 PDF 编译](publish-pdf/index.md) <sub>[原网页](https://onefly.top/zero2Leetcode/publish-pdf/)</sub>
 
 ## 题库
@@ -1065,3 +1045,5 @@ source: "https://onefly.top/zero2Leetcode/"
 
 ## 电子书（PDF）
 
+- [zero2Leetcode-蓝皮书-算法面试通关指南.pdf](book/zero2Leetcode-蓝皮书-算法面试通关指南.pdf)
+- [zero2Leetcode-蓝皮书-高频手撕.pdf](book/zero2Leetcode-蓝皮书-高频手撕.pdf)
