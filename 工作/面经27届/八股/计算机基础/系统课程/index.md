@@ -988,5 +988,5 @@ HTTP 请求经 CDN、代理和服务端处理。
 
 ---
 
-| [返回面试备战](../../index.md) | [开始学习：计算机组成原理 →](computer-organization/index.md) |
+| [返回面试备战](../../README.md) | [开始学习：计算机组成原理 →](computer-organization/index.md) |
 |---|---|

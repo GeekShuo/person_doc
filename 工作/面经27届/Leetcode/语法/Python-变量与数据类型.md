@@ -95,4 +95,4 @@ s.lower()       # 'hello world'
 
 ---
 
-[← 返回 Python 基础](../index.html) | [下一篇：控制流 →](../02-control-flow/index.html)
+[← 返回 LeetCode 分类](../README.md) | [下一篇：控制流 →](../leetcode/00_python_basics/02-control-flow/index.md)

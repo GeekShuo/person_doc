@@ -7,7 +7,7 @@ source: "https://onefly.top/zero2Leetcode/book/01_high_frequency_coding/"
 
 ## 主线来源
 
-本章以 [`05_interview/coding/bytedance-202604.md`](../../05_interview/coding/bytedance-202604/index.md) 为核心，保持原文的六大分类及顺序：
+本章以 [`05_interview/coding/bytedance-202604.md`](../company_coding/bytedance-202604/index.md) 为核心，保持原文的六大分类及顺序：
 
 1. 链表
 2. 二叉树与搜索图论

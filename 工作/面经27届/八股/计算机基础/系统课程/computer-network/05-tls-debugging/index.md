@@ -1759,5 +1759,5 @@ Sidecar/节点代理可能：
 
 ---
 
-| [上一课：DNS 与 HTTP](../04-dns-http/index.md) | [进入网络面试速查题库 →](../../../computer-network/index.md) |
+| [上一课：DNS 与 HTTP](../04-dns-http/index.md) | [进入网络面试速查题库 →](../../../计算机网络速查.md) |
 |---|---|

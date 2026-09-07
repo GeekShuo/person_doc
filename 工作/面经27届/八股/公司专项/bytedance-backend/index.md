@@ -252,40 +252,40 @@ source: "https://onefly.top/zero2Leetcode/05_interview/fundamentals/bytedance-ba
 
 | # | 题目 | 频次 | LeetCode |
 |---|---|---|---|
-| 1 | [LC 146. LRU 缓存](../../../playground.md) | 6 | 146 |
-| 2 | [LC 200. 岛屿数量](../../../playground.md) | 5 | 200 |
-| 3 | [LC 215. 第 K 大元素](../../../playground.md) | 3 | 215 |
+| 1 | [LC 146. LRU 缓存](../../../Leetcode/playground.md) | 6 | 146 |
+| 2 | [LC 200. 岛屿数量](../../../Leetcode/playground.md) | 5 | 200 |
+| 3 | [LC 215. 第 K 大元素](../../../Leetcode/playground.md) | 3 | 215 |
 | 4 | [LC 93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/) | 3 | 93 |
-| 5 | 股票买卖系列（[121](../../../playground.md)/[122](../../../playground.md)/[123](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/)/[188](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/)） | 3 | 121/122/123/188 |
-| 6 | [LC 199. 二叉树的右视图](../../../playground.md) | 1 | 199 |
-| 7 | [LC 3. 最长不重复子串](../../../playground.md) | 2 | 3 |
-| 8 | [LC 31. 下一个排列](../../../playground.md) | 2 | 31 |
-| 9 | [LC 42. 接雨水](../../../playground.md) | 2 | 42 |
+| 5 | 股票买卖系列（[121](../../../Leetcode/playground.md)/[122](../../../Leetcode/playground.md)/[123](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/)/[188](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/)） | 3 | 121/122/123/188 |
+| 6 | [LC 199. 二叉树的右视图](../../../Leetcode/playground.md) | 1 | 199 |
+| 7 | [LC 3. 最长不重复子串](../../../Leetcode/playground.md) | 2 | 3 |
+| 8 | [LC 31. 下一个排列](../../../Leetcode/playground.md) | 2 | 31 |
+| 9 | [LC 42. 接雨水](../../../Leetcode/playground.md) | 2 | 42 |
 | 10 | [LC 143. 重排链表](https://leetcode.cn/problems/reorder-list/) | 1 | 143 |
-| 11 | [LC 236. 二叉树最近公共祖先](../../../playground.md) | 3 | 236 |
+| 11 | [LC 236. 二叉树最近公共祖先](../../../Leetcode/playground.md) | 3 | 236 |
 | 12 | 归并排序 | 1 | — |
-| 13 | [LC 25. 反转 K 个一组链表](../../../playground.md) | 1 | 25 |
+| 13 | [LC 25. 反转 K 个一组链表](../../../Leetcode/playground.md) | 1 | 25 |
 | 14 | [LC 714. 带手续费股票利润](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 1 | 714 |
 | 15 | [LC 426. 二叉搜索树转有序链表](https://leetcode.cn/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | 1 | 426 |
-| 16 | 打家劫舍（[198](../../../playground.md)/[213](https://leetcode.cn/problems/house-robber-ii/)） | 2 | 198/213 |
-| 17 | [LC 23. K 个有序链表合并](../../../playground.md) | 1 | 23 |
+| 16 | 打家劫舍（[198](../../../Leetcode/playground.md)/[213](https://leetcode.cn/problems/house-robber-ii/)） | 2 | 198/213 |
+| 17 | [LC 23. K 个有序链表合并](../../../Leetcode/playground.md) | 1 | 23 |
 | 18 | 快排 | 2 | — |
-| 19 | [LC 160. 链表相交](../../../playground.md) | 2 | 160 |
-| 20 | [LC 15. 三数之和](../../../playground.md) | 1 | 15 |
+| 19 | [LC 160. 链表相交](../../../Leetcode/playground.md) | 2 | 160 |
+| 20 | [LC 15. 三数之和](../../../Leetcode/playground.md) | 1 | 15 |
 | 21 | [LC 43. 字符串相乘](https://leetcode.cn/problems/multiply-strings/) | 1 | 43 |
 | 22 | [LC 154. 旋转数组最小值（含重复）](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/) | 1 | 154 |
 | 23 | [LC 572. 另一棵树的子树](https://leetcode.cn/problems/subtree-of-another-tree/) | 1 | 572 |
 | 24 | [LC 402. 移掉 K 位数字](https://leetcode.cn/problems/remove-k-digits/) | 1 | 402 |
 | 25 | [LC 785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/) | 1 | 785 |
-| 26 | [LC 560. 和为 K 的子数组](../../../playground.md) | 1 | 560 |
-| 27 | [LC 437. 路径总和 III](../../../playground.md) | 1 | 437 |
-| 28 | [LC 128. 最长连续序列](../../../playground.md) | 1 | 128 |
-| 29 | [LC 102. 二叉树层序遍历](../../../playground.md) | 2 | 102 |
+| 26 | [LC 560. 和为 K 的子数组](../../../Leetcode/playground.md) | 1 | 560 |
+| 27 | [LC 437. 路径总和 III](../../../Leetcode/playground.md) | 1 | 437 |
+| 28 | [LC 128. 最长连续序列](../../../Leetcode/playground.md) | 1 | 128 |
+| 29 | [LC 102. 二叉树层序遍历](../../../Leetcode/playground.md) | 2 | 102 |
 | 30 | [LC 662. 二叉树最大宽度](https://leetcode.cn/problems/maximum-width-of-binary-tree/) | 1 | 662 |
 | 31 | [LC 470. 用 Rand7 实现 Rand10](https://leetcode.cn/problems/implement-rand10-using-rand7/) | 1 | 470 |
 | 32 | [LC 678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/) | 1 | 678 |
 | 33 | 大数阶乘 | 1 | — |
-| 34 | [LC 295. 数据流中位数](../../../playground.md) | 1 | 295 |
+| 34 | [LC 295. 数据流中位数](../../../Leetcode/playground.md) | 1 | 295 |
 | 35 | 手写可重入锁 | 1 | — |
 | 36 | [LC 103. 二叉树锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) | 1 | 103 |
 | 37 | 手写令牌桶限流器 | 1 | — |

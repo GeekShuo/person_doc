@@ -8,7 +8,7 @@ source: "https://onefly.top/zero2Leetcode/05_interview/fundamentals/general-back
 > 涵盖数据结构与算法、操作系统、计算机网络、数据库、系统设计五大方向，适合后端开发、算法等技术岗针对性复习。
 >
 
-> 使用建议：本页是复习题库，不是零基础教材。转码或非科班读者先完成 [计算机基础系统课](../cs-core/index.md)，再用这些问题检查能否在 30 秒总结、2 分钟展开并承接追问。
+> 使用建议：本页是复习题库，不是零基础教材。转码或非科班读者先完成 [计算机基础系统课](../../计算机基础/系统课程/index.md)，再用这些问题检查能否在 30 秒总结、2 分钟展开并承接追问。
 >
 
 ---
@@ -255,7 +255,7 @@ class MyQueue:
 
 ## 二、操作系统（10道）
 
-前置教程：[操作系统系统课](../cs-core/operating-system/index.md)
+前置教程：[操作系统系统课](../../计算机基础/系统课程/operating-system/index.md)
 
 ### Q11：进程和线程的区别？为什么需要线程？
 
@@ -456,7 +456,7 @@ else printf("大端");
 
 ## 三、计算机网络（10道）
 
-前置教程：[计算机网络系统课](../cs-core/computer-network/index.md)
+前置教程：[计算机网络系统课](../../计算机基础/系统课程/computer-network/index.md)
 
 ### Q21：TCP 和 UDP 的区别？各自的典型应用场景？
 

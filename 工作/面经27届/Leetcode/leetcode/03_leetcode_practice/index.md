@@ -38,5 +38,5 @@ source: "https://onefly.top/zero2Leetcode/03_leetcode_practice/index.html"
 
 ---
 
-| [← 上一章：核心算法](../02_algorithms/index.md) | [返回首页](../index.md) |
+| [← 上一章：核心算法](../02_algorithms/index.md) | [返回首页](../README.md) |
 |---|---|
