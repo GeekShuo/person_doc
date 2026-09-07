@@ -1,14 +1,12 @@
 ---
-layout: default
-title: LeetCode 实战
-description: 通过 Hot 100 高频题，达到 Medium 难度稳定通过
-eyebrow: Module 04
+title: "LeetCode 实战"
+source: "https://onefly.top/zero2Leetcode/03_leetcode_practice/index.html"
 ---
 
 # 第四阶段：LeetCode 实战
 
-> 🎯 目标：通过 Hot 100 高频题，达到 Medium 难度稳定通过
-> ⏱️ 预计时间：2-3 周
+> 🎯 目标：通过 Hot 100 高频题，达到 Medium 难度稳定通过 ⏱️ 预计时间：2-3 周
+>
 
 ---
 
@@ -24,20 +22,21 @@ eyebrow: Module 04
 
 ## 经典题解
 
-1. [哈希表题 — Two Sum](./01-hash/index.html)
-2. [链表题 — Reverse Linked List](./02-linked-list/index.html)
-3. [动态规划题 — Climbing Stairs](./03-dp/index.html)
+1. [哈希表题 — Two Sum](01-hash/index.md)
+2. [链表题 — Reverse Linked List](02-linked-list/index.md)
+3. [动态规划题 — Climbing Stairs](03-dp/index.md)
 
 ---
 
 ## 🔗 在线练习
 
 | 平台 | 链接 |
-|------|------|
+|---|---|
 | LeetCode 力扣 | [leetcode.cn](https://leetcode.cn/) |
 | Hot 100 官方题单 | [查看题单](https://leetcode.cn/studyplan/top-100-liked/) |
 | 面试经典 150 题 | [查看题单](https://leetcode.cn/studyplan/top-interview-150/) |
 
 ---
 
-[← 上一章：核心算法]({{ '/02_algorithms/' | relative_url }}) | [返回首页]({{ '/' | relative_url }})
+| [← 上一章：核心算法](../02_algorithms/index.md) | [返回首页](../index.md) |
+|---|---|

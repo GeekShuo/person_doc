@@ -1,13 +1,12 @@
 ---
-layout: default
-title: 动态规划题 — Climbing Stairs
-description: LeetCode 70. Climbing Stairs 动态规划解法详解
-eyebrow: LeetCode 实战 / 03
+title: "动态规划题 — Climbing Stairs"
+source: "https://onefly.top/zero2Leetcode/03_leetcode_practice/03-dp/index.html"
 ---
 
 # 70. 爬楼梯 (Easy) - 动态规划
 
 > 📝 题目：每次爬 1 或 2 阶，问爬到第 n 阶有多少种方法
+>
 
 **思路**：经典斐波那契 `dp[n] = dp[n-1] + dp[n-2]`
 
@@ -45,7 +44,7 @@ print(sol.climbStairs(10))  # 89
 ## 📊 刷题进度表
 
 | 分类 | 题数 | 重要程度 |
-|------|------|----------|
+|---|---|---|
 | 哈希表 | 5 | ⭐⭐⭐⭐⭐ |
 | 双指针 | 4 | ⭐⭐⭐⭐ |
 | 滑动窗口 | 4 | ⭐⭐⭐⭐ |
@@ -59,4 +58,4 @@ print(sol.climbStairs(10))  # 89
 
 ---
 
-[← 返回 LeetCode 实战](../index.html)
+[← 返回 LeetCode 实战](../index.md)

@@ -1,13 +1,12 @@
 ---
-layout: default
-title: 链表题 — Reverse Linked List
-description: LeetCode 206. Reverse Linked List 迭代法详解
-eyebrow: LeetCode 实战 / 02
+title: "链表题 — Reverse Linked List"
+source: "https://onefly.top/zero2Leetcode/03_leetcode_practice/02-linked-list/index.html"
 ---
 
 # 206. 反转链表 (Easy) - 链表
 
 > 📝 题目：反转单链表
+>
 
 **思路**：三指针迭代法 `prev, curr, next`
 
@@ -46,4 +45,4 @@ class Solution:
 
 ---
 
-[← 返回 LeetCode 实战](../index.html)
+[← 返回 LeetCode 实战](../index.md)

@@ -1,3 +1,8 @@
+---
+title: "二叉树与搜索图论"
+source: "https://onefly.top/zero2Leetcode/book/01_high_frequency_coding/02-tree-graph.html"
+---
+
 # 二叉树与搜索图论
 
 本文件维护第一章第二类题目的题解与面试追问。字节原文中的二叉树、网格搜索和图论题保持在同一分类。
@@ -5,7 +10,7 @@
 ## 字节核心题单
 
 | 顺序 | 题目 | 字节频次 | 数据版本 | 其他统计覆盖 |
-|------|------|----------|----------|--------------|
+|---|---|---|---|---|
 | 1 | LC 200 岛屿数量 | 50 | 08 更新 | 3/4 |
 | 2 | LC 236 二叉树的最近公共祖先 | 41 | 08 更新 | 2/4 |
 | 3 | LC 103 二叉树的锯齿形层序遍历 | 28 | 08 更新 | 2/4 |
@@ -21,7 +26,7 @@
 ## 其他来源新增题
 
 | 题目 | 发现来源 |
-|------|----------|
+|---|---|
 | LC 108 将有序数组转换为二叉搜索树 | Hot 100 综合榜 |
 | LC 111 二叉树的最小深度 | 美团 |
 | LC 114 二叉树展开为链表 | Hot 100 综合榜 |
@@ -49,7 +54,6 @@
 
 ```python
 from typing import List
-
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
@@ -122,7 +126,6 @@ class Solution:
 from collections import deque
 from typing import List, Optional
 
-
 class Solution:
     def zigzagLevelOrder(self, root: Optional["TreeNode"]) -> List[List[int]]:
         if root is None:
@@ -165,7 +168,6 @@ class Solution:
 from collections import deque
 from typing import List, Optional
 
-
 class Solution:
     def levelOrder(self, root: Optional["TreeNode"]) -> List[List[int]]:
         if root is None:
@@ -202,7 +204,6 @@ class Solution:
 from collections import deque
 from typing import List, Optional
 
-
 class Solution:
     def rightSideView(self, root: Optional["TreeNode"]) -> List[int]:
         if root is None:
@@ -238,7 +239,6 @@ class Solution:
 ```python
 from typing import Optional
 
-
 class Solution:
     def isSubtree(self, root: Optional["TreeNode"], subRoot: Optional["TreeNode"]) -> bool:
         def same(a: Optional["TreeNode"], b: Optional["TreeNode"]) -> bool:
@@ -271,7 +271,6 @@ class Solution:
 ```python
 from typing import Optional
 
-
 class Solution:
     def maxDepth(self, root: Optional["TreeNode"]) -> int:
         def depth(node: Optional["TreeNode"]) -> int:
@@ -298,7 +297,6 @@ class Solution:
 
 ```python
 from typing import List, Optional
-
 
 class Solution:
     def inorderTraversal(self, root: Optional["TreeNode"]) -> List[int]:
@@ -332,7 +330,6 @@ class Solution:
 
 ```python
 from typing import Optional
-
 
 class Solution:
     def maxPathSum(self, root: Optional["TreeNode"]) -> int:
@@ -368,7 +365,6 @@ class Solution:
 ```python
 from typing import Optional
 
-
 class Solution:
     def invertTree(self, root: Optional["TreeNode"]) -> Optional["TreeNode"]:
         def invert(node: Optional["TreeNode"]) -> Optional["TreeNode"]:
@@ -398,7 +394,6 @@ class Solution:
 
 ```python
 from typing import List
-
 
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
@@ -442,7 +437,6 @@ class Solution:
 ```python
 from typing import List, Optional
 
-
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional["TreeNode"]:
         def build(left: int, right: int) -> Optional["TreeNode"]:
@@ -474,7 +468,6 @@ class Solution:
 ```python
 from collections import deque
 from typing import Optional
-
 
 class Solution:
     def minDepth(self, root: Optional["TreeNode"]) -> int:
@@ -508,7 +501,6 @@ class Solution:
 
 ```python
 from typing import Optional
-
 
 class Solution:
     def flatten(self, root: Optional["TreeNode"]) -> None:
@@ -544,7 +536,6 @@ class Solution:
 ```python
 from typing import List, Optional
 
-
 class Solution:
     def preorderTraversal(self, root: Optional["TreeNode"]) -> List[int]:
         if root is None:
@@ -577,7 +568,6 @@ class Solution:
 ```python
 from collections import deque
 from typing import List
-
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
@@ -618,7 +608,6 @@ class TrieNode:
     def __init__(self):
         self.children = {}
         self.is_end = False
-
 
 class Trie:
     def __init__(self):
@@ -665,7 +654,6 @@ class Trie:
 ```python
 from typing import Optional
 
-
 class Solution:
     def kthSmallest(self, root: Optional["TreeNode"], k: int) -> int:
         stack = []
@@ -698,7 +686,6 @@ class Solution:
 
 ```python
 from typing import Optional
-
 
 class Solution:
     def pathSum(self, root: Optional["TreeNode"], targetSum: int) -> int:

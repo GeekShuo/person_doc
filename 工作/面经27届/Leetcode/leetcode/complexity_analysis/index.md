@@ -1,11 +1,12 @@
 ---
-layout: default
-title: 复杂度分析
+title: "复杂度分析"
+source: "https://onefly.top/zero2Leetcode/docs/complexity_analysis/"
 ---
 
 # 复杂度分析入门
 
 > 面试必问：你的解法时间复杂度是多少？
+>
 
 ## 什么是复杂度？
 
@@ -18,7 +19,7 @@ title: 复杂度分析
 ### 常见时间复杂度（从快到慢）
 
 | 符号 | 名称 | 例子 |
-|------|------|------|
+|---|---|---|
 | O(1) | 常数 | 数组随机访问 |
 | O(log n) | 对数 | 二分查找 |
 | O(n) | 线性 | 遍历数组 |
@@ -30,6 +31,7 @@ title: 复杂度分析
 ### 如何分析？
 
 **规则 1：只保留最高阶**
+
 ```python
 # O(n) + O(n²) = O(n²)
 for i in range(n):      # O(n)
@@ -40,6 +42,7 @@ for i in range(n):      # O(n²)
 ```
 
 **规则 2：忽略常数系数**
+
 ```python
 # O(3n) = O(n)
 for i in range(n): pass
@@ -48,6 +51,7 @@ for i in range(n): pass
 ```
 
 **规则 3：嵌套循环相乘**
+
 ```python
 # O(n * m)
 for i in range(n):
@@ -62,7 +66,7 @@ for i in range(n):
 描述算法**额外使用的内存**。
 
 | 符号 | 例子 |
-|------|------|
+|---|---|
 | O(1) | 只用几个变量 |
 | O(n) | 创建与输入等长的数组 |
 | O(n²) | 创建 n×n 的矩阵 |
@@ -72,7 +76,7 @@ for i in range(n):
 ## 常见算法复杂度速查
 
 | 算法 | 时间 | 空间 |
-|------|------|------|
+|---|---|---|
 | 数组遍历 | O(n) | O(1) |
 | 二分查找 | O(log n) | O(1) |
 | 快速排序 | O(n log n) | O(log n) |
@@ -81,4 +85,4 @@ for i in range(n):
 
 ---
 
-[← 返回首页]({{ '/' | relative_url }})
+[← 返回首页](../../index.md)

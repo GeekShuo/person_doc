@@ -1,3 +1,8 @@
+---
+title: "双指针、滑动窗口与字符串"
+source: "https://onefly.top/zero2Leetcode/book/01_high_frequency_coding/04-two-pointers-sliding-window-string.html"
+---
+
 # 双指针、滑动窗口与字符串
 
 本文件维护第一章第四类题目的题解与面试追问。本类重点不是背指针模板，而是说明指针为何可以单向移动，以及哈希表如何减少窗口内的重复查找。
@@ -5,7 +10,7 @@
 ## 字节核心题单
 
 | 顺序 | 题目 | 字节频次 | 数据版本 | 其他统计覆盖 |
-|------|------|----------|----------|--------------|
+|---|---|---|---|---|
 | 1 | LC 3 无重复字符的最长子串 | 174 | 08 更新 | 3/4 |
 | 2 | LC 15 三数之和 | 44 | 08 更新 | 4/4 |
 | 3 | LC 42 接雨水 | 38 | 08 更新 | 4/4 |
@@ -16,7 +21,7 @@
 ## 其他来源新增题
 
 | 题目 | 发现来源 |
-|------|----------|
+|---|---|
 | LC 8 字符串转换整数（atoi） | 美团 |
 | LC 11 盛最多水的容器 | 华为 |
 | LC 14 最长公共前缀 | 美团 |
@@ -90,7 +95,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -122,7 +126,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         triples = set()
@@ -153,7 +156,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
@@ -173,7 +175,6 @@ class Solution:
 
 ```python
 from typing import List
-
 
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -195,7 +196,6 @@ class Solution:
 
 ```python
 from typing import List
-
 
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -230,7 +230,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         first, second, write = m - 1, n - 1, m + n - 1
@@ -260,7 +259,6 @@ class Solution:
 
 ```python
 from typing import List
-
 
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
@@ -292,7 +290,6 @@ class Solution:
 ```python
 from collections import deque
 from typing import List
-
 
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
@@ -364,7 +361,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left, right = 0, len(height) - 1
@@ -395,7 +391,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if not strs:
@@ -424,7 +419,6 @@ class Solution:
 
 ```python
 from typing import List
-
 
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
@@ -494,7 +488,6 @@ class Solution:
 ```python
 from collections import Counter
 
-
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if not s or not t:
@@ -541,7 +534,6 @@ class Solution:
 ```python
 from typing import List
 
-
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         write = 0
@@ -568,7 +560,6 @@ class Solution:
 ```python
 from collections import Counter
 from typing import List
-
 
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:

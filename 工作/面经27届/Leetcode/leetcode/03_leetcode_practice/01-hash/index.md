@@ -1,13 +1,12 @@
 ---
-layout: default
-title: 哈希表题 — Two Sum
-description: LeetCode 1. Two Sum 哈希表解法详解
-eyebrow: LeetCode 实战 / 01
+title: "哈希表题 — Two Sum"
+source: "https://onefly.top/zero2Leetcode/03_leetcode_practice/01-hash/index.html"
 ---
 
 # 1. 两数之和 (Easy) - 哈希表
 
 > 📝 题目：给定数组和目标值，找出和为目标值的两个数的索引
+>
 
 **思路**：遍历时用哈希表存储已遍历的 `{值: 索引}`，查找 `target - num` 是否存在
 
@@ -45,4 +44,4 @@ print(sol.twoSum([3, 2, 4], 6))       # [1, 2]
 
 ---
 
-[← 返回 LeetCode 实战](../index.html)
+[← 返回 LeetCode 实战](../index.md)
