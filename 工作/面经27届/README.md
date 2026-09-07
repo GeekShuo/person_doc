@@ -1,10 +1,10 @@
-# 27 届面经资料
+# 27 届 AI 岗面经资料
 
-资料按用途整理为四类：
+本目录仅保留 AI、机器学习、大模型、Agent、AI Coding、AI Infra，以及 AI 算法岗所需的算法与 LeetCode 内容。
 
-- [笔试](笔试/README.md)：大厂笔试、机考、AI Coding 与个人笔试记录
-- [面试](面试/README.md)：综合测评、面试流程、面试技巧与专项面试记录
-- [LeetCode](Leetcode/README.md)：算法基础、题库、题解、高频手撕与电子书
-- [八股](八股/README.md)：计算机基础、后端基础、公司专项及近期高频专题
+- [笔试](笔试/README.md)：AI/算法岗笔试、机器学习编程与 AI Coding
+- [面试](面试/README.md)：大模型、Agent、多模态及 AI 项目面试记录
+- [LeetCode](Leetcode/README.md)：AI 算法岗笔试和面试所需的数据结构、算法与手撕题
+- [八股](八股/README.md)：AI、AI Infra、推理系统与 Agent 基础设施
 
-整理时以 `zero2leetcode` 中较新的版本为准；`coding/面经` 中的同名资料均已被其覆盖，没有遗漏的独有逻辑文档。目标目录原有的个人资料均予以保留。
+后端开发、通用研发、数据分析、运维以及传统后端八股资料已移除。
