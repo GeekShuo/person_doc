@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/AIcoding 笔试/美团 aicoding思路.md",
+                "file": "工作/zero2leetcode/THIRD_PARTY_NOTICES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "美团 aicoding思路"
+              "title": "THIRD_PARTY_NOTICES"
             }
           }
         ],
@@ -228,13 +228,18 @@
   },
   "active": "8a0cc275175bf6ca",
   "lastOpenFiles": [
+    "工作/简历/王纪航.pdf",
+    "工作/简历/profile_1(4).pdf",
+    "工作/简历/张景昊.pdf",
+    "工作/简历/简历-0901.pdf",
+    "工作/简历/刘熠文(1).pdf",
+    "工作/简历/赵明瑜.pdf",
+    "工作/AIcoding 笔试/美团 aicoding思路.md",
     "证件/411381200212255637.pdf",
     "证件",
     "法律文件/12.7-25破7号+公告（通知债权人申报债权）.pdf",
     "法律文件/申请诉前财产保全和仲裁中的保全须知.doc",
     "法律文件/关于恒大地产集团有限公司涉及重大诉讼及未能清偿到期债务等重大事项的临时受托管理事务报告.PDF",
-    "法律文件",
-    "手记.pdf",
     "工作/zero2leetcode/题库/练习题/1423-可获得的最大点数.md",
     "工作/zero2leetcode/题库/练习题/1143-最长公共子序列.md",
     "工作/zero2leetcode/题库/练习题/0994-腐烂的橘子.md",
@@ -259,11 +264,6 @@
     "工作/zero2leetcode/题库/练习题/0287-寻找重复数.md",
     "工作/zero2leetcode/题库/练习题/0279-完全平方数.md",
     "工作/zero2leetcode/题库/练习题/0240-搜索二维矩阵 II.md",
-    "工作/zero2leetcode/题库/练习题/0239-滑动窗口最大值.md",
-    "工作/zero2leetcode/题库/练习题",
-    "工作/zero2leetcode/题库",
-    "工作/zero2leetcode/publish-pdf",
-    "工作/zero2leetcode/docs/interview_tips",
     "实习项目/风控/assets/知识图谱/file-20260831115100805.png",
     "实习项目/风控/assets/知识图谱/file-20260831115044071.png",
     "实习项目/风控/assets/知识图谱/file-20260831115030211.png",
