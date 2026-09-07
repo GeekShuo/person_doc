@@ -2,18 +2,18 @@
 // 编译：typst compile 彭硕_17337745286_两页版.typ
 
 #let accent = rgb("#174f7a")
-#let fs = 10.2pt
+#let fs = 11.2pt
 
 #set page(
   paper: "a4",
-  margin: (top: 0.72cm, bottom: 0.72cm, left: 1.25cm, right: 1.25cm),
+  margin: (top: 0.8cm, bottom: 0.8cm, left: 1.55cm, right: 1.55cm),
 )
 #set text(
   font: ("Arial", "Heiti SC"),
   size: fs,
   lang: "zh",
 )
-#set par(justify: true, leading: 0.69em)
+#set par(justify: true, leading: 0.85em)
 #show link: it => text(fill: accent)[#it]
 
 #let sec(title) = block(above: 0.52em, below: 0.28em, breakable: false)[
