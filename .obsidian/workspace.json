@@ -39,14 +39,12 @@
             "id": "8a0cc275175bf6ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "工作/简历/qwen润色版本0909.md",
-                "mode": "source",
-                "source": false
+                "file": "实习项目/风控/data/四任务日均拦截漏斗图-白底.png"
               },
-              "icon": "lucide-file",
-              "title": "qwen润色版本0909"
+              "icon": "lucide-image",
+              "title": "四任务日均拦截漏斗图-白底"
             }
           }
         ],
@@ -109,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.890625
+    "width": 447.6796875
   },
   "right": {
     "id": "c5293b2b30264d78",
@@ -228,8 +226,13 @@
   },
   "active": "8a0cc275175bf6ca",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "实习项目/风控/data/印章识别.md",
+    "实习项目/风控/data/有效性与一致性校验链路-融合流程图.png",
+    "实习项目/风控/data/有效性与一致性校验链路-我的工作.png",
+    "实习项目/风控/data/ppt大纲.md",
+    "工作/简历/腾讯实习.md",
     "工作/简历/qwen润色版本0909.md",
+    "conflict-files-obsidian-git.md",
     "法律文件/98f20ae9-b073-4a9d-9104-3dc37ce79367.png",
     "工作/简历/自我介绍.md",
     "工作/简历/ai 安全实习.md",
@@ -265,15 +268,10 @@
     "工作/面经27届/面试/大模型算法面经专题/06-信息源与检索词.md",
     "工作/面经27届/面试/大模型算法面经专题/05-训练推理与项目答辩.md",
     "工作/面经27届/面试/大模型算法面经专题/02-多模态与VLM.md",
-    "工作/面经27届/面试/大模型算法面经专题/04-Agent与自进化.md",
-    "工作/面经27届/面试/大模型算法面经专题/03-后训练与强化学习.md",
-    "工作/面经27届/面试/大模型算法面经专题/01-真实面经与27届趋势.md",
     "实习项目/风控/assets/知识图谱/file-20260831115100805.png",
     "实习项目/风控/assets/知识图谱/file-20260831115044071.png",
     "实习项目/风控/assets/知识图谱/file-20260831115030211.png",
-    "实习项目/风控/data/有效性与一致性校验链路-我的工作.png",
     "实习项目/风控/data/有效性与一致性校验链路-融合流程图.svg",
-    "实习项目/风控/data/有效性与一致性校验链路-融合流程图.png",
     "AI应用/通用chatbot/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
