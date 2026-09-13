@@ -9,3 +9,5 @@ __pycache__/
 # 研究 Agent 的中间产物（原始抓取结果，可重新生成）
 video_kb/data/research/raw/
 .obsidian/workspace.json
+# obsidian-git 插件冲突提示临时文件
+conflict-files-obsidian-git.md
