@@ -27,28 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习项目/风控/周报.md",
+                "file": "实习项目/风控/data/清晰度标签模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "周报"
-            }
-          },
-          {
-            "id": "8a0cc275175bf6ca",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "实习项目/风控/data/四任务日均拦截漏斗图-白底.png"
-              },
-              "icon": "lucide-image",
-              "title": "四任务日均拦截漏斗图-白底"
+              "title": "清晰度标签模型"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,8 +212,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a0cc275175bf6ca",
+  "active": "3567aea3b3d91079",
   "lastOpenFiles": [
+    "实习项目/风控/data/清晰度五级规则预标注-可视化.png",
+    "实习项目/风控/data/全局链路-红框标注我的工作.png",
+    "实习项目/风控/data/清晰度标签模型.md",
+    "实习项目/风控/周报.md",
+    "实习项目/风控/data/实习答辩总结.pdf",
+    "实习项目/风控/data/司法单据校验全局链路-我的工作定位.png",
+    "实习项目/风控/data/四任务日均拦截漏斗图-白底.png",
+    "实习项目/风控/data/文书类型.md",
+    "实习项目/风控/data/答辩介绍.md",
+    "实习项目/风控/data/实习答辩总结.md",
+    "实习项目/风控/data/法院电话号码有效性判断规则（v2.1）.md",
+    "实习项目/风控/data/彭硕-腾讯风控实习答辩-介绍稿.md",
     "实习项目/风控/data/印章识别.md",
     "实习项目/风控/data/有效性与一致性校验链路-融合流程图.png",
     "实习项目/风控/data/有效性与一致性校验链路-我的工作.png",
@@ -255,23 +255,10 @@
     "工作/简历/历史简历与参考简历/彭硕-27届-1733774528605.pdf",
     "工作/简历/历史简历与参考简历/王纪航.pdf",
     "工作/简历/历史简历与参考简历/刘熠文(1).pdf",
-    "工作/简历/历史简历与参考简历/简历0430.tex",
     "实习项目/电商主图生成与评测/方转长对比.md",
-    "工作/zero2leetcode/THIRD_PARTY_NOTICES.md",
     "resume_preview_tmp/page-2.png",
     "resume_preview_tmp/page-1.png",
     "resume_preview_tmp/彭硕-27届-19512712250.pdf.png",
-    "实习项目/风控/文书类型模型.md",
-    "实习项目/风控/印章识别模型.md",
-    "实习项目/风控/清晰度标签模型.md",
-    "工作/面经27届/面试/大模型算法面经专题/07-精选来源索引.md",
-    "工作/面经27届/面试/大模型算法面经专题/06-信息源与检索词.md",
-    "工作/面经27届/面试/大模型算法面经专题/05-训练推理与项目答辩.md",
-    "工作/面经27届/面试/大模型算法面经专题/02-多模态与VLM.md",
-    "实习项目/风控/assets/知识图谱/file-20260831115100805.png",
-    "实习项目/风控/assets/知识图谱/file-20260831115044071.png",
-    "实习项目/风控/assets/知识图谱/file-20260831115030211.png",
-    "实习项目/风控/data/有效性与一致性校验链路-融合流程图.svg",
     "AI应用/通用chatbot/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
