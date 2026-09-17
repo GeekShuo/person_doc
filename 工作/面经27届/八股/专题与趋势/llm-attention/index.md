@@ -149,16 +149,68 @@ F.scaled_dot_product_attention(Q, K, V, enable_gqa=True)
 
 ---
 
-## 三、关联追问：推理显存与 KV Cache 估算
+## 三、一个 13B 的模型，参数用 FP16 存，需要多大显存？
 
-### 权重（FP16/BF16）
+### 第一问：只放权重
 
 ```
-13B × 2 B = 26 GB ≈ 24.2 GiB
+13 × 10^9 × 2 B = 26 × 10^9 B ≈ 26 GB ≈ 24.2 GiB
 速记：FP16 下 1B 参数 ≈ 2 GB
 ```
 
-单位提醒：厂商标十进制 GB（10⁹），`nvidia-smi` 显示 GiB（2³⁰）。26 GB 权重在 `nvidia-smi` 里约 **24.2 GiB** —— 这正是"24GB 卡（4090/3090）装不下 13B FP16 权重"的原因。
+**单位陷阱（必答）**：厂商标的是十进制 GB（1 GB = 10⁹ B），`nvidia-smi` / CUDA 显示的是 GiB（2³⁰ B）。所以 26 GB 的权重在 `nvidia-smi` 里约 **24.2 GiB**。这正是"24GB 卡（4090/3090）到底装不装得下 13B FP16？"的答案：**装不下**（26 GB > 24 GiB 的可用容量，且还要留出 context 和框架开销）。
+
+### 第二问：推理场景总显存
+
+| 项目 | 大小 | 说明 |
+|---|---|---|
+| 模型权重 | **26 GB** | FP16/BF16，固定 |
+| KV Cache | 动态 | 见下一节公式，与 batch × seq 成正比 |
+| Activation / 临时 buffer | 1~3 GB | 与 batch、seq 相关 |
+| CUDA context + 框架开销 | 0.5~1.5 GB | cuBLAS workspace、PyTorch 缓存 |
+
+**选型结论**：
+
+- 单卡 FP16 推理 → 至少 **A100 40GB / A800 / L40S(48G)**
+- **2×24GB（4090/3090）张量并行** → 每卡约 13 GB 权重 + 开销，可行
+- 量化后单卡 24GB 可行 → INT8 约 13 GB、INT4/GPTQ 约 6.5~8 GB
+
+### 第三问：训练（混合精度 AdamW）
+
+每参数字节数：
+
+| 分量 | 精度 | 字节/参数 |
+|---|---|---|
+| 模型权重 | BF16 | 2 |
+| 梯度 | BF16 | 2 |
+| FP32 主权重（master weights） | FP32 | 4 |
+| Adam 一阶动量 m | FP32 | 4 |
+| Adam 二阶动量 v | FP32 | 4 |
+| **合计** | | **16 B/param** |
+
+```
+13B × 16 B ≈ 208 GB（不含 activation 与重计算）
+```
+
+所以 13B 全参微调基本是 **8×A100(80GB)** 起步；替代方案：
+
+- **ZeRO-1/2/3**：把 optimizer states / 梯度 / 参数切片分散到各卡，ZeRO-3 下显存降到约 1/N
+- **CPU / NVMe 卸载**：用带宽换显存
+- **LoRA**：冻结 26 GB 权重 + 几十 MB~几百 MB 可训练参数，单卡 40GB 舒适（但注意仍需存权重的梯度和部分 activation，不是"几 GB 就能训"）
+
+### 第四问：反向 xp——常见配置速查
+
+| 精度 | 字节/参数 | 13B 权重 |
+|---|---|---|
+| FP32 | 4 | 52 GB |
+| FP16 / BF16 | 2 | 26 GB |
+| FP8 | 1 | 13 GB |
+| INT8 | 1 | 13 GB |
+| INT4（GPTQ/AWQ） | 0.5 | 6.5 GB |
+
+---
+
+## 四、追问：每 token 的 KV Cache 占多少空间？
 
 ### 每 token KV Cache
 
@@ -203,30 +255,9 @@ MHA 下可简化：= 2 × n_layers × hidden_size × bytes_per_elem
 
 （n_kv 减半则 KV 减半，严格线性）
 
-### 单卡显存预算拆分（推理）
-
-| 项目 | 量级 | 说明 |
-|---|---|---|
-| 模型权重 | 26 GB（13B FP16） | 必占 |
-| KV Cache | 动态 | 见上文公式，与 batch × seq 成正比 |
-| Activation / 临时 buffer | 1~3 GB | 与 batch、seq 相关 |
-| CUDA context + 框架开销 | 0.5~1.5 GB | cuBLAS workspace、PyTorch 缓存 |
-
-**结论**：13B FP16 推理单卡至少要 **A100 40GB / A800**；或用 2×24GB 卡张量并行（各约 13 GB + 开销）；或量化 INT8（13 GB）/ INT4-GPTQ（6.5~8 GB）后可单卡 24GB 跑。
-
-### 训练（混合精度 AdamW）
-
-每参数字节数：权重 BF16(2) + 梯度 BF16(2) + FP32 主权重(4) + Adam m(4) + Adam v(4) = **16 B/param**
-
-```
-13B × 16 B ≈ 208 GB
-```
-
-→ 全参微调基本是 8×A100(80GB) 起步，或用 ZeRO-3 / CPU-NVMe 卸载，或 LoRA（冻结 26 GB 权重 + 几十 MB~几百 MB 可训练参数，40GB 卡舒适）。
-
 ---
 
-## 四、面试答题模板
+## 五、面试答题模板
 
 > "多头注意力里每个头的输出维度是 head_dim = hidden/n_heads，常见 128；每个头的投影层输入是全 hidden、输出 head_dim，所以每个头都读了完整输入，只是各取一个子空间。分头本身不省参数和 FLOPs，省的是多维并行建模能力；真正省显存和带宽的是 GQA/MQA——它们让多个 Q 头共享 K/V，KV Cache 按 g/n 线性缩小，decode 阶段的瓶颈正好是 KV 的访存带宽。"
 
