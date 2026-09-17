@@ -8,6 +8,7 @@
 
 ## AI Infra 与 Agent
 
+- [Attention 机制与推理显存估算](专题与趋势/llm-attention/index.md)：Q 头维度、MHA/GQA/MQA、MLA、KV Cache 与显存估算
 - [AI Infra 系统面试](专题与趋势/infra-systems/index.md)：云计算、训练与推理系统、分布式系统、Agent Runtime
 - [Kubernetes 与 Agent 基础设施](专题与趋势/kubernetes-agent-infra/index.md)：容器、调度、推理、Sandbox 与 Agentic RL
 
