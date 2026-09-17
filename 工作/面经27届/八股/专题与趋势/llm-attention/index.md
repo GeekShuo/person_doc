@@ -281,6 +281,45 @@ batch=8、seq=8K → 5.24 GB × 8 ≈ 42 GB（已超一张 A100 80G 的一半）
 4. **单位是 KiB 还是 KB**：655,360 B = 640 KiB = 655 KB（十进制）。`nvidia-smi` 里看到的是 KiB
 5. **这只算了 KV Cache，不含权重**：同配置若约 13B 参数，FP16 权重还要另加 26 GB
 
+### 追问：单 token 计算时，K 矩阵到底多大？
+
+**先分清两个语境**（面试时反问一句能加分）：
+
+**语境一：这一步新产生、要写入缓存的 K**
+
+形状 `[n_kv_heads, 1, head_dim]`（带上 batch 就是 `[B, n_kv_heads, 1, head_dim]`）：
+
+```
+q = x_token @ W_Q → [32, 1, 128] = 4096 元素 = 8 KiB
+k = x_token @ W_K → [32, 1, 128] = 4096 元素 = 8 KiB    ← 单层单 token 的 K
+v = x_token @ W_V → [32, 1, 128] = 4096 元素 = 8 KiB
+```
+
+**单层单 token 的 K = 8 KiB**，K+V = 16 KiB；乘 40 层 → **K 总计 320 KiB / token**，K+V 640 KiB ✓ 与上式自洽。
+
+**语境二：这一步 attention 真正读取的 K 矩阵**
+
+decode 不是只读新 token 的 K，而是**把历史所有 token 的 K 一起拉进来**：
+
+```
+K_used = [B, n_kv_heads, S, head_dim]      S = prompt 长度 + 已生成长度
+Q_step = [B, n_heads,    1, head_dim]
+score  = Q_step @ K_usedᵀ → [B, n_heads, 1, S]  → softmax → @ V_used
+out    = [B, n_heads,    1, head_dim]
+```
+
+读取量随 S 线性增长：
+
+| 上下文 S | 单层读取的 K | 40 层 K+V 读取量 |
+|---|---|---|
+| 1K | 8 MiB | 16 MiB |
+| 4K | 32 MiB | 64 MiB |
+| 32K | 256 MiB | 512 MiB |
+
+**每生成 1 个 token 就要把这坨 KV 从 HBM 全搬一遍**，而实际乘加只有 `n_heads × S × head_dim × 2` —— 典型 **memory-bound**，与 FLOPs 无关。这就是服务端必须做 batching（一次搬运服务多请求，摊薄带宽）、GQA/MQA（搬运量按 g/n 降）、Flash Decoding / PagedAttention（沿 seq 切分并行 + 消碎片）、KV FP8 量化（搬运砍半）的根本原因。
+
+**补充**：算 K 本身还要读一遍 W_K。MHA 下 `W_K = [4096, 4096]` = 16.7 M 参数 = 32 MiB（FP16），每层 W_Q/W_K/W_V/W_O 合计约 64 MiB，40 层 ≈ 2.5 GB ≈ 一个 13B 模型的权重量。低 batch 时每步都要把这 26 GB 权重过一遍，算力大量空转——这也是 decode 阶段算力利用率低、必须靠大 batch / 投机解码的原因。
+
 ---
 
 ## 五、面试答题模板
