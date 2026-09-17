@@ -210,29 +210,39 @@ F.scaled_dot_product_attention(Q, K, V, enable_gqa=True)
 
 ---
 
-## 四、追问：每 token 的 KV Cache 占多少空间？
+## 四、40 层、隐藏层 4096 维、FP16 的模型，单个 token 的 KV Cache 占多大？
 
-### 每 token KV Cache
-
-```
-= 2 (K 和 V) × n_layers × n_kv_heads × head_dim × bytes_per_elem
-MHA 下可简化：= 2 × n_layers × hidden_size × bytes_per_elem
-```
-
-**示例（hidden=4096、40 层、FP16）：**
+### 结论
 
 ```
-2 × 40 × 4096 × 2 B = 655,360 B = 640 KiB ≈ 0.64 MB / token
+655,360 B / token = 640 KiB ≈ 0.625 MiB ≈ 0.64 MB
 ```
 
-对比 Llama2-13B（40 层、hidden=5120、MHA 40 KV 头）：
+### 推导公式
 
 ```
-2 × 40 × 5120 × 2 B = 819,200 B = 800 KB / token
-→ 4K 上下文 ≈ 3.13 GiB
+每 token KV = 2 (K 和 V) × n_layers × n_kv_heads × head_dim × bytes_per_elem
+MHA 下（n_kv_heads × head_dim = hidden）可简化为：
+            = 2 × n_layers × hidden_size × bytes_per_elem
 ```
 
-### 单条序列 KV Cache 随长度增长（hidden=4096 / 40 层 / FP16）
+代入：
+
+```
+2 × 40 层 × 4096 维 × 2 B(FP16) = 655,360 B = 640 KiB
+```
+
+**等价写法（按头拆，hidden=4096 拆成 32 头 × head_dim=128）：**
+
+```
+单层 KV 元素数 = 2 × n_kv_heads × head_dim = 2 × 32 × 128 = 8,192
+单层字节数     = 8,192 × 2 B = 16,384 B = 16 KiB
+全模型         = 16 KiB × 40 层 = 655,360 B = 640 KiB   ✓ 与上式一致
+```
+
+> 两种算法必须自洽：MHA 下 `n_kv_heads × head_dim = hidden_size`，所以两式恒等。**GQA/MQA 下这层恒等被打破**——必须用 `n_kv_heads × head_dim`，若仍套 `hidden_size` 会高估 g 倍，这是面试最爱挖的坑。
+
+### 单条序列随上下文长度的总占用（本配置 640 KiB/token）
 
 | 上下文 | KV Cache |
 |---|---|
@@ -242,9 +252,17 @@ MHA 下可简化：= 2 × n_layers × hidden_size × bytes_per_elem
 | 32K | 21 GB（19.5 GiB） |
 | 128K | 84 GB |
 
-注意这是**单条序列**的量。batch=8、seq=8K 就是 42 GB，已超一张 A100 —— 这就是长上下文必须上 **PagedAttention（vLLM）、KV 量化（FP8 再砍半）、GQA、prefix caching** 的原因。
+### batch 是乘法放大的
 
-### GQA 带来的 KV Cache 收益（hidden=4096、40 层、FP16，每 token）
+以上都是**单条序列**。真实服务里要再乘 batch：
+
+```
+batch=8、seq=8K → 5.24 GB × 8 ≈ 42 GB（已超一张 A100 80G 的一半）
+```
+
+所以长上下文服务必须靠 **PagedAttention（vLLM，解决碎片和超分配）、KV 量化（FP8 再砍半）、GQA、prefix caching、chunked prefill** 来压。
+
+### 同一配置下 GQA 的收益（每 token）
 
 | 结构 | Q 头 → KV 头 | 每 token KV | 4K 上下文 |
 |---|---|---|---|
@@ -254,6 +272,14 @@ MHA 下可简化：= 2 × n_layers × hidden_size × bytes_per_elem
 | MQA | 32 → 1 | 20 KB | 0.08 GiB |
 
 （n_kv 减半则 KV 减半，严格线性）
+
+### 易错点
+
+1. **别忘乘 2**：K 和 V 各一份，只算一个会少一半
+2. **别忘乘层数**：KV Cache 是**逐层独立**的，40 层就要 ×40
+3. **GQA 下不能用 hidden 直接算**：必须用 `n_kv_heads × head_dim`，否则高估 4~8 倍
+4. **单位是 KiB 还是 KB**：655,360 B = 640 KiB = 655 KB（十进制）。`nvidia-smi` 里看到的是 KiB
+5. **这只算了 KV Cache，不含权重**：同配置若约 13B 参数，FP16 权重还要另加 26 GB
 
 ---
 
