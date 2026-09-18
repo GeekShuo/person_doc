@@ -373,8 +373,67 @@ out_i   = softmax(score_i / √128) @ V_i[n,128] → [n, 128]
 
 ---
 
-## 五、面试答题模板
+## 五、Transformer 里算完 V 之后，是累加到输入 X 上吗？
 
-> "多头注意力里每个头的输出维度是 head_dim = hidden/n_heads，常见 128；每个头的投影层输入是全 hidden、输出 head_dim，所以每个头都读了完整输入，只是各取一个子空间。分头本身不省参数和 FLOPs，省的是多维并行建模能力；真正省显存和带宽的是 GQA/MQA——它们让多个 Q 头共享 K/V，KV Cache 按 g/n 线性缩小，decode 阶段的瓶颈正好是 KV 的访存带宽。"
+### 结论
+
+**不是 V 直接加到 X 上。V 是被注意力权重加权求和的对象；真正加到 X 上的是 `W_O` 之后得到的 attention 输出，这一步叫残差连接（skip connection）。**
+
+### 完整数据流
+
+```
+X  ──►  W_Q/W_K/W_V  ──►  Q, K, V                  # [n,4096] → [n,32,128]
+                            │
+         A = softmax(QKᵀ/√d)                       # [n,n] per head
+                            │
+         head_out = A @ V   ──►  [n,128] per head   ← V 在这里被"加权平均"掉
+                            │
+         concat 32 头       ──►  [n,4096]
+                            │
+         @ W_O [4096,4096]  ──►  attn_out [n,4096]
+                            │
+         h = X + attn_out   ◄── 真正的加法在这里（残差连接）
+                            │
+         y = h + FFN(Norm(h))
+```
+
+三层理解：
+
+1. **V 从不直接加进 X**。V 被 `A`（每行 softmax 后和为 1）加权求和成上下文向量，32 头 concat 后过 `W_O` 映射回 4096 维，`attn_out` 才加到 X
+2. 因为 `A` 每行和为 1，`head_out` 是若干 V 向量的**凸组合**，落在 V 的凸包里——本质是"从历史 token 里取信息的加权平均"
+3. 加完之后继续沿**残差流**往下，FFN 的输出再加一次
+
+### 加在哪：两种 Norm 位置
+
+| 结构 | 公式 | 代表 |
+|---|---|---|
+| **Post-LN**（原始 Transformer） | `x = LayerNorm(x + Sublayer(x))` | Vaswani 2017、BERT |
+| **Pre-LN**（现代 LLM 标配） | `x = x + Sublayer(LayerNorm(x))`，末尾补 final Norm | GPT-2/3、LLaMA、Qwen |
+
+```python
+# Pre-LN + RMSNorm（Llama 系）标准写法
+h = x + attn(rmsnorm(x))        # 第一个残差：attn_out 加到 x
+y = h + ffn(rmsnorm(h))         # 第二个残差：FFN 输出加到 h
+```
+
+Pre-LN 里被加的 `x` 是**未经 Norm 的原始 x**——Norm 只在子层输入侧，残差通路始终是干净的恒等映射。Pre-LN 训练更稳、不依赖精细 lr warmup；代价是激活方差随层数累积，所以末尾要加 final Norm。
+
+### 为什么必须加（残差的意义）
+
+1. **梯度高速路**：`∂y/∂x = I + ∂F/∂x`，即使子层梯度消失，恒等项保证梯度无损回传
+2. **恒等初始化友好**：训练初期子层输出接近 0，整个 block 近似恒等，深层才训得动
+3. **残差流视角**（mechanistic interpretability 观点）：X 不是每层被覆盖，而是一条贯穿全模型的累加流，attention 与 FFN 各自**往里写增量**，后层读取前层所有写入——这也解释了为什么残差流维度必须严格等于 hidden_size，任何一处维度不匹配就断了
+
+### 三个易混点
+
+1. **W_O 不可省**：concat 后是 32 个独立子空间的拼接，需 `W_O[4096,4096]` 做跨头混合；直接 concat 加残差会明显掉点
+2. **GQA 下 W_O 不变**：concat 的仍是 `n_heads × head_dim = 4096`（Q 头数没变），只有 W_K/W_V 的输出维变窄
+3. **残差加法几乎不耗算力**：`n × 4096` 次加法，但要**额外读写一份 [n,4096] 张量**，长上下文下是纯带宽开销 → 工程上做 in-place add / 算子融合
+
+---
+
+## 六、面试答题模板
+
+> "多头注意力里每个头的输出维度是 head_dim = hidden/n_heads，常见 128；每个头的投影层输入是全 hidden、输出 head_dim，所以每个头都读了完整输入，只是各取一个子空间。分头本身不省参数和 FLOPs，省的是多维并行建模能力；真正省显存和带宽的是 GQA/MQA——它们让多个 Q 头共享 K/V，KV Cache 按 g/n 线性缩小，decode 阶段的瓶颈正好是 KV 的访存带宽。加权完 V 之后还要 concat + W_O，得到的 attention 输出才通过残差加回 X，Pre-LN 下 Norm 放在子层输入侧。"
 
 可继续延伸到：MLA 低秩压缩、PagedAttention 显存碎片治理、prefix caching、FP8 KV 量化。
