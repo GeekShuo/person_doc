@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "ed8b49dbb667385e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ac3456839c6bbe8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "563a358e3c83a0a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人项目/AI展示面/如何修图.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "如何修图"
+            }
+          },
+          {
+            "id": "3567aea3b3d91079",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/面经27届/面试/面试记录/京东零售.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "京东零售"
+            }
+          },
+          {
+            "id": "ca9eadb74f427108",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "未命名 2.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名 2"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "28a678bd0fdc2590",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a8f19b50ec72d06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1af2e2fb823dfc67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e43f29931dac9f4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "7c28d35f41345667",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 350.890625
+  },
+  "right": {
+    "id": "c5293b2b30264d78",
+    "type": "split",
+    "children": [
+      {
+        "id": "351a4ff10673a600",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02e172da1056b1cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "个人设备环境/电脑/mac使用.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "mac使用 的反向链接列表"
+            }
+          },
+          {
+            "id": "81b3f7c8008786a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AI应用/ocr/未命名 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 3 的出链列表"
+            }
+          },
+          {
+            "id": "6ff0920517eea1da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "54911865b49fdeba",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "be59564e126fd05b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "待办清单.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "待办清单 的大纲"
+            }
+          },
+          {
+            "id": "4e5c59ced8c49226",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3567aea3b3d91079",
+  "lastOpenFiles": [
+    "未命名 1.base",
+    "未命名.base",
+    "工作/面经27届/笔试/AIcoding 笔试/AI-Coding笔试手撕通关指南.md",
+    "未命名 3.base",
+    "未命名 2.base",
+    "工作/zero2leetcode/book/01_high_frequency_coding/04-two-pointers-sliding-window-string.md",
+    "工作/面经27届/Leetcode/leetcode/01_high_frequency_coding/04-two-pointers-sliding-window-string.md",
+    "工作/面经27届/面试/面试记录/京东零售.md",
+    "工作/面经27届/面试/README.md",
+    "工作/面经27届/面试/美团大模型.md",
+    "工作/面经27届/面试/面试记录/字节跳动-巨量星图.md",
+    "工作/面经27届/面试/面试记录/虾皮一面.md",
+    "工作/简历/彭硕-面试自我介绍与项目口播稿.md",
+    "语音备忘录转写/面经_腾讯微信安全支付风控一面.md",
+    "语音备忘录转写/面经_虾皮风控算法一面.md",
+    "工作/面经27届/笔试/笔试记录/笔试.md",
+    "工作/简历/qwen润色版本0909.md",
+    "工作/简历/彭硕-27届-19512712250.md",
+    "工作/简历/腾讯实习.md",
+    "工作/简历/ai 安全实习.md",
+    "语音备忘录转写/20260916_185909.srt",
+    "语音备忘录转写/20260916_185909.txt",
+    "语音备忘录转写/20260916_185909.paraformer.txt",
+    "roc_vs_pr.png",
+    "AI创业路径与方向_files",
+    "语音备忘录转写/面经_腾讯光子工作室.md",
+    "语音备忘录转写/面经_腾讯CDG支付风控.md",
+    "工作/面经27届/八股/专题与趋势/llm-attention/index.md",
+    "工作/面经27届/八股/专题与趋势/llm-attention",
+    "工作/简历/彭硕-27届-19512712250.pdf",
+    "语音备忘录转写/面试复盘总结.md",
+    "语音备忘录转写/20260914_145822.paraformer.txt",
+    "工作/简历/面试复习手册.md",
+    "生活/医美/医美.md",
+    "conflict-files-obsidian-git.md",
+    "实习项目/风控/电话号码校验.md",
+    "实习项目/风控/data/答辩介绍.md",
+    "生活/医美/file-20260525141521536.png",
+    "生活/医美/file-20260525141509724.png",
+    "生活/医美/file-20260525141454913.png",
+    "生活/医美/file-20260525141215714.png",
+    "生活/医美/file-20260525141326741.png",
+    "生活/医美/file-20260525140015566.png",
+    "法律文件/98f20ae9-b073-4a9d-9104-3dc37ce79367.png",
+    "实习项目/风控/assets/知识图谱/file-20260831115100805.png",
+    "实习项目/风控/assets/知识图谱/file-20260831115044071.png",
+    "AI应用/通用chatbot/未命名.canvas",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}
