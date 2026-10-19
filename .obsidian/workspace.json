@@ -35,7 +35,8 @@
               "title": "2026 10 19"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +212,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3567aea3b3d91079",
+  "active": "edf4171d918273a4",
   "lastOpenFiles": [
-    "日记 ｜周记/2026 10 19.md",
     "开发环境/语法/docs/Markdown 1.md",
+    "日记 ｜周记/2026 10 19.md",
     "未命名.base",
     "未命名 2.base",
     "个人项目/AI展示面/如何修图.md",
