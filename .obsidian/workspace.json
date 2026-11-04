@@ -11,14 +11,10 @@
             "id": "3567aea3b3d91079",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "开发环境/语法/docs/Markdown 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Markdown 1"
+              "title": "新标签页"
             }
           },
           {
@@ -39,14 +35,10 @@
             "id": "e9ddb27005f3931c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人项目/医美.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "医美"
+              "title": "新标签页"
             }
           }
         ],
