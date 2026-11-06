@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/简历/常用通用算法知识问题准备.md",
+                "file": "工作/简历/腾讯实习项目介绍与问题准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用通用算法知识问题准备"
+              "title": "腾讯实习项目介绍与问题准备"
             }
           }
         ],
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "macro",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,8 +97,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/简历/常用通用算法知识问题准备.md",
+                "file": "工作/简历/腾讯实习项目介绍与问题准备.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,6 +219,10 @@
   },
   "active": "e9ddb27005f3931c",
   "lastOpenFiles": [
+    "工作/简历/aigc 组项目介绍与问题准备.md",
+    "工作/简历/AI安全部项目介绍与问题准备.md",
+    "工作/简历/自我介绍.md",
+    "工作/简历/常用通用算法知识问题准备.md",
     "工作/简历/归档/ai 安全实习.md",
     "计算机知识库/大模型/Qwen_VLM_多模态大模型演进路线.md",
     "计算机知识库/大模型/多模态大模型.md",
@@ -254,10 +257,6 @@
     "语音备忘录转写/面经_腾讯微信安全支付风控一面.md",
     "语音备忘录转写/面经_虾皮风控算法一面.md",
     "工作/面经27届/笔试/笔试记录/笔试.md",
-    "工作/简历/qwen润色版本0909.md",
-    "工作/简历/彭硕-27届-19512712250.md",
-    "工作/简历/腾讯实习.md",
-    "工作/简历/ai 安全实习.md",
     "语音备忘录转写/20260916_185909.srt",
     "生活/医美/file-20260525141521536.png",
     "生活/医美/file-20260525141509724.png",
