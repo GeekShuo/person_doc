@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2ac3456839c6bbe8",
+        "id": "c330fccc30d6a689",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ddb27005f3931c",
+            "id": "f7b7ffe5e62606d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "markdown",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,11 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9ddb27005f3931c",
+  "active": "f7b7ffe5e62606d2",
   "lastOpenFiles": [
+    "Markdown 备忘清单.md",
+    "计算机知识库/语法/目录.md",
+    "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
     "工作/实习项目/多模态审核项目/文生图模型安全评测.md",
     "工作/实习项目/多模态审核项目/文本审核.md",
-    "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
     "工作/简历/腾讯实习项目介绍与问题准备.md",
     "工作/简历/aigc 组项目介绍与问题准备.md",
     "工作/简历/AI安全部项目介绍与问题准备.md",
@@ -234,8 +236,6 @@
     "工作/面经27届/Leetcode/leetcode/01_high_frequency_coding/04-two-pointers-sliding-window-string.md",
     "工作/面经27届/面试/README.md",
     "工作/面经27届/面试/美团大模型.md",
-    "工作/面经27届/面试/面试记录/字节跳动-巨量星图.md",
-    "工作/面经27届/面试/面试记录/虾皮一面.md",
     "语音备忘录转写/20260916_185909.srt",
     "生活/医美/file-20260525141521536.png",
     "生活/医美/file-20260525141509724.png",
