@@ -405,10 +405,10 @@ X  ──►  W_Q/W_K/W_V  ──►  Q, K, V                  # [n,4096] → [n
 
 ### 加在哪：两种 Norm 位置
 
-| 结构 | 公式 | 代表 |
-|---|---|---|
-| **Post-LN**（原始 Transformer） | `x = LayerNorm(x + Sublayer(x))` | Vaswani 2017、BERT |
-| **Pre-LN**（现代 LLM 标配） | `x = x + Sublayer(LayerNorm(x))`，末尾补 final Norm | GPT-2/3、LLaMA、Qwen |
+| 结构                          | 公式                                              | 代表                 |
+| --------------------------- | ----------------------------------------------- | ------------------ |
+| **Post-LN**（原始 Transformer） | `x = LayerNorm(x + Sublayer(x))`                | Vaswani 2017、BERT  |
+| **Pre-LN**（现代 LLM 标配）       | `x = x + Sublayer(LayerNorm(x))`，末尾补 final Norm | GPT-2/3、LLaMA、Qwen |
 
 ```python
 # Pre-LN + RMSNorm（Llama 系）标准写法
