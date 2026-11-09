@@ -179,14 +179,14 @@ F.scaled_dot_product_attention(Q, K, V, enable_gqa=True)
 
 每参数字节数：
 
-| 分量 | 精度 | 字节/参数 |
-|---|---|---|
-| 模型权重 | BF16 | 2 |
-| 梯度 | BF16 | 2 |
-| FP32 主权重（master weights） | FP32 | 4 |
-| Adam 一阶动量 m | FP32 | 4 |
-| Adam 二阶动量 v | FP32 | 4 |
-| **合计** | | **16 B/param** |
+| 分量                       | 精度   | 字节/参数          |
+| ------------------------ | ---- | -------------- |
+| 模型权重                     | BF16 | 2              |
+| 梯度                       | BF16 | 2              |
+| FP32 主权重（master weights） | FP32 | 4              |
+| Adam 一阶动量 m              | FP32 | 4              |
+| Adam 二阶动量 v              | FP32 | 4              |
+| **合计**                   |      | **16 B/param** |
 
 ```
 13B × 16 B ≈ 208 GB（不含 activation 与重计算）
