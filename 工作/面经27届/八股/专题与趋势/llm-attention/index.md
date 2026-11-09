@@ -162,12 +162,12 @@ F.scaled_dot_product_attention(Q, K, V, enable_gqa=True)
 
 ### 第二问：推理场景总显存
 
-| 项目 | 大小 | 说明 |
-|---|---|---|
-| 模型权重 | **26 GB** | FP16/BF16，固定 |
-| KV Cache | 动态 | 见下一节公式，与 batch × seq 成正比 |
-| Activation / 临时 buffer | 1~3 GB | 与 batch、seq 相关 |
-| CUDA context + 框架开销 | 0.5~1.5 GB | cuBLAS workspace、PyTorch 缓存 |
+| 项目                     | 大小         | 说明                          |
+| ---------------------- | ---------- | --------------------------- |
+| 模型权重                   | **26 GB**  | FP16/BF16，固定                |
+| KV Cache               | 动态         | 见下一节公式，与 batch × seq 成正比    |
+| Activation / 临时 buffer | 1~3 GB     | 与 batch、seq 相关              |
+| CUDA context + 框架开销    | 0.5~1.5 GB | cuBLAS workspace、PyTorch 缓存 |
 
 **选型结论**：
 
