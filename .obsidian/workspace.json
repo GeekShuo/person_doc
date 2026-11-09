@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/面经27届/八股/专题与趋势/llm-attention/index.md",
+                "file": "工作/面经27届/面试/面试记录/京东零售.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "京东零售"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/面经27届/八股/专题与趋势/llm-attention/index.md",
+                "file": "工作/面经27届/面试/面试记录/京东零售.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,6 +212,9 @@
   },
   "active": "f7b7ffe5e62606d2",
   "lastOpenFiles": [
+    "工作/面经27届/面试/大模型算法面经专题/02-多模态与VLM.md",
+    "工作/面经27届/八股/index.md",
+    "工作/面经27届/八股/专题与趋势/llm-attention/index.md",
     "工作/面试记录/语音备忘录转写/asr/README.md",
     "工作/面试记录/语音备忘录转写/宝乐二街5-14号.m4a",
     "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
@@ -247,14 +250,11 @@
     "计算机知识库/大模型/assets/多模态大模型",
     "计算机知识库/大模型/assets",
     "个人项目/摄影.md",
-    "个人项目/医美.md",
     "roc_vs_pr.png",
     "未命名 1.base",
     "个人项目/assets/摄影/file-20261024131028117.png",
     "个人项目/assets/摄影",
     "个人项目/assets",
-    "日记 ｜周记/2026 10 19.md",
-    "开发环境/语法/docs/Markdown 1.md",
     "未命名.base",
     "生活/医美/file-20260525141521536.png",
     "生活/医美/file-20260525141509724.png",
