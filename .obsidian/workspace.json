@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
+                "file": "工作/面经27届/八股/专题与趋势/llm-attention/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小红书  内容安全与治理大模型 算法 一面 11.4"
+              "title": "index"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
+                "file": "工作/面经27届/八股/专题与趋势/llm-attention/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,9 +212,11 @@
   },
   "active": "f7b7ffe5e62606d2",
   "lastOpenFiles": [
+    "工作/面试记录/语音备忘录转写/asr/README.md",
+    "工作/面试记录/语音备忘录转写/宝乐二街5-14号.m4a",
+    "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
     "工作/面试记录/hr 面问题.md",
     "工作/面试记录/高自由度问题.md",
-    "工作/面试记录/小红书  内容安全与治理大模型 算法 一面 11.4.md",
     "工作/实习项目/风控/知识图谱/知识图谱项目总结.md",
     "工作/实习项目/风控/知识图谱/知识图谱.md",
     "工作/实习项目/风控/知识图谱/基于本体的风控知识图谱设计.md",
@@ -254,8 +256,6 @@
     "日记 ｜周记/2026 10 19.md",
     "开发环境/语法/docs/Markdown 1.md",
     "未命名.base",
-    "未命名 2.base",
-    "个人项目/AI展示面/如何修图.md",
     "生活/医美/file-20260525141521536.png",
     "生活/医美/file-20260525141509724.png",
     "AI应用/通用chatbot/未命名.canvas",
