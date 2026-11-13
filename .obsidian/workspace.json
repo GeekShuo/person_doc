@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/面经27届/笔试/大厂真题/index.md",
+                "file": "工作/简历/自我介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "自我介绍"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/面经27届/笔试/大厂真题/index.md",
+                "file": "工作/简历/自我介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,6 +212,7 @@
   },
   "active": "f7b7ffe5e62606d2",
   "lastOpenFiles": [
+    "工作/面经27届/笔试/大厂真题/index.md",
     "工作/面经27届/笔试/README.md",
     "工作/面经27届/笔试/AIcoding 笔试/AI-Coding笔试手撕通关指南.md",
     "工作/面经27届/笔试/AIcoding 笔试/美团 aicoding思路.md",
@@ -239,7 +240,6 @@
     "工作/实习项目/风控/data/电话号码校验.md",
     "工作/实习项目/风控/data/答辩介绍.md",
     "工作/实习项目/风控/电话号码校验.md",
-    "工作/实习项目/风控/清晰度标签模型.md",
     "工作/面试记录/语音备忘录转写/宝乐二街5-14号.m4a",
     "工作/实习项目/风控/assets/知识图谱/file-20260831115030211.png",
     "工作/实习项目/风控/知识图谱/2603.02938.pdf",
